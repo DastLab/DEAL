@@ -1,0 +1,5 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="server.js" type="NodeJSConfigurationType" application-parameters="-p 5000 -m mongodb://localhost:27017/deal" nameIsGenerated="true" path-to-js-file="server.js" working-dir="$PROJECT_DIR$">
+    <method v="2" />
+  </configuration>
+</component>

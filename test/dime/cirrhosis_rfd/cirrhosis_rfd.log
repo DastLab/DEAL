@@ -1,0 +1,643 @@
+Dataset: cirrhosis.csv
+Comparison: [1.0]
+Extent: 0.0
+ApproximateG3Error: false
+ImputeColumnType: true
+#load(...): in 67,30ms
+#construct(...): in 383,87ms
+#run(...): ... in 27,24s
+
+RFDs:
+ID@1.0	Prothrombin@1.0	->	Spiders@1.0
+Bilirubin@1.0	Alk_Phos@1.0	SGOT@1.0	Platelets@1.0	->	Cholesterol@1.0
+Bilirubin@1.0	Alk_Phos@1.0	SGOT@1.0	Platelets@1.0	->	Copper@1.0
+Bilirubin@1.0	Alk_Phos@1.0	SGOT@1.0	Platelets@1.0	->	Tryglicerides@1.0
+N_Days@1.0	Cholesterol@1.0	Prothrombin@1.0	->	Drug@1.0
+N_Days@1.0	Cholesterol@1.0	Prothrombin@1.0	->	Tryglicerides@1.0
+Copper@1.0	Alk_Phos@1.0	Tryglicerides@1.0	Platelets@1.0	->	Drug@1.0
+Copper@1.0	Alk_Phos@1.0	Tryglicerides@1.0	Platelets@1.0	->	Cholesterol@1.0
+Copper@1.0	Alk_Phos@1.0	Tryglicerides@1.0	Platelets@1.0	->	SGOT@1.0
+N_Days@1.0	Drug@1.0	Tryglicerides@1.0	Platelets@1.0	->	ID@1.0
+N_Days@1.0	Drug@1.0	Tryglicerides@1.0	Platelets@1.0	->	Age@1.0
+N_Days@1.0	Drug@1.0	Tryglicerides@1.0	Platelets@1.0	->	Bilirubin@1.0
+N_Days@1.0	Drug@1.0	Tryglicerides@1.0	Platelets@1.0	->	Copper@1.0
+N_Days@1.0	Drug@1.0	Tryglicerides@1.0	Platelets@1.0	->	Alk_Phos@1.0
+N_Days@1.0	Drug@1.0	Tryglicerides@1.0	Platelets@1.0	->	SGOT@1.0
+N_Days@1.0	Drug@1.0	Tryglicerides@1.0	Platelets@1.0	->	Prothrombin@1.0
+N_Days@1.0	Cholesterol@1.0	SGOT@1.0	->	Drug@1.0
+N_Days@1.0	Cholesterol@1.0	SGOT@1.0	->	Copper@1.0
+N_Days@1.0	Cholesterol@1.0	SGOT@1.0	->	Alk_Phos@1.0
+N_Days@1.0	Cholesterol@1.0	SGOT@1.0	->	Tryglicerides@1.0
+N_Days@1.0	Drug@1.0	Copper@1.0	->	Status@1.0
+N_Days@1.0	Status@1.0	Copper@1.0	Tryglicerides@1.0	->	Drug@1.0
+N_Days@1.0	Status@1.0	Copper@1.0	Tryglicerides@1.0	->	Cholesterol@1.0
+N_Days@1.0	Status@1.0	Copper@1.0	Tryglicerides@1.0	->	Alk_Phos@1.0
+N_Days@1.0	Status@1.0	Copper@1.0	Tryglicerides@1.0	->	SGOT@1.0
+N_Days@1.0	Copper@1.0	Platelets@1.0	->	ID@1.0
+N_Days@1.0	Copper@1.0	Platelets@1.0	->	Drug@1.0
+N_Days@1.0	Copper@1.0	Platelets@1.0	->	Age@1.0
+N_Days@1.0	Copper@1.0	Platelets@1.0	->	Bilirubin@1.0
+N_Days@1.0	Copper@1.0	Platelets@1.0	->	Cholesterol@1.0
+N_Days@1.0	Copper@1.0	Platelets@1.0	->	Albumin@1.0
+N_Days@1.0	Copper@1.0	Platelets@1.0	->	Alk_Phos@1.0
+N_Days@1.0	Copper@1.0	Platelets@1.0	->	SGOT@1.0
+N_Days@1.0	Copper@1.0	Platelets@1.0	->	Tryglicerides@1.0
+N_Days@1.0	Copper@1.0	Platelets@1.0	->	Prothrombin@1.0
+Drug@1.0	Bilirubin@1.0	Albumin@1.0	Copper@1.0	Platelets@1.0	Prothrombin@1.0	->	Status@1.0
+N_Days@1.0	Hepatomegaly@1.0	Prothrombin@1.0	->	Ascites@1.0
+ID@1.0	Copper@1.0	SGOT@1.0	Prothrombin@1.0	->	Albumin@1.0
+Alk_Phos@1.0	Platelets@1.0	Prothrombin@1.0	->	Status@1.0
+ID@1.0	Drug@1.0	Alk_Phos@1.0	Prothrombin@1.0	->	Cholesterol@1.0
+Cholesterol@1.0	Copper@1.0	SGOT@1.0	Prothrombin@1.0	->	Tryglicerides@1.0
+Alk_Phos@1.0	SGOT@1.0	Platelets@1.0	->	Drug@1.0
+ID@1.0	Cholesterol@1.0	Tryglicerides@1.0	Platelets@1.0	->	Drug@1.0
+ID@1.0	Cholesterol@1.0	Tryglicerides@1.0	Platelets@1.0	->	Copper@1.0
+ID@1.0	Cholesterol@1.0	Tryglicerides@1.0	Platelets@1.0	->	Alk_Phos@1.0
+ID@1.0	Cholesterol@1.0	Tryglicerides@1.0	Platelets@1.0	->	SGOT@1.0
+N_Days@1.0	SGOT@1.0	Tryglicerides@1.0	->	Drug@1.0
+N_Days@1.0	SGOT@1.0	Tryglicerides@1.0	->	Cholesterol@1.0
+N_Days@1.0	SGOT@1.0	Tryglicerides@1.0	->	Copper@1.0
+N_Days@1.0	SGOT@1.0	Tryglicerides@1.0	->	Alk_Phos@1.0
+ID@1.0	Cholesterol@1.0	Copper@1.0	->	Drug@1.0
+ID@1.0	Cholesterol@1.0	Copper@1.0	->	Alk_Phos@1.0
+ID@1.0	Cholesterol@1.0	Copper@1.0	->	SGOT@1.0
+ID@1.0	Cholesterol@1.0	Copper@1.0	->	Tryglicerides@1.0
+ID@1.0	Drug@1.0	Cholesterol@1.0	Platelets@1.0	->	Copper@1.0
+ID@1.0	Drug@1.0	Cholesterol@1.0	Platelets@1.0	->	Alk_Phos@1.0
+ID@1.0	Drug@1.0	Cholesterol@1.0	Platelets@1.0	->	SGOT@1.0
+ID@1.0	Drug@1.0	Cholesterol@1.0	Platelets@1.0	->	Tryglicerides@1.0
+ID@1.0	Alk_Phos@1.0	Tryglicerides@1.0	Prothrombin@1.0	->	Drug@1.0
+ID@1.0	Alk_Phos@1.0	Tryglicerides@1.0	Prothrombin@1.0	->	Cholesterol@1.0
+ID@1.0	Alk_Phos@1.0	Tryglicerides@1.0	Prothrombin@1.0	->	Copper@1.0
+ID@1.0	Alk_Phos@1.0	Tryglicerides@1.0	Prothrombin@1.0	->	SGOT@1.0
+Age@1.0	Albumin@1.0	Platelets@1.0	Prothrombin@1.0	->	Bilirubin@1.0
+ID@1.0	Status@1.0	Drug@1.0	Bilirubin@1.0	Cholesterol@1.0	Stage@1.0	->	Albumin@1.0
+Hepatomegaly@1.0	Bilirubin@1.0	Albumin@1.0	Tryglicerides@1.0	Platelets@1.0	->	Ascites@1.0
+ID@1.0	N_Days@1.0	Tryglicerides@1.0	Prothrombin@1.0	->	Cholesterol@1.0
+ID@1.0	N_Days@1.0	Tryglicerides@1.0	Prothrombin@1.0	->	Copper@1.0
+ID@1.0	N_Days@1.0	Tryglicerides@1.0	Prothrombin@1.0	->	Alk_Phos@1.0
+ID@1.0	N_Days@1.0	Tryglicerides@1.0	Prothrombin@1.0	->	SGOT@1.0
+ID@1.0	Age@1.0	->	Status@1.0
+ID@1.0	Age@1.0	->	Drug@1.0
+ID@1.0	Age@1.0	->	Spiders@1.0
+ID@1.0	Age@1.0	->	Cholesterol@1.0
+ID@1.0	Age@1.0	->	Albumin@1.0
+ID@1.0	Age@1.0	->	Copper@1.0
+ID@1.0	Age@1.0	->	Alk_Phos@1.0
+ID@1.0	Age@1.0	->	SGOT@1.0
+ID@1.0	Age@1.0	->	Tryglicerides@1.0
+ID@1.0	Drug@1.0	Tryglicerides@1.0	Platelets@1.0	->	Cholesterol@1.0
+ID@1.0	Drug@1.0	Tryglicerides@1.0	Platelets@1.0	->	Copper@1.0
+ID@1.0	Drug@1.0	Tryglicerides@1.0	Platelets@1.0	->	Alk_Phos@1.0
+ID@1.0	Drug@1.0	Tryglicerides@1.0	Platelets@1.0	->	SGOT@1.0
+Age@1.0	->	Ascites@1.0
+N_Days@1.0	Bilirubin@1.0	SGOT@1.0	->	Drug@1.0
+N_Days@1.0	Bilirubin@1.0	SGOT@1.0	->	Cholesterol@1.0
+N_Days@1.0	Bilirubin@1.0	SGOT@1.0	->	Copper@1.0
+N_Days@1.0	Bilirubin@1.0	SGOT@1.0	->	Alk_Phos@1.0
+N_Days@1.0	Bilirubin@1.0	SGOT@1.0	->	Tryglicerides@1.0
+Cholesterol@1.0	Copper@1.0	Tryglicerides@1.0	Platelets@1.0	Prothrombin@1.0	->	Drug@1.0
+N_Days@1.0	Drug@1.0	Copper@1.0	Tryglicerides@1.0	->	Alk_Phos@1.0
+N_Days@1.0	Drug@1.0	Copper@1.0	Tryglicerides@1.0	->	SGOT@1.0
+N_Days@1.0	Copper@1.0	Tryglicerides@1.0	->	Albumin@1.0
+N_Days@1.0	Cholesterol@1.0	Copper@1.0	->	Drug@1.0
+N_Days@1.0	Cholesterol@1.0	Copper@1.0	->	Alk_Phos@1.0
+N_Days@1.0	Cholesterol@1.0	Copper@1.0	->	SGOT@1.0
+N_Days@1.0	Cholesterol@1.0	Copper@1.0	->	Tryglicerides@1.0
+ID@1.0	N_Days@1.0	Bilirubin@1.0	Alk_Phos@1.0	->	Age@1.0
+ID@1.0	N_Days@1.0	Bilirubin@1.0	Alk_Phos@1.0	->	Platelets@1.0
+ID@1.0	Tryglicerides@1.0	Platelets@1.0	->	Status@1.0
+ID@1.0	Tryglicerides@1.0	Platelets@1.0	->	Albumin@1.0
+Cholesterol@1.0	Copper@1.0	->	Ascites@1.0
+Cholesterol@1.0	Copper@1.0	->	Hepatomegaly@1.0
+Cholesterol@1.0	Copper@1.0	->	Spiders@1.0
+Alk_Phos@1.0	SGOT@1.0	Tryglicerides@1.0	->	Drug@1.0
+ID@1.0	Copper@1.0	->	Spiders@1.0
+ID@1.0	Age@1.0	Bilirubin@1.0	->	N_Days@1.0
+ID@1.0	Age@1.0	Bilirubin@1.0	->	Platelets@1.0
+ID@1.0	Age@1.0	Bilirubin@1.0	->	Prothrombin@1.0
+ID@1.0	Age@1.0	Bilirubin@1.0	->	Stage@1.0
+N_Days@1.0	Bilirubin@1.0	Prothrombin@1.0	->	Status@1.0
+N_Days@1.0	Bilirubin@1.0	Prothrombin@1.0	->	Hepatomegaly@1.0
+N_Days@1.0	Bilirubin@1.0	Prothrombin@1.0	->	Spiders@1.0
+ID@1.0	Cholesterol@1.0	Platelets@1.0	->	Status@1.0
+ID@1.0	Cholesterol@1.0	Platelets@1.0	->	Albumin@1.0
+Hepatomegaly@1.0	Copper@1.0	->	Ascites@1.0
+Hepatomegaly@1.0	Copper@1.0	->	Spiders@1.0
+Copper@1.0	Tryglicerides@1.0	->	Ascites@1.0
+Copper@1.0	Tryglicerides@1.0	->	Hepatomegaly@1.0
+Copper@1.0	Tryglicerides@1.0	->	Spiders@1.0
+Bilirubin@1.0	Cholesterol@1.0	Alk_Phos@1.0	Tryglicerides@1.0	Prothrombin@1.0	->	Drug@1.0
+Age@1.0	Tryglicerides@1.0	->	Hepatomegaly@1.0
+Age@1.0	Tryglicerides@1.0	->	Spiders@1.0
+Age@1.0	Tryglicerides@1.0	->	Cholesterol@1.0
+ID@1.0	N_Days@1.0	Alk_Phos@1.0	->	Prothrombin@1.0
+ID@1.0	Alk_Phos@1.0	SGOT@1.0	->	Drug@1.0
+ID@1.0	Alk_Phos@1.0	SGOT@1.0	->	Cholesterol@1.0
+ID@1.0	Alk_Phos@1.0	SGOT@1.0	->	Copper@1.0
+ID@1.0	Alk_Phos@1.0	SGOT@1.0	->	Tryglicerides@1.0
+N_Days@1.0	Albumin@1.0	Tryglicerides@1.0	Platelets@1.0	->	ID@1.0
+N_Days@1.0	Albumin@1.0	Tryglicerides@1.0	Platelets@1.0	->	Drug@1.0
+N_Days@1.0	Albumin@1.0	Tryglicerides@1.0	Platelets@1.0	->	Age@1.0
+N_Days@1.0	Albumin@1.0	Tryglicerides@1.0	Platelets@1.0	->	Bilirubin@1.0
+N_Days@1.0	Albumin@1.0	Tryglicerides@1.0	Platelets@1.0	->	Cholesterol@1.0
+N_Days@1.0	Albumin@1.0	Tryglicerides@1.0	Platelets@1.0	->	Copper@1.0
+N_Days@1.0	Albumin@1.0	Tryglicerides@1.0	Platelets@1.0	->	Alk_Phos@1.0
+N_Days@1.0	Albumin@1.0	Tryglicerides@1.0	Platelets@1.0	->	SGOT@1.0
+N_Days@1.0	Albumin@1.0	Tryglicerides@1.0	Platelets@1.0	->	Prothrombin@1.0
+ID@1.0	Bilirubin@1.0	SGOT@1.0	Platelets@1.0	Prothrombin@1.0	->	N_Days@1.0
+ID@1.0	Bilirubin@1.0	SGOT@1.0	Platelets@1.0	Prothrombin@1.0	->	Age@1.0
+ID@1.0	Drug@1.0	Platelets@1.0	->	Status@1.0
+N_Days@1.0	Prothrombin@1.0	->	Albumin@1.0
+N_Days@1.0	Prothrombin@1.0	->	Stage@1.0
+Age@1.0	Cholesterol@1.0	->	Hepatomegaly@1.0
+Age@1.0	Cholesterol@1.0	->	Spiders@1.0
+Ascites@1.0	Spiders@1.0	Bilirubin@1.0	Cholesterol@1.0	Platelets@1.0	Prothrombin@1.0	Stage@1.0	->	Hepatomegaly@1.0
+N_Days@1.0	Drug@1.0	SGOT@1.0	->	Cholesterol@1.0
+N_Days@1.0	Drug@1.0	SGOT@1.0	->	Copper@1.0
+N_Days@1.0	Drug@1.0	SGOT@1.0	->	Alk_Phos@1.0
+N_Days@1.0	Drug@1.0	SGOT@1.0	->	Tryglicerides@1.0
+ID@1.0	Alk_Phos@1.0	Prothrombin@1.0	->	Albumin@1.0
+N_Days@1.0	SGOT@1.0	->	Status@1.0
+N_Days@1.0	SGOT@1.0	->	Albumin@1.0
+N_Days@1.0	SGOT@1.0	->	Stage@1.0
+SGOT@1.0	->	Ascites@1.0
+SGOT@1.0	->	Hepatomegaly@1.0
+SGOT@1.0	->	Spiders@1.0
+Age@1.0	Hepatomegaly@1.0	->	Spiders@1.0
+Bilirubin@1.0	Alk_Phos@1.0	Platelets@1.0	Prothrombin@1.0	->	Stage@1.0
+ID@1.0	Bilirubin@1.0	Cholesterol@1.0	Platelets@1.0	->	Drug@1.0
+ID@1.0	Bilirubin@1.0	Cholesterol@1.0	Platelets@1.0	->	Copper@1.0
+ID@1.0	Bilirubin@1.0	Cholesterol@1.0	Platelets@1.0	->	Alk_Phos@1.0
+ID@1.0	Bilirubin@1.0	Cholesterol@1.0	Platelets@1.0	->	SGOT@1.0
+ID@1.0	Bilirubin@1.0	Cholesterol@1.0	Platelets@1.0	->	Tryglicerides@1.0
+N_Days@1.0	Drug@1.0	Prothrombin@1.0	->	Status@1.0
+N_Days@1.0	Bilirubin@1.0	Copper@1.0	Prothrombin@1.0	->	ID@1.0
+N_Days@1.0	Bilirubin@1.0	Copper@1.0	Prothrombin@1.0	->	Age@1.0
+N_Days@1.0	Bilirubin@1.0	Copper@1.0	Prothrombin@1.0	->	Cholesterol@1.0
+N_Days@1.0	Bilirubin@1.0	Copper@1.0	Prothrombin@1.0	->	Alk_Phos@1.0
+N_Days@1.0	Bilirubin@1.0	Copper@1.0	Prothrombin@1.0	->	SGOT@1.0
+N_Days@1.0	Bilirubin@1.0	Copper@1.0	Prothrombin@1.0	->	Tryglicerides@1.0
+N_Days@1.0	Bilirubin@1.0	Copper@1.0	Prothrombin@1.0	->	Platelets@1.0
+Cholesterol@1.0	Copper@1.0	SGOT@1.0	Platelets@1.0	->	Drug@1.0
+Cholesterol@1.0	Copper@1.0	SGOT@1.0	Platelets@1.0	->	Alk_Phos@1.0
+Cholesterol@1.0	Copper@1.0	SGOT@1.0	Platelets@1.0	->	Tryglicerides@1.0
+ID@1.0	Copper@1.0	Tryglicerides@1.0	Platelets@1.0	->	Drug@1.0
+ID@1.0	Copper@1.0	Tryglicerides@1.0	Platelets@1.0	->	Cholesterol@1.0
+ID@1.0	Copper@1.0	Tryglicerides@1.0	Platelets@1.0	->	Alk_Phos@1.0
+ID@1.0	Copper@1.0	Tryglicerides@1.0	Platelets@1.0	->	SGOT@1.0
+ID@1.0	N_Days@1.0	Drug@1.0	Tryglicerides@1.0	->	Copper@1.0
+ID@1.0	N_Days@1.0	Drug@1.0	Tryglicerides@1.0	->	Alk_Phos@1.0
+ID@1.0	N_Days@1.0	Drug@1.0	Tryglicerides@1.0	->	SGOT@1.0
+ID@1.0	N_Days@1.0	Drug@1.0	Tryglicerides@1.0	->	Prothrombin@1.0
+Bilirubin@1.0	SGOT@1.0	Platelets@1.0	Prothrombin@1.0	->	Stage@1.0
+ID@1.0	Cholesterol@1.0	Tryglicerides@1.0	Prothrombin@1.0	->	Drug@1.0
+ID@1.0	N_Days@1.0	Drug@1.0	Bilirubin@1.0	Tryglicerides@1.0	->	Age@1.0
+ID@1.0	N_Days@1.0	Drug@1.0	Bilirubin@1.0	Tryglicerides@1.0	->	Platelets@1.0
+N_Days@1.0	Spiders@1.0	Stage@1.0	->	Ascites@1.0
+ID@1.0	Drug@1.0	Bilirubin@1.0	Cholesterol@1.0	Prothrombin@1.0	->	Copper@1.0
+ID@1.0	Drug@1.0	Bilirubin@1.0	Cholesterol@1.0	Prothrombin@1.0	->	Alk_Phos@1.0
+ID@1.0	Drug@1.0	Bilirubin@1.0	Cholesterol@1.0	Prothrombin@1.0	->	SGOT@1.0
+ID@1.0	Drug@1.0	Bilirubin@1.0	Cholesterol@1.0	Prothrombin@1.0	->	Tryglicerides@1.0
+ID@1.0	Status@1.0	Bilirubin@1.0	SGOT@1.0	Stage@1.0	->	Albumin@1.0
+Albumin@1.0	Alk_Phos@1.0	Tryglicerides@1.0	Platelets@1.0	->	Drug@1.0
+Albumin@1.0	Alk_Phos@1.0	Tryglicerides@1.0	Platelets@1.0	->	Cholesterol@1.0
+Albumin@1.0	Alk_Phos@1.0	Tryglicerides@1.0	Platelets@1.0	->	Copper@1.0
+Albumin@1.0	Alk_Phos@1.0	Tryglicerides@1.0	Platelets@1.0	->	SGOT@1.0
+SGOT@1.0	Platelets@1.0	Prothrombin@1.0	->	Status@1.0
+N_Days@1.0	Copper@1.0	SGOT@1.0	->	Drug@1.0
+N_Days@1.0	Copper@1.0	SGOT@1.0	->	Cholesterol@1.0
+N_Days@1.0	Copper@1.0	SGOT@1.0	->	Alk_Phos@1.0
+N_Days@1.0	Copper@1.0	SGOT@1.0	->	Tryglicerides@1.0
+ID@1.0	Bilirubin@1.0	Alk_Phos@1.0	->	Drug@1.0
+ID@1.0	Bilirubin@1.0	Alk_Phos@1.0	->	Cholesterol@1.0
+ID@1.0	Bilirubin@1.0	Alk_Phos@1.0	->	Copper@1.0
+ID@1.0	Bilirubin@1.0	Alk_Phos@1.0	->	SGOT@1.0
+ID@1.0	Bilirubin@1.0	Alk_Phos@1.0	->	Tryglicerides@1.0
+Bilirubin@1.0	Copper@1.0	Alk_Phos@1.0	Platelets@1.0	->	Drug@1.0
+Bilirubin@1.0	Copper@1.0	Alk_Phos@1.0	Platelets@1.0	->	Cholesterol@1.0
+N_Days@1.0	Tryglicerides@1.0	Platelets@1.0	Prothrombin@1.0	->	ID@1.0
+N_Days@1.0	Tryglicerides@1.0	Platelets@1.0	Prothrombin@1.0	->	Drug@1.0
+N_Days@1.0	Tryglicerides@1.0	Platelets@1.0	Prothrombin@1.0	->	Age@1.0
+N_Days@1.0	Tryglicerides@1.0	Platelets@1.0	Prothrombin@1.0	->	Bilirubin@1.0
+N_Days@1.0	Tryglicerides@1.0	Platelets@1.0	Prothrombin@1.0	->	Cholesterol@1.0
+N_Days@1.0	Tryglicerides@1.0	Platelets@1.0	Prothrombin@1.0	->	Copper@1.0
+N_Days@1.0	Tryglicerides@1.0	Platelets@1.0	Prothrombin@1.0	->	Alk_Phos@1.0
+N_Days@1.0	Tryglicerides@1.0	Platelets@1.0	Prothrombin@1.0	->	SGOT@1.0
+Drug@1.0	Cholesterol@1.0	Alk_Phos@1.0	Platelets@1.0	->	Copper@1.0
+Hepatomegaly@1.0	Bilirubin@1.0	Platelets@1.0	Prothrombin@1.0	->	Ascites@1.0
+Cholesterol@1.0	Copper@1.0	Alk_Phos@1.0	Tryglicerides@1.0	->	SGOT@1.0
+ID@1.0	Drug@1.0	Bilirubin@1.0	Tryglicerides@1.0	Prothrombin@1.0	->	Cholesterol@1.0
+ID@1.0	Drug@1.0	Bilirubin@1.0	Tryglicerides@1.0	Prothrombin@1.0	->	Copper@1.0
+ID@1.0	Drug@1.0	Bilirubin@1.0	Tryglicerides@1.0	Prothrombin@1.0	->	Alk_Phos@1.0
+ID@1.0	Drug@1.0	Bilirubin@1.0	Tryglicerides@1.0	Prothrombin@1.0	->	SGOT@1.0
+Age@1.0	Platelets@1.0	->	Status@1.0
+Age@1.0	Platelets@1.0	->	Drug@1.0
+Age@1.0	Platelets@1.0	->	Hepatomegaly@1.0
+Age@1.0	Platelets@1.0	->	Spiders@1.0
+Age@1.0	Platelets@1.0	->	Cholesterol@1.0
+Age@1.0	Platelets@1.0	->	Copper@1.0
+Age@1.0	Platelets@1.0	->	Alk_Phos@1.0
+Age@1.0	Platelets@1.0	->	SGOT@1.0
+Age@1.0	Platelets@1.0	->	Tryglicerides@1.0
+Age@1.0	Platelets@1.0	->	Stage@1.0
+ID@1.0	SGOT@1.0	Tryglicerides@1.0	->	Drug@1.0
+ID@1.0	SGOT@1.0	Tryglicerides@1.0	->	Cholesterol@1.0
+ID@1.0	SGOT@1.0	Tryglicerides@1.0	->	Copper@1.0
+ID@1.0	SGOT@1.0	Tryglicerides@1.0	->	Alk_Phos@1.0
+Age@1.0	Bilirubin@1.0	Platelets@1.0	->	Albumin@1.0
+ID@1.0	Tryglicerides@1.0	Prothrombin@1.0	->	Albumin@1.0
+Bilirubin@1.0	Alk_Phos@1.0	SGOT@1.0	Tryglicerides@1.0	->	Cholesterol@1.0
+Bilirubin@1.0	Alk_Phos@1.0	SGOT@1.0	Tryglicerides@1.0	->	Copper@1.0
+ID@1.0	Drug@1.0	Copper@1.0	Platelets@1.0	->	Cholesterol@1.0
+ID@1.0	Drug@1.0	Copper@1.0	Platelets@1.0	->	Alk_Phos@1.0
+ID@1.0	Drug@1.0	Copper@1.0	Platelets@1.0	->	SGOT@1.0
+ID@1.0	Drug@1.0	Copper@1.0	Platelets@1.0	->	Tryglicerides@1.0
+N_Days@1.0	Bilirubin@1.0	->	Ascites@1.0
+N_Days@1.0	Bilirubin@1.0	->	Stage@1.0
+Ascites@1.0	Copper@1.0	->	Hepatomegaly@1.0
+Ascites@1.0	Copper@1.0	->	Spiders@1.0
+Cholesterol@1.0	Alk_Phos@1.0	SGOT@1.0	->	Drug@1.0
+Cholesterol@1.0	Alk_Phos@1.0	SGOT@1.0	->	Copper@1.0
+Cholesterol@1.0	Alk_Phos@1.0	SGOT@1.0	->	Tryglicerides@1.0
+N_Days@1.0	Age@1.0	->	ID@1.0
+N_Days@1.0	Age@1.0	->	Status@1.0
+N_Days@1.0	Age@1.0	->	Drug@1.0
+N_Days@1.0	Age@1.0	->	Hepatomegaly@1.0
+N_Days@1.0	Age@1.0	->	Spiders@1.0
+N_Days@1.0	Age@1.0	->	Bilirubin@1.0
+N_Days@1.0	Age@1.0	->	Cholesterol@1.0
+N_Days@1.0	Age@1.0	->	Albumin@1.0
+N_Days@1.0	Age@1.0	->	Copper@1.0
+N_Days@1.0	Age@1.0	->	Alk_Phos@1.0
+N_Days@1.0	Age@1.0	->	SGOT@1.0
+N_Days@1.0	Age@1.0	->	Tryglicerides@1.0
+N_Days@1.0	Age@1.0	->	Platelets@1.0
+N_Days@1.0	Age@1.0	->	Prothrombin@1.0
+N_Days@1.0	Age@1.0	->	Stage@1.0
+N_Days@1.0	Status@1.0	Tryglicerides@1.0	Prothrombin@1.0	->	Drug@1.0
+N_Days@1.0	Status@1.0	Tryglicerides@1.0	Prothrombin@1.0	->	Cholesterol@1.0
+N_Days@1.0	Drug@1.0	Bilirubin@1.0	Platelets@1.0	Prothrombin@1.0	->	ID@1.0
+N_Days@1.0	Drug@1.0	Bilirubin@1.0	Platelets@1.0	Prothrombin@1.0	->	Age@1.0
+N_Days@1.0	Drug@1.0	Bilirubin@1.0	Platelets@1.0	Prothrombin@1.0	->	Cholesterol@1.0
+N_Days@1.0	Drug@1.0	Bilirubin@1.0	Platelets@1.0	Prothrombin@1.0	->	Copper@1.0
+N_Days@1.0	Drug@1.0	Bilirubin@1.0	Platelets@1.0	Prothrombin@1.0	->	Alk_Phos@1.0
+N_Days@1.0	Drug@1.0	Bilirubin@1.0	Platelets@1.0	Prothrombin@1.0	->	SGOT@1.0
+N_Days@1.0	Drug@1.0	Bilirubin@1.0	Platelets@1.0	Prothrombin@1.0	->	Tryglicerides@1.0
+ID@1.0	Status@1.0	Bilirubin@1.0	Cholesterol@1.0	Copper@1.0	Stage@1.0	->	Albumin@1.0
+Copper@1.0	Platelets@1.0	Prothrombin@1.0	->	Ascites@1.0
+Copper@1.0	Platelets@1.0	Prothrombin@1.0	->	Hepatomegaly@1.0
+Copper@1.0	Platelets@1.0	Prothrombin@1.0	->	Spiders@1.0
+N_Days@1.0	Alk_Phos@1.0	->	Status@1.0
+N_Days@1.0	Alk_Phos@1.0	->	Drug@1.0
+N_Days@1.0	Alk_Phos@1.0	->	Cholesterol@1.0
+N_Days@1.0	Alk_Phos@1.0	->	Albumin@1.0
+N_Days@1.0	Alk_Phos@1.0	->	Copper@1.0
+N_Days@1.0	Alk_Phos@1.0	->	SGOT@1.0
+N_Days@1.0	Alk_Phos@1.0	->	Tryglicerides@1.0
+N_Days@1.0	Alk_Phos@1.0	->	Stage@1.0
+ID@1.0	N_Days@1.0	->	Status@1.0
+ID@1.0	N_Days@1.0	->	Spiders@1.0
+ID@1.0	N_Days@1.0	->	Albumin@1.0
+ID@1.0	N_Days@1.0	->	Stage@1.0
+Drug@1.0	Alk_Phos@1.0	Tryglicerides@1.0	Platelets@1.0	->	Cholesterol@1.0
+Drug@1.0	Alk_Phos@1.0	Tryglicerides@1.0	Platelets@1.0	->	Copper@1.0
+Drug@1.0	Alk_Phos@1.0	Tryglicerides@1.0	Platelets@1.0	->	SGOT@1.0
+ID@1.0	Copper@1.0	Platelets@1.0	->	Status@1.0
+ID@1.0	Copper@1.0	Platelets@1.0	->	Albumin@1.0
+ID@1.0	Cholesterol@1.0	SGOT@1.0	->	Drug@1.0
+ID@1.0	Cholesterol@1.0	SGOT@1.0	->	Copper@1.0
+ID@1.0	Cholesterol@1.0	SGOT@1.0	->	Alk_Phos@1.0
+ID@1.0	Cholesterol@1.0	SGOT@1.0	->	Tryglicerides@1.0
+ID@1.0	Bilirubin@1.0	Tryglicerides@1.0	Prothrombin@1.0	->	Status@1.0
+ID@1.0	Cholesterol@1.0	Prothrombin@1.0	->	Albumin@1.0
+Age@1.0	Copper@1.0	->	Drug@1.0
+Age@1.0	Copper@1.0	->	Hepatomegaly@1.0
+Age@1.0	Copper@1.0	->	Spiders@1.0
+Age@1.0	Copper@1.0	->	Cholesterol@1.0
+ID@1.0	Drug@1.0	Bilirubin@1.0	Prothrombin@1.0	->	Status@1.0
+ID@1.0	Drug@1.0	Bilirubin@1.0	Prothrombin@1.0	->	Albumin@1.0
+Cholesterol@1.0	Copper@1.0	Alk_Phos@1.0	->	Drug@1.0
+N_Days@1.0	SGOT@1.0	Platelets@1.0	->	ID@1.0
+N_Days@1.0	SGOT@1.0	Platelets@1.0	->	Drug@1.0
+N_Days@1.0	SGOT@1.0	Platelets@1.0	->	Age@1.0
+N_Days@1.0	SGOT@1.0	Platelets@1.0	->	Bilirubin@1.0
+N_Days@1.0	SGOT@1.0	Platelets@1.0	->	Cholesterol@1.0
+N_Days@1.0	SGOT@1.0	Platelets@1.0	->	Copper@1.0
+N_Days@1.0	SGOT@1.0	Platelets@1.0	->	Alk_Phos@1.0
+N_Days@1.0	SGOT@1.0	Platelets@1.0	->	Tryglicerides@1.0
+N_Days@1.0	SGOT@1.0	Platelets@1.0	->	Prothrombin@1.0
+Drug@1.0	Bilirubin@1.0	Copper@1.0	Alk_Phos@1.0	Tryglicerides@1.0	->	Cholesterol@1.0
+Drug@1.0	Bilirubin@1.0	Copper@1.0	Alk_Phos@1.0	Tryglicerides@1.0	->	SGOT@1.0
+ID@1.0	N_Days@1.0	Bilirubin@1.0	Cholesterol@1.0	->	Age@1.0
+ID@1.0	N_Days@1.0	Bilirubin@1.0	Cholesterol@1.0	->	Platelets@1.0
+ID@1.0	Bilirubin@1.0	Cholesterol@1.0	Prothrombin@1.0	->	Status@1.0
+ID@1.0	Drug@1.0	Copper@1.0	Tryglicerides@1.0	->	Cholesterol@1.0
+ID@1.0	Drug@1.0	Copper@1.0	Tryglicerides@1.0	->	Alk_Phos@1.0
+ID@1.0	Drug@1.0	Copper@1.0	Tryglicerides@1.0	->	SGOT@1.0
+Cholesterol@1.0	Alk_Phos@1.0	Tryglicerides@1.0	Platelets@1.0	->	Drug@1.0
+Cholesterol@1.0	Alk_Phos@1.0	Tryglicerides@1.0	Platelets@1.0	->	Copper@1.0
+Cholesterol@1.0	Alk_Phos@1.0	Tryglicerides@1.0	Platelets@1.0	->	SGOT@1.0
+N_Days@1.0	Ascites@1.0	->	Stage@1.0
+Bilirubin@1.0	Cholesterol@1.0	Albumin@1.0	Alk_Phos@1.0	Platelets@1.0	->	Drug@1.0
+Bilirubin@1.0	Cholesterol@1.0	Albumin@1.0	Alk_Phos@1.0	Platelets@1.0	->	Copper@1.0
+ID@1.0	Bilirubin@1.0	Alk_Phos@1.0	Platelets@1.0	Prothrombin@1.0	->	N_Days@1.0
+ID@1.0	Bilirubin@1.0	Alk_Phos@1.0	Platelets@1.0	Prothrombin@1.0	->	Age@1.0
+Age@1.0	SGOT@1.0	->	Drug@1.0
+Age@1.0	SGOT@1.0	->	Cholesterol@1.0
+Age@1.0	SGOT@1.0	->	Copper@1.0
+Age@1.0	SGOT@1.0	->	Alk_Phos@1.0
+Age@1.0	SGOT@1.0	->	Tryglicerides@1.0
+N_Days@1.0	Bilirubin@1.0	Albumin@1.0	->	Spiders@1.0
+Cholesterol@1.0	SGOT@1.0	Tryglicerides@1.0	Platelets@1.0	->	Copper@1.0
+Cholesterol@1.0	SGOT@1.0	Tryglicerides@1.0	Platelets@1.0	->	Alk_Phos@1.0
+ID@1.0	Alk_Phos@1.0	Platelets@1.0	->	Status@1.0
+ID@1.0	Alk_Phos@1.0	Platelets@1.0	->	Drug@1.0
+ID@1.0	Alk_Phos@1.0	Platelets@1.0	->	Cholesterol@1.0
+ID@1.0	Alk_Phos@1.0	Platelets@1.0	->	Albumin@1.0
+ID@1.0	Alk_Phos@1.0	Platelets@1.0	->	Copper@1.0
+ID@1.0	Alk_Phos@1.0	Platelets@1.0	->	SGOT@1.0
+ID@1.0	Alk_Phos@1.0	Platelets@1.0	->	Tryglicerides@1.0
+ID@1.0	Bilirubin@1.0	Copper@1.0	Tryglicerides@1.0	Prothrombin@1.0	->	Cholesterol@1.0
+ID@1.0	Bilirubin@1.0	Copper@1.0	Tryglicerides@1.0	Prothrombin@1.0	->	Alk_Phos@1.0
+ID@1.0	Bilirubin@1.0	Copper@1.0	Tryglicerides@1.0	Prothrombin@1.0	->	SGOT@1.0
+ID@1.0	N_Days@1.0	Cholesterol@1.0	->	Drug@1.0
+ID@1.0	N_Days@1.0	Cholesterol@1.0	->	Copper@1.0
+ID@1.0	N_Days@1.0	Cholesterol@1.0	->	Alk_Phos@1.0
+ID@1.0	N_Days@1.0	Cholesterol@1.0	->	SGOT@1.0
+ID@1.0	N_Days@1.0	Cholesterol@1.0	->	Tryglicerides@1.0
+ID@1.0	N_Days@1.0	Cholesterol@1.0	->	Prothrombin@1.0
+Hepatomegaly@1.0	Bilirubin@1.0	Cholesterol@1.0	Platelets@1.0	Prothrombin@1.0	Stage@1.0	->	Spiders@1.0
+ID@1.0	Cholesterol@1.0	Alk_Phos@1.0	Tryglicerides@1.0	->	Copper@1.0
+ID@1.0	Cholesterol@1.0	Alk_Phos@1.0	Tryglicerides@1.0	->	SGOT@1.0
+N_Days@1.0	SGOT@1.0	Prothrombin@1.0	->	ID@1.0
+N_Days@1.0	SGOT@1.0	Prothrombin@1.0	->	Drug@1.0
+N_Days@1.0	SGOT@1.0	Prothrombin@1.0	->	Cholesterol@1.0
+N_Days@1.0	SGOT@1.0	Prothrombin@1.0	->	Copper@1.0
+N_Days@1.0	SGOT@1.0	Prothrombin@1.0	->	Alk_Phos@1.0
+N_Days@1.0	SGOT@1.0	Prothrombin@1.0	->	Tryglicerides@1.0
+Age@1.0	Prothrombin@1.0	->	Status@1.0
+Age@1.0	Prothrombin@1.0	->	Drug@1.0
+Age@1.0	Prothrombin@1.0	->	Hepatomegaly@1.0
+Age@1.0	Prothrombin@1.0	->	Spiders@1.0
+Age@1.0	Prothrombin@1.0	->	Cholesterol@1.0
+Age@1.0	Prothrombin@1.0	->	Copper@1.0
+ID@1.0	Age@1.0	Prothrombin@1.0	->	N_Days@1.0
+ID@1.0	Age@1.0	Prothrombin@1.0	->	Bilirubin@1.0
+ID@1.0	Age@1.0	Prothrombin@1.0	->	Platelets@1.0
+ID@1.0	Age@1.0	Prothrombin@1.0	->	Stage@1.0
+N_Days@1.0	Tryglicerides@1.0	->	Ascites@1.0
+N_Days@1.0	Tryglicerides@1.0	->	Hepatomegaly@1.0
+N_Days@1.0	Tryglicerides@1.0	->	Spiders@1.0
+N_Days@1.0	Tryglicerides@1.0	->	Stage@1.0
+ID@1.0	->	Ascites@1.0
+ID@1.0	->	Hepatomegaly@1.0
+Spiders@1.0	Copper@1.0	->	Ascites@1.0
+Spiders@1.0	Copper@1.0	->	Hepatomegaly@1.0
+Hepatomegaly@1.0	Bilirubin@1.0	Tryglicerides@1.0	Platelets@1.0	Prothrombin@1.0	Stage@1.0	->	Spiders@1.0
+Bilirubin@1.0	Alk_Phos@1.0	Tryglicerides@1.0	Platelets@1.0	->	Drug@1.0
+Bilirubin@1.0	Alk_Phos@1.0	Tryglicerides@1.0	Platelets@1.0	->	Cholesterol@1.0
+Bilirubin@1.0	Alk_Phos@1.0	Tryglicerides@1.0	Platelets@1.0	->	Copper@1.0
+Bilirubin@1.0	Alk_Phos@1.0	Tryglicerides@1.0	Platelets@1.0	->	SGOT@1.0
+N_Days@1.0	Hepatomegaly@1.0	Stage@1.0	->	Ascites@1.0
+N_Days@1.0	Bilirubin@1.0	Platelets@1.0	->	Albumin@1.0
+Age@1.0	Copper@1.0	Tryglicerides@1.0	->	Alk_Phos@1.0
+Age@1.0	Copper@1.0	Tryglicerides@1.0	->	SGOT@1.0
+N_Days@1.0	Cholesterol@1.0	Tryglicerides@1.0	->	Drug@1.0
+Bilirubin@1.0	Copper@1.0	Platelets@1.0	Prothrombin@1.0	->	Stage@1.0
+Drug@1.0	Cholesterol@1.0	SGOT@1.0	Platelets@1.0	->	Copper@1.0
+Drug@1.0	Cholesterol@1.0	SGOT@1.0	Platelets@1.0	->	Alk_Phos@1.0
+Drug@1.0	Cholesterol@1.0	SGOT@1.0	Platelets@1.0	->	Tryglicerides@1.0
+Hepatomegaly@1.0	Bilirubin@1.0	Cholesterol@1.0	Albumin@1.0	Platelets@1.0	Prothrombin@1.0	->	Spiders@1.0
+ID@1.0	Copper@1.0	SGOT@1.0	->	Drug@1.0
+ID@1.0	Copper@1.0	SGOT@1.0	->	Cholesterol@1.0
+ID@1.0	Copper@1.0	SGOT@1.0	->	Alk_Phos@1.0
+ID@1.0	Copper@1.0	SGOT@1.0	->	Tryglicerides@1.0
+ID@1.0	Drug@1.0	Bilirubin@1.0	Tryglicerides@1.0	Platelets@1.0	Prothrombin@1.0	->	N_Days@1.0
+ID@1.0	Drug@1.0	Bilirubin@1.0	Tryglicerides@1.0	Platelets@1.0	Prothrombin@1.0	->	Age@1.0
+N_Days@1.0	Status@1.0	Copper@1.0	Prothrombin@1.0	->	Drug@1.0
+ID@1.0	Bilirubin@1.0	->	Spiders@1.0
+Bilirubin@1.0	Copper@1.0	Alk_Phos@1.0	Platelets@1.0	Prothrombin@1.0	->	SGOT@1.0
+Bilirubin@1.0	Copper@1.0	Alk_Phos@1.0	Platelets@1.0	Prothrombin@1.0	->	Tryglicerides@1.0
+Age@1.0	Tryglicerides@1.0	Prothrombin@1.0	->	Alk_Phos@1.0
+Age@1.0	Tryglicerides@1.0	Prothrombin@1.0	->	SGOT@1.0
+SGOT@1.0	Tryglicerides@1.0	Platelets@1.0	->	Drug@1.0
+N_Days@1.0	Cholesterol@1.0	Copper@1.0	Prothrombin@1.0	->	ID@1.0
+N_Days@1.0	Bilirubin@1.0	Cholesterol@1.0	->	Drug@1.0
+N_Days@1.0	Bilirubin@1.0	Cholesterol@1.0	->	Tryglicerides@1.0
+ID@1.0	Bilirubin@1.0	Copper@1.0	Prothrombin@1.0	->	Status@1.0
+ID@1.0	Bilirubin@1.0	Copper@1.0	Prothrombin@1.0	->	Drug@1.0
+ID@1.0	Bilirubin@1.0	Copper@1.0	Prothrombin@1.0	->	Albumin@1.0
+Drug@1.0	->	Ascites@1.0
+Drug@1.0	->	Hepatomegaly@1.0
+Drug@1.0	->	Spiders@1.0
+N_Days@1.0	Drug@1.0	->	Stage@1.0
+->	Sex@1.0
+->	Edema@1.0
+ID@1.0	N_Days@1.0	Platelets@1.0	->	Drug@1.0
+ID@1.0	N_Days@1.0	Platelets@1.0	->	Age@1.0
+ID@1.0	N_Days@1.0	Platelets@1.0	->	Bilirubin@1.0
+ID@1.0	N_Days@1.0	Platelets@1.0	->	Cholesterol@1.0
+ID@1.0	N_Days@1.0	Platelets@1.0	->	Copper@1.0
+ID@1.0	N_Days@1.0	Platelets@1.0	->	Alk_Phos@1.0
+ID@1.0	N_Days@1.0	Platelets@1.0	->	SGOT@1.0
+ID@1.0	N_Days@1.0	Platelets@1.0	->	Tryglicerides@1.0
+ID@1.0	N_Days@1.0	Platelets@1.0	->	Prothrombin@1.0
+ID@1.0	Cholesterol@1.0	Alk_Phos@1.0	->	Drug@1.0
+Copper@1.0	Alk_Phos@1.0	Platelets@1.0	Prothrombin@1.0	->	Drug@1.0
+ID@1.0	Bilirubin@1.0	Cholesterol@1.0	Platelets@1.0	Prothrombin@1.0	->	N_Days@1.0
+ID@1.0	Bilirubin@1.0	Cholesterol@1.0	Platelets@1.0	Prothrombin@1.0	->	Age@1.0
+N_Days@1.0	Status@1.0	Copper@1.0	Tryglicerides@1.0	Prothrombin@1.0	->	ID@1.0
+Drug@1.0	Age@1.0	Tryglicerides@1.0	->	Copper@1.0
+Drug@1.0	Age@1.0	Tryglicerides@1.0	->	Alk_Phos@1.0
+Drug@1.0	Age@1.0	Tryglicerides@1.0	->	SGOT@1.0
+N_Days@1.0	Drug@1.0	Cholesterol@1.0	->	Tryglicerides@1.0
+N_Days@1.0	Bilirubin@1.0	Tryglicerides@1.0	->	Status@1.0
+N_Days@1.0	Bilirubin@1.0	Tryglicerides@1.0	->	Albumin@1.0
+N_Days@1.0	Cholesterol@1.0	->	Status@1.0
+N_Days@1.0	Cholesterol@1.0	->	Ascites@1.0
+N_Days@1.0	Cholesterol@1.0	->	Hepatomegaly@1.0
+N_Days@1.0	Cholesterol@1.0	->	Spiders@1.0
+N_Days@1.0	Cholesterol@1.0	->	Albumin@1.0
+N_Days@1.0	Cholesterol@1.0	->	Stage@1.0
+ID@1.0	SGOT@1.0	Platelets@1.0	->	Status@1.0
+ID@1.0	SGOT@1.0	Platelets@1.0	->	Drug@1.0
+ID@1.0	SGOT@1.0	Platelets@1.0	->	Cholesterol@1.0
+ID@1.0	SGOT@1.0	Platelets@1.0	->	Albumin@1.0
+ID@1.0	SGOT@1.0	Platelets@1.0	->	Copper@1.0
+ID@1.0	SGOT@1.0	Platelets@1.0	->	Alk_Phos@1.0
+ID@1.0	SGOT@1.0	Platelets@1.0	->	Tryglicerides@1.0
+ID@1.0	Status@1.0	Bilirubin@1.0	Alk_Phos@1.0	Stage@1.0	->	Albumin@1.0
+N_Days@1.0	Drug@1.0	Copper@1.0	Tryglicerides@1.0	Prothrombin@1.0	->	ID@1.0
+ID@1.0	Platelets@1.0	Prothrombin@1.0	->	Status@1.0
+ID@1.0	Platelets@1.0	Prothrombin@1.0	->	Albumin@1.0
+ID@1.0	Platelets@1.0	Prothrombin@1.0	->	Stage@1.0
+N_Days@1.0	Alk_Phos@1.0	Platelets@1.0	->	ID@1.0
+N_Days@1.0	Alk_Phos@1.0	Platelets@1.0	->	Age@1.0
+N_Days@1.0	Alk_Phos@1.0	Platelets@1.0	->	Bilirubin@1.0
+N_Days@1.0	Alk_Phos@1.0	Platelets@1.0	->	Prothrombin@1.0
+ID@1.0	N_Days@1.0	Bilirubin@1.0	Copper@1.0	->	Age@1.0
+ID@1.0	N_Days@1.0	Bilirubin@1.0	Copper@1.0	->	Platelets@1.0
+N_Days@1.0	Hepatomegaly@1.0	Bilirubin@1.0	->	Spiders@1.0
+N_Days@1.0	Bilirubin@1.0	SGOT@1.0	Prothrombin@1.0	->	Age@1.0
+N_Days@1.0	Bilirubin@1.0	SGOT@1.0	Prothrombin@1.0	->	Platelets@1.0
+Drug@1.0	Age@1.0	Cholesterol@1.0	->	Copper@1.0
+Cholesterol@1.0	Copper@1.0	Alk_Phos@1.0	Prothrombin@1.0	->	SGOT@1.0
+Cholesterol@1.0	Copper@1.0	Alk_Phos@1.0	Prothrombin@1.0	->	Tryglicerides@1.0
+Ascites@1.0	Spiders@1.0	Bilirubin@1.0	Tryglicerides@1.0	Platelets@1.0	Prothrombin@1.0	Stage@1.0	->	Hepatomegaly@1.0
+N_Days@1.0	Drug@1.0	Tryglicerides@1.0	->	Status@1.0
+N_Days@1.0	Drug@1.0	Tryglicerides@1.0	->	Cholesterol@1.0
+N_Days@1.0	Drug@1.0	Tryglicerides@1.0	->	Albumin@1.0
+ID@1.0	Age@1.0	Platelets@1.0	->	N_Days@1.0
+ID@1.0	Age@1.0	Platelets@1.0	->	Bilirubin@1.0
+ID@1.0	Age@1.0	Platelets@1.0	->	Prothrombin@1.0
+ID@1.0	Bilirubin@1.0	Alk_Phos@1.0	Prothrombin@1.0	->	Status@1.0
+Age@1.0	Alk_Phos@1.0	->	Drug@1.0
+Age@1.0	Alk_Phos@1.0	->	Cholesterol@1.0
+Age@1.0	Alk_Phos@1.0	->	Copper@1.0
+Age@1.0	Alk_Phos@1.0	->	SGOT@1.0
+Age@1.0	Alk_Phos@1.0	->	Tryglicerides@1.0
+N_Days@1.0	Bilirubin@1.0	Tryglicerides@1.0	Platelets@1.0	->	ID@1.0
+N_Days@1.0	Bilirubin@1.0	Tryglicerides@1.0	Platelets@1.0	->	Drug@1.0
+N_Days@1.0	Bilirubin@1.0	Tryglicerides@1.0	Platelets@1.0	->	Age@1.0
+N_Days@1.0	Bilirubin@1.0	Tryglicerides@1.0	Platelets@1.0	->	Cholesterol@1.0
+N_Days@1.0	Bilirubin@1.0	Tryglicerides@1.0	Platelets@1.0	->	Copper@1.0
+N_Days@1.0	Bilirubin@1.0	Tryglicerides@1.0	Platelets@1.0	->	Alk_Phos@1.0
+N_Days@1.0	Bilirubin@1.0	Tryglicerides@1.0	Platelets@1.0	->	SGOT@1.0
+N_Days@1.0	Bilirubin@1.0	Tryglicerides@1.0	Platelets@1.0	->	Prothrombin@1.0
+ID@1.0	Platelets@1.0	->	Spiders@1.0
+N_Days@1.0	Cholesterol@1.0	Platelets@1.0	->	ID@1.0
+N_Days@1.0	Cholesterol@1.0	Platelets@1.0	->	Drug@1.0
+N_Days@1.0	Cholesterol@1.0	Platelets@1.0	->	Age@1.0
+N_Days@1.0	Cholesterol@1.0	Platelets@1.0	->	Bilirubin@1.0
+N_Days@1.0	Cholesterol@1.0	Platelets@1.0	->	Copper@1.0
+N_Days@1.0	Cholesterol@1.0	Platelets@1.0	->	Alk_Phos@1.0
+N_Days@1.0	Cholesterol@1.0	Platelets@1.0	->	SGOT@1.0
+N_Days@1.0	Cholesterol@1.0	Platelets@1.0	->	Tryglicerides@1.0
+N_Days@1.0	Cholesterol@1.0	Platelets@1.0	->	Prothrombin@1.0
+Copper@1.0	Alk_Phos@1.0	Tryglicerides@1.0	Prothrombin@1.0	->	Drug@1.0
+ID@1.0	N_Days@1.0	Copper@1.0	->	Drug@1.0
+ID@1.0	N_Days@1.0	Copper@1.0	->	Cholesterol@1.0
+ID@1.0	N_Days@1.0	Copper@1.0	->	Alk_Phos@1.0
+ID@1.0	N_Days@1.0	Copper@1.0	->	SGOT@1.0
+ID@1.0	N_Days@1.0	Copper@1.0	->	Tryglicerides@1.0
+ID@1.0	N_Days@1.0	Copper@1.0	->	Prothrombin@1.0
+N_Days@1.0	Copper@1.0	->	Ascites@1.0
+N_Days@1.0	Copper@1.0	->	Hepatomegaly@1.0
+N_Days@1.0	Copper@1.0	->	Spiders@1.0
+N_Days@1.0	Copper@1.0	->	Stage@1.0
+Ascites@1.0	Spiders@1.0	Bilirubin@1.0	Cholesterol@1.0	Albumin@1.0	Platelets@1.0	Prothrombin@1.0	->	Hepatomegaly@1.0
+Bilirubin@1.0	Cholesterol@1.0	SGOT@1.0	Platelets@1.0	->	Drug@1.0
+Bilirubin@1.0	Cholesterol@1.0	SGOT@1.0	Platelets@1.0	->	Copper@1.0
+Bilirubin@1.0	Cholesterol@1.0	SGOT@1.0	Platelets@1.0	->	Alk_Phos@1.0
+Bilirubin@1.0	Cholesterol@1.0	SGOT@1.0	Platelets@1.0	->	Tryglicerides@1.0
+Age@1.0	Spiders@1.0	->	Hepatomegaly@1.0
+ID@1.0	Copper@1.0	Platelets@1.0	Prothrombin@1.0	->	Drug@1.0
+ID@1.0	Copper@1.0	Platelets@1.0	Prothrombin@1.0	->	Cholesterol@1.0
+ID@1.0	Copper@1.0	Platelets@1.0	Prothrombin@1.0	->	Alk_Phos@1.0
+ID@1.0	Copper@1.0	Platelets@1.0	Prothrombin@1.0	->	SGOT@1.0
+ID@1.0	Copper@1.0	Platelets@1.0	Prothrombin@1.0	->	Tryglicerides@1.0
+Alk_Phos@1.0	SGOT@1.0	Prothrombin@1.0	->	Drug@1.0
+Alk_Phos@1.0	SGOT@1.0	Prothrombin@1.0	->	Cholesterol@1.0
+Alk_Phos@1.0	SGOT@1.0	Prothrombin@1.0	->	Copper@1.0
+Alk_Phos@1.0	SGOT@1.0	Prothrombin@1.0	->	Tryglicerides@1.0
+Cholesterol@1.0	Albumin@1.0	Alk_Phos@1.0	Platelets@1.0	Prothrombin@1.0	->	Drug@1.0
+Cholesterol@1.0	Albumin@1.0	Alk_Phos@1.0	Platelets@1.0	Prothrombin@1.0	->	Copper@1.0
+Cholesterol@1.0	Albumin@1.0	Alk_Phos@1.0	Platelets@1.0	Prothrombin@1.0	->	SGOT@1.0
+Cholesterol@1.0	Albumin@1.0	Alk_Phos@1.0	Platelets@1.0	Prothrombin@1.0	->	Tryglicerides@1.0
+N_Days@1.0	Bilirubin@1.0	Copper@1.0	Tryglicerides@1.0	->	Cholesterol@1.0
+N_Days@1.0	Bilirubin@1.0	Copper@1.0	Tryglicerides@1.0	->	Alk_Phos@1.0
+N_Days@1.0	Bilirubin@1.0	Copper@1.0	Tryglicerides@1.0	->	SGOT@1.0
+Bilirubin@1.0	Tryglicerides@1.0	Platelets@1.0	Prothrombin@1.0	->	Status@1.0
+ID@1.0	Bilirubin@1.0	Platelets@1.0	->	Albumin@1.0
+Cholesterol@1.0	Platelets@1.0	Prothrombin@1.0	->	Status@1.0
+Copper@1.0	SGOT@1.0	Tryglicerides@1.0	Platelets@1.0	Prothrombin@1.0	->	Cholesterol@1.0
+Copper@1.0	SGOT@1.0	Tryglicerides@1.0	Platelets@1.0	Prothrombin@1.0	->	Alk_Phos@1.0
+ID@1.0	Status@1.0	Bilirubin@1.0	Tryglicerides@1.0	Stage@1.0	->	Albumin@1.0
+Ascites@1.0	Spiders@1.0	Bilirubin@1.0	Albumin@1.0	Tryglicerides@1.0	Platelets@1.0	Prothrombin@1.0	->	Hepatomegaly@1.0
+Drug@1.0	Cholesterol@1.0	Alk_Phos@1.0	Platelets@1.0	Prothrombin@1.0	->	SGOT@1.0
+Drug@1.0	Cholesterol@1.0	Alk_Phos@1.0	Platelets@1.0	Prothrombin@1.0	->	Tryglicerides@1.0
+N_Days@1.0	Platelets@1.0	->	Status@1.0
+N_Days@1.0	Platelets@1.0	->	Ascites@1.0
+N_Days@1.0	Platelets@1.0	->	Hepatomegaly@1.0
+N_Days@1.0	Platelets@1.0	->	Spiders@1.0
+N_Days@1.0	Platelets@1.0	->	Stage@1.0
+N_Days@1.0	Drug@1.0	Platelets@1.0	->	Albumin@1.0
+ID@1.0	Copper@1.0	Alk_Phos@1.0	->	Drug@1.0
+ID@1.0	Copper@1.0	Alk_Phos@1.0	->	Cholesterol@1.0
+ID@1.0	Copper@1.0	Alk_Phos@1.0	->	SGOT@1.0
+ID@1.0	Copper@1.0	Alk_Phos@1.0	->	Tryglicerides@1.0
+ID@1.0	Bilirubin@1.0	Copper@1.0	Platelets@1.0	Prothrombin@1.0	->	N_Days@1.0
+ID@1.0	Bilirubin@1.0	Copper@1.0	Platelets@1.0	Prothrombin@1.0	->	Age@1.0
+Hepatomegaly@1.0	Cholesterol@1.0	->	Ascites@1.0
+ID@1.0	Bilirubin@1.0	Cholesterol@1.0	Tryglicerides@1.0	->	Drug@1.0
+ID@1.0	Bilirubin@1.0	Cholesterol@1.0	Tryglicerides@1.0	->	Copper@1.0
+ID@1.0	Bilirubin@1.0	Cholesterol@1.0	Tryglicerides@1.0	->	Alk_Phos@1.0
+ID@1.0	Bilirubin@1.0	Cholesterol@1.0	Tryglicerides@1.0	->	SGOT@1.0
+Age@1.0	Bilirubin@1.0	->	Hepatomegaly@1.0
+Age@1.0	Bilirubin@1.0	->	Spiders@1.0
+N_Days@1.0	Bilirubin@1.0	Alk_Phos@1.0	Prothrombin@1.0	->	Age@1.0
+N_Days@1.0	Bilirubin@1.0	Alk_Phos@1.0	Prothrombin@1.0	->	Platelets@1.0
+ID@1.0	N_Days@1.0	Bilirubin@1.0	SGOT@1.0	->	Age@1.0
+ID@1.0	N_Days@1.0	Bilirubin@1.0	SGOT@1.0	->	Platelets@1.0
+Hepatomegaly@1.0	Bilirubin@1.0	Albumin@1.0	Tryglicerides@1.0	Platelets@1.0	Prothrombin@1.0	->	Spiders@1.0
+ID@1.0	N_Days@1.0	Bilirubin@1.0	Prothrombin@1.0	->	Age@1.0
+ID@1.0	N_Days@1.0	Bilirubin@1.0	Prothrombin@1.0	->	Cholesterol@1.0
+ID@1.0	N_Days@1.0	Bilirubin@1.0	Prothrombin@1.0	->	Copper@1.0
+ID@1.0	N_Days@1.0	Bilirubin@1.0	Prothrombin@1.0	->	Alk_Phos@1.0
+ID@1.0	N_Days@1.0	Bilirubin@1.0	Prothrombin@1.0	->	SGOT@1.0
+ID@1.0	N_Days@1.0	Bilirubin@1.0	Prothrombin@1.0	->	Tryglicerides@1.0
+ID@1.0	N_Days@1.0	Bilirubin@1.0	Prothrombin@1.0	->	Platelets@1.0
+Copper@1.0	Alk_Phos@1.0	SGOT@1.0	->	Drug@1.0
+Copper@1.0	Alk_Phos@1.0	SGOT@1.0	->	Cholesterol@1.0
+Copper@1.0	Alk_Phos@1.0	SGOT@1.0	->	Tryglicerides@1.0
+Alk_Phos@1.0	Tryglicerides@1.0	Platelets@1.0	Prothrombin@1.0	->	Drug@1.0
+Alk_Phos@1.0	Tryglicerides@1.0	Platelets@1.0	Prothrombin@1.0	->	Cholesterol@1.0
+Alk_Phos@1.0	Tryglicerides@1.0	Platelets@1.0	Prothrombin@1.0	->	Copper@1.0
+Alk_Phos@1.0	Tryglicerides@1.0	Platelets@1.0	Prothrombin@1.0	->	SGOT@1.0
+ID@1.0	Tryglicerides@1.0	->	Spiders@1.0
+N_Days@1.0	Alk_Phos@1.0	Prothrombin@1.0	->	ID@1.0
+ID@1.0	N_Days@1.0	Prothrombin@1.0	->	Drug@1.0
+Alk_Phos@1.0	SGOT@1.0	Tryglicerides@1.0	Platelets@1.0	->	Cholesterol@1.0
+Alk_Phos@1.0	SGOT@1.0	Tryglicerides@1.0	Platelets@1.0	->	Copper@1.0
+ID@1.0	Age@1.0	Stage@1.0	->	N_Days@1.0
+ID@1.0	Age@1.0	Stage@1.0	->	Bilirubin@1.0
+ID@1.0	Age@1.0	Stage@1.0	->	Platelets@1.0
+ID@1.0	Age@1.0	Stage@1.0	->	Prothrombin@1.0
+N_Days@1.0	Bilirubin@1.0	Copper@1.0	->	Status@1.0
+N_Days@1.0	Bilirubin@1.0	Copper@1.0	->	Drug@1.0
+N_Days@1.0	Bilirubin@1.0	Copper@1.0	->	Albumin@1.0
+Drug@1.0	Bilirubin@1.0	Platelets@1.0	Prothrombin@1.0	->	Stage@1.0
+ID@1.0	Cholesterol@1.0	->	Spiders@1.0
+Alk_Phos@1.0	->	Ascites@1.0
+Alk_Phos@1.0	->	Hepatomegaly@1.0
+Alk_Phos@1.0	->	Spiders@1.0
+ID@1.0	Stage@1.0	->	Spiders@1.0
+ID@1.0	Status@1.0	Copper@1.0	Tryglicerides@1.0	Prothrombin@1.0	->	Drug@1.0
+ID@1.0	Status@1.0	Copper@1.0	Tryglicerides@1.0	Prothrombin@1.0	->	Cholesterol@1.0
+ID@1.0	Status@1.0	Copper@1.0	Tryglicerides@1.0	Prothrombin@1.0	->	Alk_Phos@1.0
+ID@1.0	Status@1.0	Copper@1.0	Tryglicerides@1.0	Prothrombin@1.0	->	SGOT@1.0
+Drug@1.0	Cholesterol@1.0	SGOT@1.0	Tryglicerides@1.0	->	Copper@1.0
+N_Days@1.0	Spiders@1.0	Prothrombin@1.0	->	Ascites@1.0
+Bilirubin@1.0	Copper@1.0	Alk_Phos@1.0	Tryglicerides@1.0	Prothrombin@1.0	->	Cholesterol@1.0
+Bilirubin@1.0	Copper@1.0	Alk_Phos@1.0	Tryglicerides@1.0	Prothrombin@1.0	->	SGOT@1.0
+ID@1.0	N_Days@1.0	SGOT@1.0	->	Drug@1.0
+ID@1.0	N_Days@1.0	SGOT@1.0	->	Cholesterol@1.0
+ID@1.0	N_Days@1.0	SGOT@1.0	->	Copper@1.0
+ID@1.0	N_Days@1.0	SGOT@1.0	->	Alk_Phos@1.0
+ID@1.0	N_Days@1.0	SGOT@1.0	->	Tryglicerides@1.0
+ID@1.0	N_Days@1.0	SGOT@1.0	->	Prothrombin@1.0
+ID@1.0	Bilirubin@1.0	SGOT@1.0	Prothrombin@1.0	->	Status@1.0
+ID@1.0	Bilirubin@1.0	SGOT@1.0	Prothrombin@1.0	->	Drug@1.0
+ID@1.0	Bilirubin@1.0	SGOT@1.0	Prothrombin@1.0	->	Albumin@1.0
+N_Days@1.0	Bilirubin@1.0	Tryglicerides@1.0	Prothrombin@1.0	->	Drug@1.0
+N_Days@1.0	Bilirubin@1.0	Tryglicerides@1.0	Prothrombin@1.0	->	Cholesterol@1.0
+
+Used lowerbound: 0
+Used upperbound: 0
+Exact solved: 0
+Time limit: false
+Out of memory: false
+Memory consumption: 3752MB
+RFDs count: 624
+#main(...): in 27,93s

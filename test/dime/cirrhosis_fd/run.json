@@ -1,0 +1,15 @@
+{
+    "system": {
+      "os": "Windows",
+      "os_version": "11",
+      "processor": "Intel",
+      "thread": "32",
+      "core": "16",
+      "ram": "128GB"
+    },
+    "execution_command": "java -jar dime.jar datasets/cirrhosis.csv 0 -e 0 -s , -head true -apprx false -pbu true -o result",
+    "max_execution_time": "3 hours",
+    "max_ram_usage": "128GB",
+    "start_time": "2024-11-13T16:04:15+00:00",
+    "end_time": "2024-11-13T16:04:15+00:00"
+}

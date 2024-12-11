@@ -1,0 +1,1898 @@
+Dataset: cirrhosis.csv
+Comparison: [0.0]
+Extent: 0.0
+ApproximateG3Error: false
+ImputeColumnType: true
+#load(...): in 80,06ms
+#construct(...): in 165,73ms
+#run(...): ... in 6,33s
+
+RFDs:
+Ascites@0.0	Tryglicerides@0.0	Platelets@0.0	Stage@0.0	->	Hepatomegaly@0.0
+Ascites@0.0	Tryglicerides@0.0	Platelets@0.0	Stage@0.0	->	Spiders@0.0
+Ascites@0.0	Tryglicerides@0.0	Platelets@0.0	Stage@0.0	->	SGOT@0.0
+Status@0.0	Age@0.0	Bilirubin@0.0	->	Sex@0.0
+Status@0.0	Age@0.0	Bilirubin@0.0	->	Edema@0.0
+Drug@0.0	Bilirubin@0.0	Platelets@0.0	Stage@0.0	->	ID@0.0
+Drug@0.0	Bilirubin@0.0	Platelets@0.0	Stage@0.0	->	N_Days@0.0
+Drug@0.0	Bilirubin@0.0	Platelets@0.0	Stage@0.0	->	Age@0.0
+Drug@0.0	Bilirubin@0.0	Platelets@0.0	Stage@0.0	->	Hepatomegaly@0.0
+Drug@0.0	Bilirubin@0.0	Platelets@0.0	Stage@0.0	->	Spiders@0.0
+Drug@0.0	Bilirubin@0.0	Platelets@0.0	Stage@0.0	->	Edema@0.0
+Drug@0.0	Bilirubin@0.0	Platelets@0.0	Stage@0.0	->	Cholesterol@0.0
+Drug@0.0	Bilirubin@0.0	Platelets@0.0	Stage@0.0	->	Albumin@0.0
+Drug@0.0	Bilirubin@0.0	Platelets@0.0	Stage@0.0	->	Copper@0.0
+Drug@0.0	Bilirubin@0.0	Platelets@0.0	Stage@0.0	->	Alk_Phos@0.0
+Drug@0.0	Bilirubin@0.0	Platelets@0.0	Stage@0.0	->	SGOT@0.0
+Drug@0.0	Bilirubin@0.0	Platelets@0.0	Stage@0.0	->	Tryglicerides@0.0
+Drug@0.0	Bilirubin@0.0	Platelets@0.0	Stage@0.0	->	Prothrombin@0.0
+Drug@0.0	Hepatomegaly@0.0	Edema@0.0	SGOT@0.0	Tryglicerides@0.0	->	Spiders@0.0
+Status@0.0	Sex@0.0	Cholesterol@0.0	Platelets@0.0	Stage@0.0	->	Drug@0.0
+Status@0.0	Sex@0.0	Cholesterol@0.0	Platelets@0.0	Stage@0.0	->	Ascites@0.0
+Status@0.0	Sex@0.0	Cholesterol@0.0	Platelets@0.0	Stage@0.0	->	Hepatomegaly@0.0
+Status@0.0	Sex@0.0	Cholesterol@0.0	Platelets@0.0	Stage@0.0	->	Spiders@0.0
+Status@0.0	Sex@0.0	Cholesterol@0.0	Platelets@0.0	Stage@0.0	->	Copper@0.0
+Status@0.0	Sex@0.0	Cholesterol@0.0	Platelets@0.0	Stage@0.0	->	Alk_Phos@0.0
+Status@0.0	Sex@0.0	Cholesterol@0.0	Platelets@0.0	Stage@0.0	->	SGOT@0.0
+Spiders@0.0	Platelets@0.0	Prothrombin@0.0	->	Ascites@0.0
+Hepatomegaly@0.0	Spiders@0.0	SGOT@0.0	Tryglicerides@0.0	->	Drug@0.0
+Status@0.0	Spiders@0.0	Edema@0.0	Cholesterol@0.0	Stage@0.0	->	Ascites@0.0
+Spiders@0.0	Bilirubin@0.0	Alk_Phos@0.0	Stage@0.0	->	Cholesterol@0.0
+Spiders@0.0	Bilirubin@0.0	Alk_Phos@0.0	Stage@0.0	->	Copper@0.0
+Spiders@0.0	Bilirubin@0.0	Alk_Phos@0.0	Stage@0.0	->	SGOT@0.0
+Spiders@0.0	Bilirubin@0.0	Alk_Phos@0.0	Stage@0.0	->	Tryglicerides@0.0
+Status@0.0	Albumin@0.0	Platelets@0.0	->	Sex@0.0
+Status@0.0	Albumin@0.0	Platelets@0.0	->	Spiders@0.0
+Status@0.0	Albumin@0.0	Platelets@0.0	->	Cholesterol@0.0
+Status@0.0	Albumin@0.0	Platelets@0.0	->	Copper@0.0
+Status@0.0	Albumin@0.0	Platelets@0.0	->	Alk_Phos@0.0
+Status@0.0	Albumin@0.0	Platelets@0.0	->	SGOT@0.0
+Status@0.0	Albumin@0.0	Platelets@0.0	->	Tryglicerides@0.0
+Bilirubin@0.0	Cholesterol@0.0	SGOT@0.0	->	Drug@0.0
+Bilirubin@0.0	Cholesterol@0.0	SGOT@0.0	->	Spiders@0.0
+Bilirubin@0.0	Cholesterol@0.0	SGOT@0.0	->	Copper@0.0
+Bilirubin@0.0	Cholesterol@0.0	SGOT@0.0	->	Alk_Phos@0.0
+N_Days@0.0	Hepatomegaly@0.0	Prothrombin@0.0	->	ID@0.0
+N_Days@0.0	Hepatomegaly@0.0	Prothrombin@0.0	->	Drug@0.0
+N_Days@0.0	Hepatomegaly@0.0	Prothrombin@0.0	->	Age@0.0
+N_Days@0.0	Hepatomegaly@0.0	Prothrombin@0.0	->	Ascites@0.0
+N_Days@0.0	Hepatomegaly@0.0	Prothrombin@0.0	->	Spiders@0.0
+N_Days@0.0	Hepatomegaly@0.0	Prothrombin@0.0	->	Bilirubin@0.0
+N_Days@0.0	Hepatomegaly@0.0	Prothrombin@0.0	->	Cholesterol@0.0
+N_Days@0.0	Hepatomegaly@0.0	Prothrombin@0.0	->	Albumin@0.0
+N_Days@0.0	Hepatomegaly@0.0	Prothrombin@0.0	->	Copper@0.0
+N_Days@0.0	Hepatomegaly@0.0	Prothrombin@0.0	->	Alk_Phos@0.0
+N_Days@0.0	Hepatomegaly@0.0	Prothrombin@0.0	->	SGOT@0.0
+N_Days@0.0	Hepatomegaly@0.0	Prothrombin@0.0	->	Tryglicerides@0.0
+N_Days@0.0	Hepatomegaly@0.0	Prothrombin@0.0	->	Platelets@0.0
+N_Days@0.0	Hepatomegaly@0.0	Prothrombin@0.0	->	Stage@0.0
+N_Days@0.0	Ascites@0.0	Prothrombin@0.0	->	ID@0.0
+N_Days@0.0	Ascites@0.0	Prothrombin@0.0	->	Drug@0.0
+N_Days@0.0	Ascites@0.0	Prothrombin@0.0	->	Age@0.0
+N_Days@0.0	Ascites@0.0	Prothrombin@0.0	->	Hepatomegaly@0.0
+N_Days@0.0	Ascites@0.0	Prothrombin@0.0	->	Spiders@0.0
+N_Days@0.0	Ascites@0.0	Prothrombin@0.0	->	Bilirubin@0.0
+N_Days@0.0	Ascites@0.0	Prothrombin@0.0	->	Cholesterol@0.0
+N_Days@0.0	Ascites@0.0	Prothrombin@0.0	->	Albumin@0.0
+N_Days@0.0	Ascites@0.0	Prothrombin@0.0	->	Copper@0.0
+N_Days@0.0	Ascites@0.0	Prothrombin@0.0	->	Alk_Phos@0.0
+N_Days@0.0	Ascites@0.0	Prothrombin@0.0	->	SGOT@0.0
+N_Days@0.0	Ascites@0.0	Prothrombin@0.0	->	Tryglicerides@0.0
+N_Days@0.0	Ascites@0.0	Prothrombin@0.0	->	Platelets@0.0
+N_Days@0.0	Ascites@0.0	Prothrombin@0.0	->	Stage@0.0
+Drug@0.0	Cholesterol@0.0	Platelets@0.0	->	Ascites@0.0
+Status@0.0	Cholesterol@0.0	Copper@0.0	->	Drug@0.0
+Status@0.0	Cholesterol@0.0	Copper@0.0	->	Hepatomegaly@0.0
+Status@0.0	Cholesterol@0.0	Copper@0.0	->	Spiders@0.0
+Drug@0.0	Sex@0.0	Spiders@0.0	Edema@0.0	SGOT@0.0	Prothrombin@0.0	->	Hepatomegaly@0.0
+Drug@0.0	Spiders@0.0	Bilirubin@0.0	Prothrombin@0.0	Stage@0.0	->	Status@0.0
+Status@0.0	Ascites@0.0	Bilirubin@0.0	Copper@0.0	Stage@0.0	->	Drug@0.0
+Status@0.0	Ascites@0.0	Bilirubin@0.0	Copper@0.0	Stage@0.0	->	Hepatomegaly@0.0
+Status@0.0	Ascites@0.0	Bilirubin@0.0	Copper@0.0	Stage@0.0	->	Cholesterol@0.0
+Status@0.0	Ascites@0.0	Bilirubin@0.0	Copper@0.0	Stage@0.0	->	Alk_Phos@0.0
+Status@0.0	Ascites@0.0	Bilirubin@0.0	Copper@0.0	Stage@0.0	->	SGOT@0.0
+Status@0.0	Ascites@0.0	Bilirubin@0.0	Copper@0.0	Stage@0.0	->	Tryglicerides@0.0
+N_Days@0.0	Edema@0.0	Stage@0.0	->	Ascites@0.0
+N_Days@0.0	Edema@0.0	Stage@0.0	->	Hepatomegaly@0.0
+Spiders@0.0	Edema@0.0	Bilirubin@0.0	Copper@0.0	->	Ascites@0.0
+Hepatomegaly@0.0	Bilirubin@0.0	SGOT@0.0	->	Spiders@0.0
+Copper@0.0	Tryglicerides@0.0	Stage@0.0	->	Drug@0.0
+Copper@0.0	Tryglicerides@0.0	Stage@0.0	->	Hepatomegaly@0.0
+Copper@0.0	Tryglicerides@0.0	Stage@0.0	->	Spiders@0.0
+Copper@0.0	Tryglicerides@0.0	Stage@0.0	->	Cholesterol@0.0
+Copper@0.0	Tryglicerides@0.0	Stage@0.0	->	Alk_Phos@0.0
+Copper@0.0	Tryglicerides@0.0	Stage@0.0	->	SGOT@0.0
+Ascites@0.0	Albumin@0.0	Copper@0.0	->	Drug@0.0
+Ascites@0.0	Albumin@0.0	Copper@0.0	->	Hepatomegaly@0.0
+Ascites@0.0	Albumin@0.0	Copper@0.0	->	Spiders@0.0
+Bilirubin@0.0	Albumin@0.0	Copper@0.0	Stage@0.0	->	ID@0.0
+Bilirubin@0.0	Albumin@0.0	Copper@0.0	Stage@0.0	->	N_Days@0.0
+Bilirubin@0.0	Albumin@0.0	Copper@0.0	Stage@0.0	->	Status@0.0
+Bilirubin@0.0	Albumin@0.0	Copper@0.0	Stage@0.0	->	Age@0.0
+Bilirubin@0.0	Albumin@0.0	Copper@0.0	Stage@0.0	->	Platelets@0.0
+Bilirubin@0.0	Albumin@0.0	Copper@0.0	Stage@0.0	->	Prothrombin@0.0
+Drug@0.0	Hepatomegaly@0.0	Cholesterol@0.0	Albumin@0.0	->	Copper@0.0
+Drug@0.0	Hepatomegaly@0.0	Cholesterol@0.0	Albumin@0.0	->	Alk_Phos@0.0
+Drug@0.0	Hepatomegaly@0.0	Cholesterol@0.0	Albumin@0.0	->	SGOT@0.0
+Status@0.0	Hepatomegaly@0.0	Cholesterol@0.0	Albumin@0.0	->	Sex@0.0
+Status@0.0	Spiders@0.0	Cholesterol@0.0	Prothrombin@0.0	->	Hepatomegaly@0.0
+Sex@0.0	Albumin@0.0	Platelets@0.0	Stage@0.0	->	ID@0.0
+Sex@0.0	Albumin@0.0	Platelets@0.0	Stage@0.0	->	N_Days@0.0
+Sex@0.0	Albumin@0.0	Platelets@0.0	Stage@0.0	->	Age@0.0
+Sex@0.0	Albumin@0.0	Platelets@0.0	Stage@0.0	->	Bilirubin@0.0
+Sex@0.0	Albumin@0.0	Platelets@0.0	Stage@0.0	->	Prothrombin@0.0
+Cholesterol@0.0	Albumin@0.0	Copper@0.0	->	Drug@0.0
+Cholesterol@0.0	Albumin@0.0	Copper@0.0	->	Hepatomegaly@0.0
+Cholesterol@0.0	Albumin@0.0	Copper@0.0	->	Spiders@0.0
+Cholesterol@0.0	Albumin@0.0	Copper@0.0	->	Alk_Phos@0.0
+Cholesterol@0.0	Albumin@0.0	Copper@0.0	->	SGOT@0.0
+Status@0.0	Drug@0.0	Edema@0.0	Cholesterol@0.0	Prothrombin@0.0	->	Ascites@0.0
+Ascites@0.0	Bilirubin@0.0	Tryglicerides@0.0	Prothrombin@0.0	->	Status@0.0
+Ascites@0.0	Bilirubin@0.0	Tryglicerides@0.0	Prothrombin@0.0	->	Drug@0.0
+Ascites@0.0	Bilirubin@0.0	Tryglicerides@0.0	Prothrombin@0.0	->	Sex@0.0
+Ascites@0.0	Bilirubin@0.0	Tryglicerides@0.0	Prothrombin@0.0	->	Hepatomegaly@0.0
+Ascites@0.0	Bilirubin@0.0	Tryglicerides@0.0	Prothrombin@0.0	->	Spiders@0.0
+Ascites@0.0	Bilirubin@0.0	Tryglicerides@0.0	Prothrombin@0.0	->	Edema@0.0
+Ascites@0.0	Bilirubin@0.0	Tryglicerides@0.0	Prothrombin@0.0	->	Cholesterol@0.0
+Status@0.0	Ascites@0.0	Cholesterol@0.0	Platelets@0.0	->	Hepatomegaly@0.0
+Status@0.0	Ascites@0.0	Cholesterol@0.0	Platelets@0.0	->	Spiders@0.0
+Status@0.0	Ascites@0.0	Cholesterol@0.0	Platelets@0.0	->	Copper@0.0
+Status@0.0	Ascites@0.0	Cholesterol@0.0	Platelets@0.0	->	Alk_Phos@0.0
+Status@0.0	Ascites@0.0	Cholesterol@0.0	Platelets@0.0	->	SGOT@0.0
+Status@0.0	Albumin@0.0	Copper@0.0	->	Sex@0.0
+Drug@0.0	Edema@0.0	Copper@0.0	Prothrombin@0.0	->	Ascites@0.0
+Drug@0.0	Spiders@0.0	SGOT@0.0	Tryglicerides@0.0	->	Hepatomegaly@0.0
+Status@0.0	Ascites@0.0	Cholesterol@0.0	Albumin@0.0	->	Sex@0.0
+Hepatomegaly@0.0	Edema@0.0	Platelets@0.0	Prothrombin@0.0	->	Drug@0.0
+Hepatomegaly@0.0	Edema@0.0	Platelets@0.0	Prothrombin@0.0	->	Ascites@0.0
+Hepatomegaly@0.0	Edema@0.0	Platelets@0.0	Prothrombin@0.0	->	Spiders@0.0
+Drug@0.0	Bilirubin@0.0	Copper@0.0	Stage@0.0	->	Hepatomegaly@0.0
+Drug@0.0	Bilirubin@0.0	Copper@0.0	Stage@0.0	->	Spiders@0.0
+Drug@0.0	Bilirubin@0.0	Copper@0.0	Stage@0.0	->	Cholesterol@0.0
+Drug@0.0	Bilirubin@0.0	Copper@0.0	Stage@0.0	->	Alk_Phos@0.0
+Drug@0.0	Bilirubin@0.0	Copper@0.0	Stage@0.0	->	SGOT@0.0
+Drug@0.0	Bilirubin@0.0	Copper@0.0	Stage@0.0	->	Tryglicerides@0.0
+Albumin@0.0	Platelets@0.0	->	Drug@0.0
+Albumin@0.0	Platelets@0.0	->	Ascites@0.0
+Albumin@0.0	Platelets@0.0	->	Hepatomegaly@0.0
+Albumin@0.0	Platelets@0.0	->	Edema@0.0
+Bilirubin@0.0	Copper@0.0	Tryglicerides@0.0	->	Drug@0.0
+Bilirubin@0.0	Copper@0.0	Tryglicerides@0.0	->	Hepatomegaly@0.0
+Bilirubin@0.0	Copper@0.0	Tryglicerides@0.0	->	Spiders@0.0
+Bilirubin@0.0	Copper@0.0	Tryglicerides@0.0	->	Cholesterol@0.0
+Bilirubin@0.0	Copper@0.0	Tryglicerides@0.0	->	Alk_Phos@0.0
+Bilirubin@0.0	Copper@0.0	Tryglicerides@0.0	->	SGOT@0.0
+Ascites@0.0	Copper@0.0	Platelets@0.0	->	Hepatomegaly@0.0
+Ascites@0.0	Copper@0.0	Platelets@0.0	->	Spiders@0.0
+Alk_Phos@0.0	Tryglicerides@0.0	Prothrombin@0.0	->	Cholesterol@0.0
+Alk_Phos@0.0	Tryglicerides@0.0	Prothrombin@0.0	->	Copper@0.0
+Alk_Phos@0.0	Tryglicerides@0.0	Prothrombin@0.0	->	SGOT@0.0
+Cholesterol@0.0	Copper@0.0	->	Ascites@0.0
+Cholesterol@0.0	Copper@0.0	->	Tryglicerides@0.0
+Sex@0.0	Spiders@0.0	Bilirubin@0.0	Tryglicerides@0.0	Prothrombin@0.0	Stage@0.0	->	Copper@0.0
+Sex@0.0	Spiders@0.0	Bilirubin@0.0	Tryglicerides@0.0	Prothrombin@0.0	Stage@0.0	->	Alk_Phos@0.0
+Sex@0.0	Spiders@0.0	Bilirubin@0.0	Tryglicerides@0.0	Prothrombin@0.0	Stage@0.0	->	SGOT@0.0
+N_Days@0.0	Sex@0.0	Edema@0.0	->	Status@0.0
+Hepatomegaly@0.0	Cholesterol@0.0	Platelets@0.0	->	Drug@0.0
+Hepatomegaly@0.0	Cholesterol@0.0	Platelets@0.0	->	Ascites@0.0
+Hepatomegaly@0.0	Cholesterol@0.0	Platelets@0.0	->	Spiders@0.0
+Hepatomegaly@0.0	Cholesterol@0.0	Platelets@0.0	->	Copper@0.0
+Hepatomegaly@0.0	Cholesterol@0.0	Platelets@0.0	->	Alk_Phos@0.0
+Hepatomegaly@0.0	Cholesterol@0.0	Platelets@0.0	->	SGOT@0.0
+Drug@0.0	Cholesterol@0.0	Copper@0.0	->	Spiders@0.0
+Sex@0.0	Bilirubin@0.0	Albumin@0.0	Copper@0.0	->	Status@0.0
+Ascites@0.0	Bilirubin@0.0	Cholesterol@0.0	Prothrombin@0.0	Stage@0.0	->	Copper@0.0
+Ascites@0.0	Bilirubin@0.0	Cholesterol@0.0	Prothrombin@0.0	Stage@0.0	->	Alk_Phos@0.0
+Ascites@0.0	Bilirubin@0.0	Cholesterol@0.0	Prothrombin@0.0	Stage@0.0	->	SGOT@0.0
+Drug@0.0	Tryglicerides@0.0	Platelets@0.0	Stage@0.0	->	Hepatomegaly@0.0
+Drug@0.0	Tryglicerides@0.0	Platelets@0.0	Stage@0.0	->	Spiders@0.0
+Drug@0.0	Tryglicerides@0.0	Platelets@0.0	Stage@0.0	->	SGOT@0.0
+Bilirubin@0.0	SGOT@0.0	->	Ascites@0.0
+Age@0.0	Bilirubin@0.0	Albumin@0.0	->	ID@0.0
+Age@0.0	Bilirubin@0.0	Albumin@0.0	->	N_Days@0.0
+Age@0.0	Bilirubin@0.0	Albumin@0.0	->	Platelets@0.0
+Age@0.0	Bilirubin@0.0	Albumin@0.0	->	Prothrombin@0.0
+Age@0.0	Bilirubin@0.0	Albumin@0.0	->	Stage@0.0
+Status@0.0	Spiders@0.0	Albumin@0.0	Prothrombin@0.0	->	Hepatomegaly@0.0
+Age@0.0	Tryglicerides@0.0	->	Drug@0.0
+Age@0.0	Tryglicerides@0.0	->	Ascites@0.0
+Age@0.0	Tryglicerides@0.0	->	Hepatomegaly@0.0
+Age@0.0	Tryglicerides@0.0	->	Spiders@0.0
+Age@0.0	Tryglicerides@0.0	->	Cholesterol@0.0
+Age@0.0	Tryglicerides@0.0	->	Copper@0.0
+Age@0.0	Tryglicerides@0.0	->	Alk_Phos@0.0
+Age@0.0	Tryglicerides@0.0	->	SGOT@0.0
+Drug@0.0	Spiders@0.0	Albumin@0.0	Prothrombin@0.0	->	Edema@0.0
+Spiders@0.0	Cholesterol@0.0	SGOT@0.0	Stage@0.0	->	Copper@0.0
+Spiders@0.0	Cholesterol@0.0	SGOT@0.0	Stage@0.0	->	Alk_Phos@0.0
+Spiders@0.0	Alk_Phos@0.0	->	Ascites@0.0
+Sex@0.0	Spiders@0.0	Bilirubin@0.0	Cholesterol@0.0	Prothrombin@0.0	->	Edema@0.0
+N_Days@0.0	Prothrombin@0.0	->	Status@0.0
+N_Days@0.0	Prothrombin@0.0	->	Sex@0.0
+N_Days@0.0	Prothrombin@0.0	->	Edema@0.0
+Drug@0.0	Spiders@0.0	Tryglicerides@0.0	Prothrombin@0.0	Stage@0.0	->	Cholesterol@0.0
+Status@0.0	Sex@0.0	Spiders@0.0	Tryglicerides@0.0	Prothrombin@0.0	->	Hepatomegaly@0.0
+Ascites@0.0	Edema@0.0	Bilirubin@0.0	Platelets@0.0	->	Hepatomegaly@0.0
+Ascites@0.0	Edema@0.0	Bilirubin@0.0	Platelets@0.0	->	Stage@0.0
+Hepatomegaly@0.0	Bilirubin@0.0	Copper@0.0	Stage@0.0	->	Spiders@0.0
+Status@0.0	Age@0.0	Sex@0.0	->	Spiders@0.0
+Drug@0.0	Age@0.0	Sex@0.0	->	Hepatomegaly@0.0
+Cholesterol@0.0	Albumin@0.0	Platelets@0.0	->	Status@0.0
+Cholesterol@0.0	Albumin@0.0	Platelets@0.0	->	Sex@0.0
+Cholesterol@0.0	Albumin@0.0	Platelets@0.0	->	Spiders@0.0
+Cholesterol@0.0	Albumin@0.0	Platelets@0.0	->	Copper@0.0
+Cholesterol@0.0	Albumin@0.0	Platelets@0.0	->	Alk_Phos@0.0
+Cholesterol@0.0	Albumin@0.0	Platelets@0.0	->	SGOT@0.0
+Drug@0.0	Sex@0.0	Hepatomegaly@0.0	Bilirubin@0.0	Prothrombin@0.0	->	Ascites@0.0
+Status@0.0	Hepatomegaly@0.0	Bilirubin@0.0	Copper@0.0	Stage@0.0	->	Drug@0.0
+Status@0.0	Hepatomegaly@0.0	Bilirubin@0.0	Copper@0.0	Stage@0.0	->	Cholesterol@0.0
+Status@0.0	Hepatomegaly@0.0	Bilirubin@0.0	Copper@0.0	Stage@0.0	->	Alk_Phos@0.0
+Status@0.0	Hepatomegaly@0.0	Bilirubin@0.0	Copper@0.0	Stage@0.0	->	SGOT@0.0
+Status@0.0	Hepatomegaly@0.0	Bilirubin@0.0	Copper@0.0	Stage@0.0	->	Tryglicerides@0.0
+Status@0.0	Spiders@0.0	Tryglicerides@0.0	Prothrombin@0.0	Stage@0.0	->	Hepatomegaly@0.0
+N_Days@0.0	Drug@0.0	Prothrombin@0.0	->	ID@0.0
+N_Days@0.0	Drug@0.0	Prothrombin@0.0	->	Age@0.0
+N_Days@0.0	Drug@0.0	Prothrombin@0.0	->	Ascites@0.0
+N_Days@0.0	Drug@0.0	Prothrombin@0.0	->	Hepatomegaly@0.0
+N_Days@0.0	Drug@0.0	Prothrombin@0.0	->	Spiders@0.0
+N_Days@0.0	Drug@0.0	Prothrombin@0.0	->	Bilirubin@0.0
+N_Days@0.0	Drug@0.0	Prothrombin@0.0	->	Cholesterol@0.0
+N_Days@0.0	Drug@0.0	Prothrombin@0.0	->	Albumin@0.0
+N_Days@0.0	Drug@0.0	Prothrombin@0.0	->	Copper@0.0
+N_Days@0.0	Drug@0.0	Prothrombin@0.0	->	Alk_Phos@0.0
+N_Days@0.0	Drug@0.0	Prothrombin@0.0	->	SGOT@0.0
+N_Days@0.0	Drug@0.0	Prothrombin@0.0	->	Tryglicerides@0.0
+N_Days@0.0	Drug@0.0	Prothrombin@0.0	->	Platelets@0.0
+N_Days@0.0	Drug@0.0	Prothrombin@0.0	->	Stage@0.0
+Status@0.0	Age@0.0	Stage@0.0	->	Drug@0.0
+Status@0.0	Age@0.0	Stage@0.0	->	Hepatomegaly@0.0
+Status@0.0	Age@0.0	Stage@0.0	->	Spiders@0.0
+Status@0.0	Age@0.0	Stage@0.0	->	Cholesterol@0.0
+Status@0.0	Age@0.0	Stage@0.0	->	Copper@0.0
+Status@0.0	Age@0.0	Stage@0.0	->	Alk_Phos@0.0
+Status@0.0	Age@0.0	Stage@0.0	->	SGOT@0.0
+Status@0.0	Age@0.0	Stage@0.0	->	Tryglicerides@0.0
+Status@0.0	Drug@0.0	Spiders@0.0	Platelets@0.0	->	Ascites@0.0
+Status@0.0	Spiders@0.0	Bilirubin@0.0	Copper@0.0	Stage@0.0	->	Drug@0.0
+Status@0.0	Spiders@0.0	Bilirubin@0.0	Copper@0.0	Stage@0.0	->	Hepatomegaly@0.0
+Status@0.0	Spiders@0.0	Bilirubin@0.0	Copper@0.0	Stage@0.0	->	Cholesterol@0.0
+Status@0.0	Spiders@0.0	Bilirubin@0.0	Copper@0.0	Stage@0.0	->	Alk_Phos@0.0
+Status@0.0	Spiders@0.0	Bilirubin@0.0	Copper@0.0	Stage@0.0	->	SGOT@0.0
+Status@0.0	Spiders@0.0	Bilirubin@0.0	Copper@0.0	Stage@0.0	->	Tryglicerides@0.0
+Spiders@0.0	Edema@0.0	Bilirubin@0.0	Cholesterol@0.0	->	Ascites@0.0
+Sex@0.0	Hepatomegaly@0.0	Bilirubin@0.0	Tryglicerides@0.0	Prothrombin@0.0	Stage@0.0	->	Copper@0.0
+Sex@0.0	Hepatomegaly@0.0	Bilirubin@0.0	Tryglicerides@0.0	Prothrombin@0.0	Stage@0.0	->	Alk_Phos@0.0
+Sex@0.0	Hepatomegaly@0.0	Bilirubin@0.0	Tryglicerides@0.0	Prothrombin@0.0	Stage@0.0	->	SGOT@0.0
+Hepatomegaly@0.0	Edema@0.0	Bilirubin@0.0	Tryglicerides@0.0	Stage@0.0	->	Ascites@0.0
+Bilirubin@0.0	Platelets@0.0	Stage@0.0	->	Sex@0.0
+Status@0.0	Edema@0.0	SGOT@0.0	Stage@0.0	->	Ascites@0.0
+Spiders@0.0	Albumin@0.0	Copper@0.0	->	Drug@0.0
+Spiders@0.0	Albumin@0.0	Copper@0.0	->	Ascites@0.0
+Spiders@0.0	Albumin@0.0	Copper@0.0	->	Hepatomegaly@0.0
+Sex@0.0	Hepatomegaly@0.0	Cholesterol@0.0	Prothrombin@0.0	Stage@0.0	->	Ascites@0.0
+Alk_Phos@0.0	SGOT@0.0	->	Drug@0.0
+Alk_Phos@0.0	SGOT@0.0	->	Ascites@0.0
+Alk_Phos@0.0	SGOT@0.0	->	Hepatomegaly@0.0
+Alk_Phos@0.0	SGOT@0.0	->	Spiders@0.0
+Alk_Phos@0.0	SGOT@0.0	->	Cholesterol@0.0
+Alk_Phos@0.0	SGOT@0.0	->	Copper@0.0
+Alk_Phos@0.0	SGOT@0.0	->	Tryglicerides@0.0
+Status@0.0	Cholesterol@0.0	SGOT@0.0	Prothrombin@0.0	->	Copper@0.0
+Status@0.0	Cholesterol@0.0	SGOT@0.0	Prothrombin@0.0	->	Alk_Phos@0.0
+Bilirubin@0.0	Cholesterol@0.0	Albumin@0.0	Stage@0.0	->	ID@0.0
+Bilirubin@0.0	Cholesterol@0.0	Albumin@0.0	Stage@0.0	->	N_Days@0.0
+Bilirubin@0.0	Cholesterol@0.0	Albumin@0.0	Stage@0.0	->	Status@0.0
+Bilirubin@0.0	Cholesterol@0.0	Albumin@0.0	Stage@0.0	->	Age@0.0
+Bilirubin@0.0	Cholesterol@0.0	Albumin@0.0	Stage@0.0	->	Platelets@0.0
+Bilirubin@0.0	Cholesterol@0.0	Albumin@0.0	Stage@0.0	->	Prothrombin@0.0
+Bilirubin@0.0	Tryglicerides@0.0	Platelets@0.0	->	ID@0.0
+Bilirubin@0.0	Tryglicerides@0.0	Platelets@0.0	->	N_Days@0.0
+Bilirubin@0.0	Tryglicerides@0.0	Platelets@0.0	->	Status@0.0
+Bilirubin@0.0	Tryglicerides@0.0	Platelets@0.0	->	Drug@0.0
+Bilirubin@0.0	Tryglicerides@0.0	Platelets@0.0	->	Age@0.0
+Bilirubin@0.0	Tryglicerides@0.0	Platelets@0.0	->	Sex@0.0
+Bilirubin@0.0	Tryglicerides@0.0	Platelets@0.0	->	Ascites@0.0
+Bilirubin@0.0	Tryglicerides@0.0	Platelets@0.0	->	Hepatomegaly@0.0
+Bilirubin@0.0	Tryglicerides@0.0	Platelets@0.0	->	Spiders@0.0
+Bilirubin@0.0	Tryglicerides@0.0	Platelets@0.0	->	Edema@0.0
+Bilirubin@0.0	Tryglicerides@0.0	Platelets@0.0	->	Cholesterol@0.0
+Bilirubin@0.0	Tryglicerides@0.0	Platelets@0.0	->	Albumin@0.0
+Bilirubin@0.0	Tryglicerides@0.0	Platelets@0.0	->	Copper@0.0
+Bilirubin@0.0	Tryglicerides@0.0	Platelets@0.0	->	Alk_Phos@0.0
+Bilirubin@0.0	Tryglicerides@0.0	Platelets@0.0	->	SGOT@0.0
+Bilirubin@0.0	Tryglicerides@0.0	Platelets@0.0	->	Prothrombin@0.0
+Bilirubin@0.0	Tryglicerides@0.0	Platelets@0.0	->	Stage@0.0
+N_Days@0.0	Status@0.0	Drug@0.0	->	Sex@0.0
+Albumin@0.0	Alk_Phos@0.0	Platelets@0.0	Stage@0.0	->	ID@0.0
+Albumin@0.0	Alk_Phos@0.0	Platelets@0.0	Stage@0.0	->	N_Days@0.0
+Albumin@0.0	Alk_Phos@0.0	Platelets@0.0	Stage@0.0	->	Age@0.0
+Albumin@0.0	Alk_Phos@0.0	Platelets@0.0	Stage@0.0	->	Bilirubin@0.0
+Albumin@0.0	Alk_Phos@0.0	Platelets@0.0	Stage@0.0	->	Prothrombin@0.0
+Cholesterol@0.0	Platelets@0.0	->	Tryglicerides@0.0
+Status@0.0	Bilirubin@0.0	Albumin@0.0	Stage@0.0	->	Drug@0.0
+Status@0.0	Bilirubin@0.0	Albumin@0.0	Stage@0.0	->	Ascites@0.0
+Ascites@0.0	Bilirubin@0.0	Platelets@0.0	Stage@0.0	->	Hepatomegaly@0.0
+Ascites@0.0	Bilirubin@0.0	Platelets@0.0	Stage@0.0	->	Edema@0.0
+Spiders@0.0	Bilirubin@0.0	Tryglicerides@0.0	Prothrombin@0.0	->	Status@0.0
+Spiders@0.0	Bilirubin@0.0	Tryglicerides@0.0	Prothrombin@0.0	->	Hepatomegaly@0.0
+SGOT@0.0	Platelets@0.0	Prothrombin@0.0	->	Status@0.0
+SGOT@0.0	Platelets@0.0	Prothrombin@0.0	->	Edema@0.0
+SGOT@0.0	Platelets@0.0	Prothrombin@0.0	->	Cholesterol@0.0
+SGOT@0.0	Platelets@0.0	Prothrombin@0.0	->	Copper@0.0
+SGOT@0.0	Platelets@0.0	Prothrombin@0.0	->	Alk_Phos@0.0
+SGOT@0.0	Platelets@0.0	Prothrombin@0.0	->	Stage@0.0
+Hepatomegaly@0.0	Alk_Phos@0.0	->	Ascites@0.0
+Drug@0.0	Edema@0.0	Bilirubin@0.0	Prothrombin@0.0	Stage@0.0	->	Status@0.0
+Drug@0.0	Edema@0.0	Bilirubin@0.0	Prothrombin@0.0	Stage@0.0	->	Sex@0.0
+Drug@0.0	Sex@0.0	Bilirubin@0.0	Cholesterol@0.0	->	Ascites@0.0
+Age@0.0	Bilirubin@0.0	Platelets@0.0	->	ID@0.0
+Age@0.0	Bilirubin@0.0	Platelets@0.0	->	N_Days@0.0
+Age@0.0	Bilirubin@0.0	Platelets@0.0	->	Status@0.0
+Age@0.0	Bilirubin@0.0	Platelets@0.0	->	Edema@0.0
+Age@0.0	Bilirubin@0.0	Platelets@0.0	->	Albumin@0.0
+Age@0.0	Bilirubin@0.0	Platelets@0.0	->	Prothrombin@0.0
+Age@0.0	Bilirubin@0.0	Platelets@0.0	->	Stage@0.0
+Spiders@0.0	Copper@0.0	Platelets@0.0	->	Ascites@0.0
+Spiders@0.0	Copper@0.0	Platelets@0.0	->	Hepatomegaly@0.0
+Ascites@0.0	Cholesterol@0.0	Platelets@0.0	->	Drug@0.0
+Albumin@0.0	Tryglicerides@0.0	Stage@0.0	->	Sex@0.0
+Status@0.0	Hepatomegaly@0.0	Edema@0.0	Bilirubin@0.0	Cholesterol@0.0	->	Ascites@0.0
+Drug@0.0	Ascites@0.0	Bilirubin@0.0	Prothrombin@0.0	Stage@0.0	->	Status@0.0
+Hepatomegaly@0.0	Platelets@0.0	Prothrombin@0.0	->	Status@0.0
+N_Days@0.0	Bilirubin@0.0	->	Status@0.0
+N_Days@0.0	Bilirubin@0.0	->	Drug@0.0
+N_Days@0.0	Bilirubin@0.0	->	Sex@0.0
+N_Days@0.0	Bilirubin@0.0	->	Ascites@0.0
+N_Days@0.0	Bilirubin@0.0	->	Hepatomegaly@0.0
+N_Days@0.0	Bilirubin@0.0	->	Spiders@0.0
+N_Days@0.0	Bilirubin@0.0	->	Edema@0.0
+Status@0.0	Drug@0.0	Hepatomegaly@0.0	Edema@0.0	Albumin@0.0	->	Ascites@0.0
+Alk_Phos@0.0	Prothrombin@0.0	Stage@0.0	->	Drug@0.0
+Alk_Phos@0.0	Prothrombin@0.0	Stage@0.0	->	Cholesterol@0.0
+Alk_Phos@0.0	Prothrombin@0.0	Stage@0.0	->	Copper@0.0
+Alk_Phos@0.0	Prothrombin@0.0	Stage@0.0	->	SGOT@0.0
+Alk_Phos@0.0	Prothrombin@0.0	Stage@0.0	->	Tryglicerides@0.0
+Spiders@0.0	Bilirubin@0.0	Copper@0.0	Stage@0.0	->	Ascites@0.0
+N_Days@0.0	Alk_Phos@0.0	->	ID@0.0
+N_Days@0.0	Alk_Phos@0.0	->	Status@0.0
+N_Days@0.0	Alk_Phos@0.0	->	Drug@0.0
+N_Days@0.0	Alk_Phos@0.0	->	Age@0.0
+N_Days@0.0	Alk_Phos@0.0	->	Sex@0.0
+N_Days@0.0	Alk_Phos@0.0	->	Ascites@0.0
+N_Days@0.0	Alk_Phos@0.0	->	Hepatomegaly@0.0
+N_Days@0.0	Alk_Phos@0.0	->	Spiders@0.0
+N_Days@0.0	Alk_Phos@0.0	->	Edema@0.0
+N_Days@0.0	Alk_Phos@0.0	->	Bilirubin@0.0
+N_Days@0.0	Alk_Phos@0.0	->	Cholesterol@0.0
+N_Days@0.0	Alk_Phos@0.0	->	Albumin@0.0
+N_Days@0.0	Alk_Phos@0.0	->	Copper@0.0
+N_Days@0.0	Alk_Phos@0.0	->	SGOT@0.0
+N_Days@0.0	Alk_Phos@0.0	->	Tryglicerides@0.0
+N_Days@0.0	Alk_Phos@0.0	->	Platelets@0.0
+N_Days@0.0	Alk_Phos@0.0	->	Prothrombin@0.0
+N_Days@0.0	Alk_Phos@0.0	->	Stage@0.0
+N_Days@0.0	Sex@0.0	Ascites@0.0	->	Status@0.0
+Hepatomegaly@0.0	Albumin@0.0	Copper@0.0	->	Drug@0.0
+Hepatomegaly@0.0	Albumin@0.0	Copper@0.0	->	Ascites@0.0
+Hepatomegaly@0.0	Albumin@0.0	Copper@0.0	->	Spiders@0.0
+Status@0.0	Hepatomegaly@0.0	SGOT@0.0	Tryglicerides@0.0	->	Drug@0.0
+Status@0.0	Hepatomegaly@0.0	SGOT@0.0	Tryglicerides@0.0	->	Spiders@0.0
+Sex@0.0	Bilirubin@0.0	Cholesterol@0.0	Albumin@0.0	->	Status@0.0
+Hepatomegaly@0.0	Spiders@0.0	Platelets@0.0	Prothrombin@0.0	->	Drug@0.0
+Hepatomegaly@0.0	Spiders@0.0	Platelets@0.0	Prothrombin@0.0	->	Edema@0.0
+Drug@0.0	Cholesterol@0.0	SGOT@0.0	Prothrombin@0.0	->	Copper@0.0
+Drug@0.0	Cholesterol@0.0	SGOT@0.0	Prothrombin@0.0	->	Alk_Phos@0.0
+Spiders@0.0	Edema@0.0	Copper@0.0	Prothrombin@0.0	->	Ascites@0.0
+Spiders@0.0	Albumin@0.0	Platelets@0.0	->	Status@0.0
+Spiders@0.0	Albumin@0.0	Platelets@0.0	->	Sex@0.0
+Spiders@0.0	Albumin@0.0	Platelets@0.0	->	Cholesterol@0.0
+Spiders@0.0	Albumin@0.0	Platelets@0.0	->	Copper@0.0
+Spiders@0.0	Albumin@0.0	Platelets@0.0	->	Alk_Phos@0.0
+Spiders@0.0	Albumin@0.0	Platelets@0.0	->	SGOT@0.0
+Spiders@0.0	Albumin@0.0	Platelets@0.0	->	Tryglicerides@0.0
+Hepatomegaly@0.0	Bilirubin@0.0	Prothrombin@0.0	Stage@0.0	->	Status@0.0
+Status@0.0	Drug@0.0	Cholesterol@0.0	Platelets@0.0	->	Hepatomegaly@0.0
+Status@0.0	Drug@0.0	Cholesterol@0.0	Platelets@0.0	->	Spiders@0.0
+Status@0.0	Drug@0.0	Cholesterol@0.0	Platelets@0.0	->	Copper@0.0
+Status@0.0	Drug@0.0	Cholesterol@0.0	Platelets@0.0	->	Alk_Phos@0.0
+Status@0.0	Drug@0.0	Cholesterol@0.0	Platelets@0.0	->	SGOT@0.0
+Bilirubin@0.0	Albumin@0.0	Stage@0.0	->	Sex@0.0
+Spiders@0.0	Cholesterol@0.0	Copper@0.0	->	Drug@0.0
+Drug@0.0	Edema@0.0	Bilirubin@0.0	Cholesterol@0.0	Prothrombin@0.0	Stage@0.0	->	Copper@0.0
+Drug@0.0	Edema@0.0	Bilirubin@0.0	Cholesterol@0.0	Prothrombin@0.0	Stage@0.0	->	Alk_Phos@0.0
+Drug@0.0	Edema@0.0	Bilirubin@0.0	Cholesterol@0.0	Prothrombin@0.0	Stage@0.0	->	SGOT@0.0
+Hepatomegaly@0.0	Bilirubin@0.0	Tryglicerides@0.0	Prothrombin@0.0	->	Status@0.0
+Hepatomegaly@0.0	Bilirubin@0.0	Tryglicerides@0.0	Prothrombin@0.0	->	Spiders@0.0
+Drug@0.0	Sex@0.0	Spiders@0.0	Bilirubin@0.0	Prothrombin@0.0	->	Ascites@0.0
+Ascites@0.0	Hepatomegaly@0.0	Platelets@0.0	Prothrombin@0.0	->	Drug@0.0
+Ascites@0.0	Hepatomegaly@0.0	Platelets@0.0	Prothrombin@0.0	->	Spiders@0.0
+Ascites@0.0	Hepatomegaly@0.0	Platelets@0.0	Prothrombin@0.0	->	Edema@0.0
+Ascites@0.0	Bilirubin@0.0	Copper@0.0	Stage@0.0	->	Spiders@0.0
+Age@0.0	Platelets@0.0	Stage@0.0	->	ID@0.0
+Age@0.0	Platelets@0.0	Stage@0.0	->	N_Days@0.0
+Age@0.0	Platelets@0.0	Stage@0.0	->	Status@0.0
+Age@0.0	Platelets@0.0	Stage@0.0	->	Edema@0.0
+Age@0.0	Platelets@0.0	Stage@0.0	->	Bilirubin@0.0
+Age@0.0	Platelets@0.0	Stage@0.0	->	Albumin@0.0
+Age@0.0	Platelets@0.0	Stage@0.0	->	Prothrombin@0.0
+Hepatomegaly@0.0	Copper@0.0	Platelets@0.0	->	Ascites@0.0
+Hepatomegaly@0.0	Copper@0.0	Platelets@0.0	->	Spiders@0.0
+Bilirubin@0.0	Alk_Phos@0.0	Prothrombin@0.0	->	Status@0.0
+Bilirubin@0.0	Alk_Phos@0.0	Prothrombin@0.0	->	Sex@0.0
+Bilirubin@0.0	Alk_Phos@0.0	Prothrombin@0.0	->	Edema@0.0
+Bilirubin@0.0	Alk_Phos@0.0	Prothrombin@0.0	->	Cholesterol@0.0
+Bilirubin@0.0	Alk_Phos@0.0	Prothrombin@0.0	->	Copper@0.0
+Bilirubin@0.0	Alk_Phos@0.0	Prothrombin@0.0	->	SGOT@0.0
+Bilirubin@0.0	Alk_Phos@0.0	Prothrombin@0.0	->	Tryglicerides@0.0
+Bilirubin@0.0	Albumin@0.0	Tryglicerides@0.0	->	Drug@0.0
+Bilirubin@0.0	Albumin@0.0	Tryglicerides@0.0	->	Ascites@0.0
+Bilirubin@0.0	Albumin@0.0	Tryglicerides@0.0	->	Hepatomegaly@0.0
+Bilirubin@0.0	Albumin@0.0	Tryglicerides@0.0	->	Spiders@0.0
+Bilirubin@0.0	Albumin@0.0	Tryglicerides@0.0	->	Edema@0.0
+Bilirubin@0.0	Albumin@0.0	Tryglicerides@0.0	->	Cholesterol@0.0
+Bilirubin@0.0	Albumin@0.0	Tryglicerides@0.0	->	Copper@0.0
+Bilirubin@0.0	Albumin@0.0	Tryglicerides@0.0	->	Alk_Phos@0.0
+Bilirubin@0.0	Albumin@0.0	Tryglicerides@0.0	->	SGOT@0.0
+N_Days@0.0	Sex@0.0	Spiders@0.0	->	Status@0.0
+Status@0.0	Bilirubin@0.0	Albumin@0.0	Tryglicerides@0.0	->	Sex@0.0
+Spiders@0.0	Cholesterol@0.0	Albumin@0.0	Tryglicerides@0.0	Stage@0.0	->	Copper@0.0
+Spiders@0.0	Cholesterol@0.0	Albumin@0.0	Tryglicerides@0.0	Stage@0.0	->	Alk_Phos@0.0
+Spiders@0.0	Cholesterol@0.0	Albumin@0.0	Tryglicerides@0.0	Stage@0.0	->	SGOT@0.0
+N_Days@0.0	Status@0.0	Ascites@0.0	->	Sex@0.0
+Drug@0.0	Sex@0.0	Ascites@0.0	Spiders@0.0	Edema@0.0	SGOT@0.0	Prothrombin@0.0	->	Cholesterol@0.0
+Drug@0.0	Sex@0.0	Ascites@0.0	Spiders@0.0	Edema@0.0	SGOT@0.0	Prothrombin@0.0	->	Copper@0.0
+Drug@0.0	Sex@0.0	Ascites@0.0	Spiders@0.0	Edema@0.0	SGOT@0.0	Prothrombin@0.0	->	Alk_Phos@0.0
+Drug@0.0	Sex@0.0	Ascites@0.0	Spiders@0.0	Edema@0.0	SGOT@0.0	Prothrombin@0.0	->	Tryglicerides@0.0
+Sex@0.0	Hepatomegaly@0.0	Bilirubin@0.0	Cholesterol@0.0	Prothrombin@0.0	->	Ascites@0.0
+Sex@0.0	Hepatomegaly@0.0	Bilirubin@0.0	Cholesterol@0.0	Prothrombin@0.0	->	Edema@0.0
+Edema@0.0	Alk_Phos@0.0	->	Ascites@0.0
+Drug@0.0	Cholesterol@0.0	Albumin@0.0	->	Ascites@0.0
+Drug@0.0	Cholesterol@0.0	Albumin@0.0	->	Spiders@0.0
+Albumin@0.0	SGOT@0.0	Prothrombin@0.0	->	Status@0.0
+Albumin@0.0	SGOT@0.0	Prothrombin@0.0	->	Drug@0.0
+Albumin@0.0	SGOT@0.0	Prothrombin@0.0	->	Sex@0.0
+Albumin@0.0	SGOT@0.0	Prothrombin@0.0	->	Edema@0.0
+Albumin@0.0	SGOT@0.0	Prothrombin@0.0	->	Cholesterol@0.0
+Albumin@0.0	SGOT@0.0	Prothrombin@0.0	->	Copper@0.0
+Albumin@0.0	SGOT@0.0	Prothrombin@0.0	->	Alk_Phos@0.0
+Albumin@0.0	SGOT@0.0	Prothrombin@0.0	->	Tryglicerides@0.0
+Albumin@0.0	SGOT@0.0	Prothrombin@0.0	->	Stage@0.0
+Status@0.0	Drug@0.0	Cholesterol@0.0	Albumin@0.0	->	Sex@0.0
+Hepatomegaly@0.0	Spiders@0.0	Copper@0.0	Prothrombin@0.0	->	Drug@0.0
+Drug@0.0	Sex@0.0	Hepatomegaly@0.0	Edema@0.0	Bilirubin@0.0	Stage@0.0	->	Ascites@0.0
+Age@0.0	SGOT@0.0	->	Drug@0.0
+Age@0.0	SGOT@0.0	->	Ascites@0.0
+Age@0.0	SGOT@0.0	->	Hepatomegaly@0.0
+Age@0.0	SGOT@0.0	->	Spiders@0.0
+Age@0.0	SGOT@0.0	->	Cholesterol@0.0
+Age@0.0	SGOT@0.0	->	Copper@0.0
+Age@0.0	SGOT@0.0	->	Alk_Phos@0.0
+Age@0.0	SGOT@0.0	->	Tryglicerides@0.0
+Copper@0.0	Tryglicerides@0.0	Prothrombin@0.0	->	Drug@0.0
+Copper@0.0	Tryglicerides@0.0	Prothrombin@0.0	->	Hepatomegaly@0.0
+Copper@0.0	Tryglicerides@0.0	Prothrombin@0.0	->	Spiders@0.0
+Copper@0.0	Tryglicerides@0.0	Prothrombin@0.0	->	Cholesterol@0.0
+Copper@0.0	Tryglicerides@0.0	Prothrombin@0.0	->	Alk_Phos@0.0
+Copper@0.0	Tryglicerides@0.0	Prothrombin@0.0	->	SGOT@0.0
+Albumin@0.0	Alk_Phos@0.0	Stage@0.0	->	Sex@0.0
+Status@0.0	Sex@0.0	Spiders@0.0	Tryglicerides@0.0	Stage@0.0	->	Ascites@0.0
+Status@0.0	Albumin@0.0	Alk_Phos@0.0	->	Sex@0.0
+Spiders@0.0	Albumin@0.0	Tryglicerides@0.0	->	Ascites@0.0
+Spiders@0.0	Albumin@0.0	Tryglicerides@0.0	->	Hepatomegaly@0.0
+N_Days@0.0	Ascites@0.0	Stage@0.0	->	Hepatomegaly@0.0
+N_Days@0.0	Drug@0.0	Sex@0.0	Ascites@0.0	Spiders@0.0	Stage@0.0	->	ID@0.0
+N_Days@0.0	Drug@0.0	Sex@0.0	Ascites@0.0	Spiders@0.0	Stage@0.0	->	Age@0.0
+N_Days@0.0	Drug@0.0	Sex@0.0	Ascites@0.0	Spiders@0.0	Stage@0.0	->	Cholesterol@0.0
+N_Days@0.0	Drug@0.0	Sex@0.0	Ascites@0.0	Spiders@0.0	Stage@0.0	->	Albumin@0.0
+N_Days@0.0	Drug@0.0	Sex@0.0	Ascites@0.0	Spiders@0.0	Stage@0.0	->	Copper@0.0
+N_Days@0.0	Drug@0.0	Sex@0.0	Ascites@0.0	Spiders@0.0	Stage@0.0	->	Alk_Phos@0.0
+N_Days@0.0	Drug@0.0	Sex@0.0	Ascites@0.0	Spiders@0.0	Stage@0.0	->	SGOT@0.0
+N_Days@0.0	Drug@0.0	Sex@0.0	Ascites@0.0	Spiders@0.0	Stage@0.0	->	Tryglicerides@0.0
+N_Days@0.0	Drug@0.0	Sex@0.0	Ascites@0.0	Spiders@0.0	Stage@0.0	->	Platelets@0.0
+N_Days@0.0	Drug@0.0	Sex@0.0	Ascites@0.0	Spiders@0.0	Stage@0.0	->	Prothrombin@0.0
+Drug@0.0	Albumin@0.0	Prothrombin@0.0	Stage@0.0	->	Status@0.0
+Drug@0.0	Albumin@0.0	Prothrombin@0.0	Stage@0.0	->	Edema@0.0
+Status@0.0	Drug@0.0	Edema@0.0	Cholesterol@0.0	Stage@0.0	->	Ascites@0.0
+Sex@0.0	Bilirubin@0.0	Cholesterol@0.0	Stage@0.0	->	Tryglicerides@0.0
+N_Days@0.0	Tryglicerides@0.0	->	ID@0.0
+N_Days@0.0	Tryglicerides@0.0	->	Status@0.0
+N_Days@0.0	Tryglicerides@0.0	->	Drug@0.0
+N_Days@0.0	Tryglicerides@0.0	->	Age@0.0
+N_Days@0.0	Tryglicerides@0.0	->	Sex@0.0
+N_Days@0.0	Tryglicerides@0.0	->	Ascites@0.0
+N_Days@0.0	Tryglicerides@0.0	->	Hepatomegaly@0.0
+N_Days@0.0	Tryglicerides@0.0	->	Spiders@0.0
+N_Days@0.0	Tryglicerides@0.0	->	Edema@0.0
+N_Days@0.0	Tryglicerides@0.0	->	Bilirubin@0.0
+N_Days@0.0	Tryglicerides@0.0	->	Cholesterol@0.0
+N_Days@0.0	Tryglicerides@0.0	->	Albumin@0.0
+N_Days@0.0	Tryglicerides@0.0	->	Copper@0.0
+N_Days@0.0	Tryglicerides@0.0	->	Alk_Phos@0.0
+N_Days@0.0	Tryglicerides@0.0	->	SGOT@0.0
+N_Days@0.0	Tryglicerides@0.0	->	Platelets@0.0
+N_Days@0.0	Tryglicerides@0.0	->	Prothrombin@0.0
+N_Days@0.0	Tryglicerides@0.0	->	Stage@0.0
+Age@0.0	Bilirubin@0.0	Prothrombin@0.0	->	ID@0.0
+Age@0.0	Bilirubin@0.0	Prothrombin@0.0	->	N_Days@0.0
+Age@0.0	Bilirubin@0.0	Prothrombin@0.0	->	Status@0.0
+Age@0.0	Bilirubin@0.0	Prothrombin@0.0	->	Sex@0.0
+Age@0.0	Bilirubin@0.0	Prothrombin@0.0	->	Albumin@0.0
+Age@0.0	Bilirubin@0.0	Prothrombin@0.0	->	Platelets@0.0
+Age@0.0	Bilirubin@0.0	Prothrombin@0.0	->	Stage@0.0
+N_Days@0.0	Sex@0.0	Hepatomegaly@0.0	->	Status@0.0
+ID@0.0	->	N_Days@0.0
+ID@0.0	->	Status@0.0
+ID@0.0	->	Drug@0.0
+ID@0.0	->	Age@0.0
+ID@0.0	->	Sex@0.0
+ID@0.0	->	Ascites@0.0
+ID@0.0	->	Hepatomegaly@0.0
+ID@0.0	->	Spiders@0.0
+ID@0.0	->	Edema@0.0
+ID@0.0	->	Bilirubin@0.0
+ID@0.0	->	Cholesterol@0.0
+ID@0.0	->	Albumin@0.0
+ID@0.0	->	Copper@0.0
+ID@0.0	->	Alk_Phos@0.0
+ID@0.0	->	SGOT@0.0
+ID@0.0	->	Tryglicerides@0.0
+ID@0.0	->	Platelets@0.0
+ID@0.0	->	Prothrombin@0.0
+ID@0.0	->	Stage@0.0
+Status@0.0	Drug@0.0	Cholesterol@0.0	Prothrombin@0.0	->	Hepatomegaly@0.0
+Drug@0.0	Sex@0.0	Hepatomegaly@0.0	Tryglicerides@0.0	Prothrombin@0.0	->	Ascites@0.0
+Drug@0.0	Spiders@0.0	Bilirubin@0.0	Albumin@0.0	->	Hepatomegaly@0.0
+Drug@0.0	Albumin@0.0	Tryglicerides@0.0	Prothrombin@0.0	->	Status@0.0
+Drug@0.0	Albumin@0.0	Tryglicerides@0.0	Prothrombin@0.0	->	Stage@0.0
+Status@0.0	Drug@0.0	Sex@0.0	Alk_Phos@0.0	->	Spiders@0.0
+Spiders@0.0	Cholesterol@0.0	Albumin@0.0	Stage@0.0	->	Drug@0.0
+Edema@0.0	Bilirubin@0.0	Tryglicerides@0.0	Prothrombin@0.0	->	Sex@0.0
+Edema@0.0	Bilirubin@0.0	Tryglicerides@0.0	Prothrombin@0.0	->	Cholesterol@0.0
+Spiders@0.0	Tryglicerides@0.0	Platelets@0.0	->	Drug@0.0
+Spiders@0.0	Tryglicerides@0.0	Platelets@0.0	->	Ascites@0.0
+Spiders@0.0	Tryglicerides@0.0	Platelets@0.0	->	Hepatomegaly@0.0
+Spiders@0.0	Tryglicerides@0.0	Platelets@0.0	->	SGOT@0.0
+Hepatomegaly@0.0	Copper@0.0	Prothrombin@0.0	Stage@0.0	->	Drug@0.0
+Hepatomegaly@0.0	Copper@0.0	Prothrombin@0.0	Stage@0.0	->	Spiders@0.0
+Status@0.0	Hepatomegaly@0.0	Tryglicerides@0.0	Prothrombin@0.0	Stage@0.0	->	Spiders@0.0
+Status@0.0	Drug@0.0	SGOT@0.0	Stage@0.0	->	Ascites@0.0
+Status@0.0	Spiders@0.0	Edema@0.0	Cholesterol@0.0	Prothrombin@0.0	->	Ascites@0.0
+Sex@0.0	Spiders@0.0	Bilirubin@0.0	Copper@0.0	->	Ascites@0.0
+Copper@0.0	SGOT@0.0	->	Drug@0.0
+Copper@0.0	SGOT@0.0	->	Ascites@0.0
+Copper@0.0	SGOT@0.0	->	Hepatomegaly@0.0
+Copper@0.0	SGOT@0.0	->	Spiders@0.0
+Copper@0.0	SGOT@0.0	->	Cholesterol@0.0
+Copper@0.0	SGOT@0.0	->	Alk_Phos@0.0
+Copper@0.0	SGOT@0.0	->	Tryglicerides@0.0
+Ascites@0.0	Bilirubin@0.0	Cholesterol@0.0	Stage@0.0	->	Spiders@0.0
+Albumin@0.0	Copper@0.0	Platelets@0.0	Stage@0.0	->	ID@0.0
+Albumin@0.0	Copper@0.0	Platelets@0.0	Stage@0.0	->	N_Days@0.0
+Albumin@0.0	Copper@0.0	Platelets@0.0	Stage@0.0	->	Age@0.0
+Albumin@0.0	Copper@0.0	Platelets@0.0	Stage@0.0	->	Bilirubin@0.0
+Albumin@0.0	Copper@0.0	Platelets@0.0	Stage@0.0	->	Prothrombin@0.0
+Edema@0.0	Bilirubin@0.0	Copper@0.0	Stage@0.0	->	Ascites@0.0
+Edema@0.0	Bilirubin@0.0	Copper@0.0	Stage@0.0	->	Spiders@0.0
+Tryglicerides@0.0	Platelets@0.0	Prothrombin@0.0	->	Status@0.0
+Tryglicerides@0.0	Platelets@0.0	Prothrombin@0.0	->	Drug@0.0
+Tryglicerides@0.0	Platelets@0.0	Prothrombin@0.0	->	Ascites@0.0
+Tryglicerides@0.0	Platelets@0.0	Prothrombin@0.0	->	Hepatomegaly@0.0
+Tryglicerides@0.0	Platelets@0.0	Prothrombin@0.0	->	Spiders@0.0
+Tryglicerides@0.0	Platelets@0.0	Prothrombin@0.0	->	Edema@0.0
+Tryglicerides@0.0	Platelets@0.0	Prothrombin@0.0	->	Cholesterol@0.0
+Tryglicerides@0.0	Platelets@0.0	Prothrombin@0.0	->	Copper@0.0
+Tryglicerides@0.0	Platelets@0.0	Prothrombin@0.0	->	Alk_Phos@0.0
+Tryglicerides@0.0	Platelets@0.0	Prothrombin@0.0	->	SGOT@0.0
+Tryglicerides@0.0	Platelets@0.0	Prothrombin@0.0	->	Stage@0.0
+Status@0.0	Spiders@0.0	Edema@0.0	Platelets@0.0	Prothrombin@0.0	->	Drug@0.0
+Spiders@0.0	Bilirubin@0.0	Platelets@0.0	->	Sex@0.0
+Spiders@0.0	Bilirubin@0.0	Platelets@0.0	->	Ascites@0.0
+Spiders@0.0	Bilirubin@0.0	Platelets@0.0	->	Hepatomegaly@0.0
+Spiders@0.0	Bilirubin@0.0	Platelets@0.0	->	Edema@0.0
+Spiders@0.0	Bilirubin@0.0	Platelets@0.0	->	Stage@0.0
+Cholesterol@0.0	Alk_Phos@0.0	Stage@0.0	->	Hepatomegaly@0.0
+Cholesterol@0.0	Alk_Phos@0.0	Stage@0.0	->	Copper@0.0
+Cholesterol@0.0	Alk_Phos@0.0	Stage@0.0	->	SGOT@0.0
+Hepatomegaly@0.0	Albumin@0.0	Tryglicerides@0.0	Prothrombin@0.0	->	Status@0.0
+Hepatomegaly@0.0	Albumin@0.0	Tryglicerides@0.0	Prothrombin@0.0	->	Drug@0.0
+Hepatomegaly@0.0	Albumin@0.0	Tryglicerides@0.0	Prothrombin@0.0	->	Spiders@0.0
+Hepatomegaly@0.0	Albumin@0.0	Tryglicerides@0.0	Prothrombin@0.0	->	Cholesterol@0.0
+Hepatomegaly@0.0	Albumin@0.0	Tryglicerides@0.0	Prothrombin@0.0	->	Copper@0.0
+Hepatomegaly@0.0	Albumin@0.0	Tryglicerides@0.0	Prothrombin@0.0	->	Alk_Phos@0.0
+Hepatomegaly@0.0	Albumin@0.0	Tryglicerides@0.0	Prothrombin@0.0	->	SGOT@0.0
+Hepatomegaly@0.0	Albumin@0.0	Tryglicerides@0.0	Prothrombin@0.0	->	Stage@0.0
+Edema@0.0	Cholesterol@0.0	Copper@0.0	->	Drug@0.0
+Edema@0.0	Cholesterol@0.0	Copper@0.0	->	Hepatomegaly@0.0
+Edema@0.0	Cholesterol@0.0	Copper@0.0	->	Spiders@0.0
+Drug@0.0	Spiders@0.0	Bilirubin@0.0	Platelets@0.0	->	ID@0.0
+Drug@0.0	Spiders@0.0	Bilirubin@0.0	Platelets@0.0	->	N_Days@0.0
+Drug@0.0	Spiders@0.0	Bilirubin@0.0	Platelets@0.0	->	Age@0.0
+Drug@0.0	Spiders@0.0	Bilirubin@0.0	Platelets@0.0	->	Cholesterol@0.0
+Drug@0.0	Spiders@0.0	Bilirubin@0.0	Platelets@0.0	->	Albumin@0.0
+Drug@0.0	Spiders@0.0	Bilirubin@0.0	Platelets@0.0	->	Copper@0.0
+Drug@0.0	Spiders@0.0	Bilirubin@0.0	Platelets@0.0	->	Alk_Phos@0.0
+Drug@0.0	Spiders@0.0	Bilirubin@0.0	Platelets@0.0	->	SGOT@0.0
+Drug@0.0	Spiders@0.0	Bilirubin@0.0	Platelets@0.0	->	Tryglicerides@0.0
+Drug@0.0	Spiders@0.0	Bilirubin@0.0	Platelets@0.0	->	Prothrombin@0.0
+Bilirubin@0.0	Alk_Phos@0.0	Platelets@0.0	->	ID@0.0
+Bilirubin@0.0	Alk_Phos@0.0	Platelets@0.0	->	N_Days@0.0
+Bilirubin@0.0	Alk_Phos@0.0	Platelets@0.0	->	Status@0.0
+Bilirubin@0.0	Alk_Phos@0.0	Platelets@0.0	->	Age@0.0
+Bilirubin@0.0	Alk_Phos@0.0	Platelets@0.0	->	Sex@0.0
+Bilirubin@0.0	Alk_Phos@0.0	Platelets@0.0	->	Edema@0.0
+Bilirubin@0.0	Alk_Phos@0.0	Platelets@0.0	->	Albumin@0.0
+Bilirubin@0.0	Alk_Phos@0.0	Platelets@0.0	->	Prothrombin@0.0
+Bilirubin@0.0	Alk_Phos@0.0	Platelets@0.0	->	Stage@0.0
+Spiders@0.0	SGOT@0.0	Tryglicerides@0.0	Prothrombin@0.0	->	Drug@0.0
+Spiders@0.0	SGOT@0.0	Tryglicerides@0.0	Prothrombin@0.0	->	Copper@0.0
+Spiders@0.0	SGOT@0.0	Tryglicerides@0.0	Prothrombin@0.0	->	Alk_Phos@0.0
+Sex@0.0	Bilirubin@0.0	Albumin@0.0	Alk_Phos@0.0	->	Status@0.0
+Spiders@0.0	Edema@0.0	Bilirubin@0.0	Tryglicerides@0.0	Prothrombin@0.0	Stage@0.0	->	Copper@0.0
+Spiders@0.0	Edema@0.0	Bilirubin@0.0	Tryglicerides@0.0	Prothrombin@0.0	Stage@0.0	->	Alk_Phos@0.0
+Spiders@0.0	Edema@0.0	Bilirubin@0.0	Tryglicerides@0.0	Prothrombin@0.0	Stage@0.0	->	SGOT@0.0
+Status@0.0	Sex@0.0	Edema@0.0	Tryglicerides@0.0	Platelets@0.0	->	Drug@0.0
+Status@0.0	Sex@0.0	Edema@0.0	Tryglicerides@0.0	Platelets@0.0	->	Ascites@0.0
+Status@0.0	Sex@0.0	Edema@0.0	Tryglicerides@0.0	Platelets@0.0	->	Hepatomegaly@0.0
+Status@0.0	Sex@0.0	Edema@0.0	Tryglicerides@0.0	Platelets@0.0	->	Spiders@0.0
+Status@0.0	Sex@0.0	Edema@0.0	Tryglicerides@0.0	Platelets@0.0	->	SGOT@0.0
+N_Days@0.0	Status@0.0	Drug@0.0	Ascites@0.0	Spiders@0.0	->	Bilirubin@0.0
+Albumin@0.0	SGOT@0.0	Platelets@0.0	->	Status@0.0
+Albumin@0.0	SGOT@0.0	Platelets@0.0	->	Sex@0.0
+Albumin@0.0	SGOT@0.0	Platelets@0.0	->	Cholesterol@0.0
+Albumin@0.0	SGOT@0.0	Platelets@0.0	->	Copper@0.0
+Albumin@0.0	SGOT@0.0	Platelets@0.0	->	Alk_Phos@0.0
+Status@0.0	Spiders@0.0	Cholesterol@0.0	Albumin@0.0	->	Sex@0.0
+Drug@0.0	Copper@0.0	Prothrombin@0.0	Stage@0.0	->	Ascites@0.0
+Sex@0.0	Spiders@0.0	Bilirubin@0.0	Tryglicerides@0.0	Stage@0.0	->	Ascites@0.0
+Drug@0.0	Ascites@0.0	Hepatomegaly@0.0	Bilirubin@0.0	Prothrombin@0.0	Stage@0.0	->	Sex@0.0
+Drug@0.0	Ascites@0.0	Hepatomegaly@0.0	Bilirubin@0.0	Prothrombin@0.0	Stage@0.0	->	Edema@0.0
+Ascites@0.0	Bilirubin@0.0	Albumin@0.0	Stage@0.0	->	Drug@0.0
+Bilirubin@0.0	Cholesterol@0.0	Alk_Phos@0.0	->	Hepatomegaly@0.0
+Bilirubin@0.0	Cholesterol@0.0	Alk_Phos@0.0	->	Copper@0.0
+Bilirubin@0.0	Cholesterol@0.0	Alk_Phos@0.0	->	SGOT@0.0
+Status@0.0	Ascites@0.0	Bilirubin@0.0	Albumin@0.0	->	Sex@0.0
+SGOT@0.0	Platelets@0.0	->	Drug@0.0
+SGOT@0.0	Platelets@0.0	->	Ascites@0.0
+SGOT@0.0	Platelets@0.0	->	Hepatomegaly@0.0
+SGOT@0.0	Platelets@0.0	->	Spiders@0.0
+SGOT@0.0	Platelets@0.0	->	Tryglicerides@0.0
+Drug@0.0	Sex@0.0	Bilirubin@0.0	Cholesterol@0.0	Prothrombin@0.0	->	Edema@0.0
+Status@0.0	Drug@0.0	Copper@0.0	Prothrombin@0.0	->	Ascites@0.0
+Hepatomegaly@0.0	Edema@0.0	Bilirubin@0.0	Cholesterol@0.0	Prothrombin@0.0	Stage@0.0	->	Copper@0.0
+Hepatomegaly@0.0	Edema@0.0	Bilirubin@0.0	Cholesterol@0.0	Prothrombin@0.0	Stage@0.0	->	Alk_Phos@0.0
+Hepatomegaly@0.0	Edema@0.0	Bilirubin@0.0	Cholesterol@0.0	Prothrombin@0.0	Stage@0.0	->	SGOT@0.0
+Edema@0.0	Bilirubin@0.0	Platelets@0.0	Stage@0.0	->	Ascites@0.0
+Edema@0.0	Bilirubin@0.0	Platelets@0.0	Stage@0.0	->	Hepatomegaly@0.0
+Cholesterol@0.0	Albumin@0.0	SGOT@0.0	->	Drug@0.0
+Cholesterol@0.0	Albumin@0.0	SGOT@0.0	->	Copper@0.0
+Cholesterol@0.0	Albumin@0.0	SGOT@0.0	->	Alk_Phos@0.0
+Hepatomegaly@0.0	Bilirubin@0.0	Albumin@0.0	Stage@0.0	->	Drug@0.0
+Hepatomegaly@0.0	Bilirubin@0.0	Albumin@0.0	Stage@0.0	->	Spiders@0.0
+Drug@0.0	Bilirubin@0.0	SGOT@0.0	Stage@0.0	->	Hepatomegaly@0.0
+Drug@0.0	Bilirubin@0.0	SGOT@0.0	Stage@0.0	->	Cholesterol@0.0
+Drug@0.0	Bilirubin@0.0	SGOT@0.0	Stage@0.0	->	Copper@0.0
+Drug@0.0	Bilirubin@0.0	SGOT@0.0	Stage@0.0	->	Alk_Phos@0.0
+Drug@0.0	Bilirubin@0.0	SGOT@0.0	Stage@0.0	->	Tryglicerides@0.0
+Age@0.0	Edema@0.0	Platelets@0.0	->	ID@0.0
+Age@0.0	Edema@0.0	Platelets@0.0	->	N_Days@0.0
+Age@0.0	Edema@0.0	Platelets@0.0	->	Status@0.0
+Age@0.0	Edema@0.0	Platelets@0.0	->	Bilirubin@0.0
+Age@0.0	Edema@0.0	Platelets@0.0	->	Albumin@0.0
+Age@0.0	Edema@0.0	Platelets@0.0	->	Prothrombin@0.0
+Age@0.0	Edema@0.0	Platelets@0.0	->	Stage@0.0
+N_Days@0.0	Drug@0.0	Stage@0.0	->	Hepatomegaly@0.0
+Drug@0.0	Bilirubin@0.0	Cholesterol@0.0	Prothrombin@0.0	->	Status@0.0
+Drug@0.0	Bilirubin@0.0	Cholesterol@0.0	Prothrombin@0.0	->	Hepatomegaly@0.0
+Sex@0.0	Spiders@0.0	Bilirubin@0.0	Albumin@0.0	->	Hepatomegaly@0.0
+Albumin@0.0	Tryglicerides@0.0	Prothrombin@0.0	->	Sex@0.0
+Albumin@0.0	Tryglicerides@0.0	Prothrombin@0.0	->	Edema@0.0
+Drug@0.0	Edema@0.0	Bilirubin@0.0	Tryglicerides@0.0	->	Ascites@0.0
+Bilirubin@0.0	Copper@0.0	Prothrombin@0.0	->	Status@0.0
+Bilirubin@0.0	Copper@0.0	Prothrombin@0.0	->	Drug@0.0
+Bilirubin@0.0	Copper@0.0	Prothrombin@0.0	->	Sex@0.0
+Bilirubin@0.0	Copper@0.0	Prothrombin@0.0	->	Ascites@0.0
+Bilirubin@0.0	Copper@0.0	Prothrombin@0.0	->	Hepatomegaly@0.0
+Bilirubin@0.0	Copper@0.0	Prothrombin@0.0	->	Spiders@0.0
+Bilirubin@0.0	Copper@0.0	Prothrombin@0.0	->	Edema@0.0
+Bilirubin@0.0	Copper@0.0	Prothrombin@0.0	->	Cholesterol@0.0
+Bilirubin@0.0	Copper@0.0	Prothrombin@0.0	->	Alk_Phos@0.0
+Bilirubin@0.0	Copper@0.0	Prothrombin@0.0	->	SGOT@0.0
+Bilirubin@0.0	Copper@0.0	Prothrombin@0.0	->	Tryglicerides@0.0
+Sex@0.0	Spiders@0.0	Bilirubin@0.0	Cholesterol@0.0	->	Ascites@0.0
+Status@0.0	Sex@0.0	Spiders@0.0	Bilirubin@0.0	Stage@0.0	->	Ascites@0.0
+Hepatomegaly@0.0	Cholesterol@0.0	Albumin@0.0	->	Ascites@0.0
+Hepatomegaly@0.0	Cholesterol@0.0	Albumin@0.0	->	Tryglicerides@0.0
+Drug@0.0	Age@0.0	->	Ascites@0.0
+Spiders@0.0	Bilirubin@0.0	Albumin@0.0	->	Ascites@0.0
+Spiders@0.0	Bilirubin@0.0	Albumin@0.0	->	Edema@0.0
+Status@0.0	Spiders@0.0	Alk_Phos@0.0	Stage@0.0	->	Drug@0.0
+Status@0.0	Spiders@0.0	Alk_Phos@0.0	Stage@0.0	->	Cholesterol@0.0
+Status@0.0	Spiders@0.0	Alk_Phos@0.0	Stage@0.0	->	Copper@0.0
+Status@0.0	Spiders@0.0	Alk_Phos@0.0	Stage@0.0	->	SGOT@0.0
+Status@0.0	Spiders@0.0	Alk_Phos@0.0	Stage@0.0	->	Tryglicerides@0.0
+Alk_Phos@0.0	Tryglicerides@0.0	->	Drug@0.0
+Alk_Phos@0.0	Tryglicerides@0.0	->	Ascites@0.0
+Status@0.0	Copper@0.0	Platelets@0.0	->	Drug@0.0
+Status@0.0	Copper@0.0	Platelets@0.0	->	Ascites@0.0
+Status@0.0	Copper@0.0	Platelets@0.0	->	Hepatomegaly@0.0
+Status@0.0	Copper@0.0	Platelets@0.0	->	Spiders@0.0
+Status@0.0	Copper@0.0	Platelets@0.0	->	Cholesterol@0.0
+Status@0.0	Copper@0.0	Platelets@0.0	->	Alk_Phos@0.0
+Status@0.0	Copper@0.0	Platelets@0.0	->	SGOT@0.0
+Status@0.0	Copper@0.0	Platelets@0.0	->	Tryglicerides@0.0
+Bilirubin@0.0	Albumin@0.0	Alk_Phos@0.0	->	Edema@0.0
+Cholesterol@0.0	SGOT@0.0	Platelets@0.0	->	Copper@0.0
+Cholesterol@0.0	SGOT@0.0	Platelets@0.0	->	Alk_Phos@0.0
+Drug@0.0	Cholesterol@0.0	SGOT@0.0	->	Spiders@0.0
+Platelets@0.0	Prothrombin@0.0	Stage@0.0	->	Status@0.0
+Platelets@0.0	Prothrombin@0.0	Stage@0.0	->	Drug@0.0
+Platelets@0.0	Prothrombin@0.0	Stage@0.0	->	Ascites@0.0
+Platelets@0.0	Prothrombin@0.0	Stage@0.0	->	Hepatomegaly@0.0
+Platelets@0.0	Prothrombin@0.0	Stage@0.0	->	Spiders@0.0
+Platelets@0.0	Prothrombin@0.0	Stage@0.0	->	Edema@0.0
+Platelets@0.0	Prothrombin@0.0	Stage@0.0	->	Cholesterol@0.0
+Platelets@0.0	Prothrombin@0.0	Stage@0.0	->	Copper@0.0
+Platelets@0.0	Prothrombin@0.0	Stage@0.0	->	Alk_Phos@0.0
+Platelets@0.0	Prothrombin@0.0	Stage@0.0	->	SGOT@0.0
+Platelets@0.0	Prothrombin@0.0	Stage@0.0	->	Tryglicerides@0.0
+Status@0.0	Hepatomegaly@0.0	Spiders@0.0	Edema@0.0	Alk_Phos@0.0	->	Drug@0.0
+Ascites@0.0	Albumin@0.0	Tryglicerides@0.0	Prothrombin@0.0	->	Status@0.0
+Ascites@0.0	Albumin@0.0	Tryglicerides@0.0	Prothrombin@0.0	->	Drug@0.0
+Ascites@0.0	Albumin@0.0	Tryglicerides@0.0	Prothrombin@0.0	->	Hepatomegaly@0.0
+Ascites@0.0	Albumin@0.0	Tryglicerides@0.0	Prothrombin@0.0	->	Spiders@0.0
+Ascites@0.0	Albumin@0.0	Tryglicerides@0.0	Prothrombin@0.0	->	Cholesterol@0.0
+Ascites@0.0	Albumin@0.0	Tryglicerides@0.0	Prothrombin@0.0	->	Copper@0.0
+Ascites@0.0	Albumin@0.0	Tryglicerides@0.0	Prothrombin@0.0	->	Alk_Phos@0.0
+Ascites@0.0	Albumin@0.0	Tryglicerides@0.0	Prothrombin@0.0	->	SGOT@0.0
+Ascites@0.0	Albumin@0.0	Tryglicerides@0.0	Prothrombin@0.0	->	Stage@0.0
+Status@0.0	Hepatomegaly@0.0	Edema@0.0	Tryglicerides@0.0	Prothrombin@0.0	->	Ascites@0.0
+Drug@0.0	Sex@0.0	Bilirubin@0.0	Tryglicerides@0.0	Prothrombin@0.0	Stage@0.0	->	Copper@0.0
+Drug@0.0	Sex@0.0	Bilirubin@0.0	Tryglicerides@0.0	Prothrombin@0.0	Stage@0.0	->	Alk_Phos@0.0
+Drug@0.0	Sex@0.0	Bilirubin@0.0	Tryglicerides@0.0	Prothrombin@0.0	Stage@0.0	->	SGOT@0.0
+Spiders@0.0	Edema@0.0	Cholesterol@0.0	Albumin@0.0	Tryglicerides@0.0	->	Copper@0.0
+Spiders@0.0	Edema@0.0	Cholesterol@0.0	Albumin@0.0	Tryglicerides@0.0	->	Alk_Phos@0.0
+Spiders@0.0	Edema@0.0	Cholesterol@0.0	Albumin@0.0	Tryglicerides@0.0	->	SGOT@0.0
+Status@0.0	Drug@0.0	Sex@0.0	Bilirubin@0.0	Prothrombin@0.0	Stage@0.0	->	Edema@0.0
+Albumin@0.0	Copper@0.0	Tryglicerides@0.0	->	Drug@0.0
+Albumin@0.0	Copper@0.0	Tryglicerides@0.0	->	Hepatomegaly@0.0
+Albumin@0.0	Copper@0.0	Tryglicerides@0.0	->	Spiders@0.0
+Albumin@0.0	Copper@0.0	Tryglicerides@0.0	->	Cholesterol@0.0
+Albumin@0.0	Copper@0.0	Tryglicerides@0.0	->	Alk_Phos@0.0
+Albumin@0.0	Copper@0.0	Tryglicerides@0.0	->	SGOT@0.0
+Status@0.0	Drug@0.0	Platelets@0.0	Prothrombin@0.0	->	Spiders@0.0
+Sex@0.0	Bilirubin@0.0	Tryglicerides@0.0	Prothrombin@0.0	Stage@0.0	->	Edema@0.0
+Drug@0.0	Hepatomegaly@0.0	Bilirubin@0.0	Tryglicerides@0.0	->	Spiders@0.0
+Bilirubin@0.0	Alk_Phos@0.0	->	Drug@0.0
+Bilirubin@0.0	Alk_Phos@0.0	->	Ascites@0.0
+Status@0.0	Bilirubin@0.0	Alk_Phos@0.0	Stage@0.0	->	Cholesterol@0.0
+Status@0.0	Bilirubin@0.0	Alk_Phos@0.0	Stage@0.0	->	Copper@0.0
+Status@0.0	Bilirubin@0.0	Alk_Phos@0.0	Stage@0.0	->	SGOT@0.0
+Status@0.0	Bilirubin@0.0	Alk_Phos@0.0	Stage@0.0	->	Tryglicerides@0.0
+Status@0.0	Drug@0.0	Sex@0.0	Cholesterol@0.0	Prothrombin@0.0	->	Ascites@0.0
+Sex@0.0	Hepatomegaly@0.0	Bilirubin@0.0	Cholesterol@0.0	Stage@0.0	->	Ascites@0.0
+Status@0.0	Cholesterol@0.0	Alk_Phos@0.0	->	Hepatomegaly@0.0
+Status@0.0	Cholesterol@0.0	Alk_Phos@0.0	->	Copper@0.0
+Status@0.0	Cholesterol@0.0	Alk_Phos@0.0	->	SGOT@0.0
+Bilirubin@0.0	Tryglicerides@0.0	Prothrombin@0.0	Stage@0.0	->	Status@0.0
+Bilirubin@0.0	Tryglicerides@0.0	Prothrombin@0.0	Stage@0.0	->	Cholesterol@0.0
+Albumin@0.0	SGOT@0.0	->	Ascites@0.0
+Albumin@0.0	SGOT@0.0	->	Hepatomegaly@0.0
+Albumin@0.0	SGOT@0.0	->	Spiders@0.0
+Drug@0.0	Hepatomegaly@0.0	SGOT@0.0	Prothrombin@0.0	->	Spiders@0.0
+Status@0.0	Cholesterol@0.0	SGOT@0.0	Stage@0.0	->	Copper@0.0
+Status@0.0	Cholesterol@0.0	SGOT@0.0	Stage@0.0	->	Alk_Phos@0.0
+Hepatomegaly@0.0	Spiders@0.0	Cholesterol@0.0	Albumin@0.0	Stage@0.0	->	Copper@0.0
+Hepatomegaly@0.0	Spiders@0.0	Cholesterol@0.0	Albumin@0.0	Stage@0.0	->	Alk_Phos@0.0
+Hepatomegaly@0.0	Spiders@0.0	Cholesterol@0.0	Albumin@0.0	Stage@0.0	->	SGOT@0.0
+Status@0.0	Sex@0.0	Hepatomegaly@0.0	Bilirubin@0.0	Cholesterol@0.0	->	Ascites@0.0
+Copper@0.0	Platelets@0.0	Stage@0.0	->	Drug@0.0
+Copper@0.0	Platelets@0.0	Stage@0.0	->	Ascites@0.0
+Copper@0.0	Platelets@0.0	Stage@0.0	->	Hepatomegaly@0.0
+Copper@0.0	Platelets@0.0	Stage@0.0	->	Spiders@0.0
+Copper@0.0	Platelets@0.0	Stage@0.0	->	Cholesterol@0.0
+Copper@0.0	Platelets@0.0	Stage@0.0	->	Alk_Phos@0.0
+Copper@0.0	Platelets@0.0	Stage@0.0	->	SGOT@0.0
+Copper@0.0	Platelets@0.0	Stage@0.0	->	Tryglicerides@0.0
+Edema@0.0	Bilirubin@0.0	Albumin@0.0	Stage@0.0	->	Drug@0.0
+Edema@0.0	Bilirubin@0.0	Albumin@0.0	Stage@0.0	->	Ascites@0.0
+Hepatomegaly@0.0	Bilirubin@0.0	Cholesterol@0.0	Stage@0.0	->	Spiders@0.0
+Hepatomegaly@0.0	Bilirubin@0.0	Cholesterol@0.0	Stage@0.0	->	Tryglicerides@0.0
+Status@0.0	Hepatomegaly@0.0	Bilirubin@0.0	Albumin@0.0	->	Sex@0.0
+Hepatomegaly@0.0	Edema@0.0	Bilirubin@0.0	Tryglicerides@0.0	Prothrombin@0.0	->	Drug@0.0
+Drug@0.0	Hepatomegaly@0.0	Spiders@0.0	Platelets@0.0	Stage@0.0	->	Ascites@0.0
+Bilirubin@0.0	Platelets@0.0	Prothrombin@0.0	->	ID@0.0
+Bilirubin@0.0	Platelets@0.0	Prothrombin@0.0	->	N_Days@0.0
+Bilirubin@0.0	Platelets@0.0	Prothrombin@0.0	->	Status@0.0
+Bilirubin@0.0	Platelets@0.0	Prothrombin@0.0	->	Drug@0.0
+Bilirubin@0.0	Platelets@0.0	Prothrombin@0.0	->	Age@0.0
+Bilirubin@0.0	Platelets@0.0	Prothrombin@0.0	->	Sex@0.0
+Bilirubin@0.0	Platelets@0.0	Prothrombin@0.0	->	Ascites@0.0
+Bilirubin@0.0	Platelets@0.0	Prothrombin@0.0	->	Hepatomegaly@0.0
+Bilirubin@0.0	Platelets@0.0	Prothrombin@0.0	->	Spiders@0.0
+Bilirubin@0.0	Platelets@0.0	Prothrombin@0.0	->	Edema@0.0
+Bilirubin@0.0	Platelets@0.0	Prothrombin@0.0	->	Cholesterol@0.0
+Bilirubin@0.0	Platelets@0.0	Prothrombin@0.0	->	Albumin@0.0
+Bilirubin@0.0	Platelets@0.0	Prothrombin@0.0	->	Copper@0.0
+Bilirubin@0.0	Platelets@0.0	Prothrombin@0.0	->	Alk_Phos@0.0
+Bilirubin@0.0	Platelets@0.0	Prothrombin@0.0	->	SGOT@0.0
+Bilirubin@0.0	Platelets@0.0	Prothrombin@0.0	->	Tryglicerides@0.0
+Bilirubin@0.0	Platelets@0.0	Prothrombin@0.0	->	Stage@0.0
+Spiders@0.0	Alk_Phos@0.0	Tryglicerides@0.0	Stage@0.0	->	Copper@0.0
+Spiders@0.0	Alk_Phos@0.0	Tryglicerides@0.0	Stage@0.0	->	SGOT@0.0
+Hepatomegaly@0.0	Edema@0.0	Cholesterol@0.0	Prothrombin@0.0	->	Ascites@0.0
+Status@0.0	Alk_Phos@0.0	->	Ascites@0.0
+Spiders@0.0	Edema@0.0	Bilirubin@0.0	Prothrombin@0.0	->	Ascites@0.0
+Status@0.0	Spiders@0.0	Copper@0.0	Prothrombin@0.0	Stage@0.0	->	Drug@0.0
+Copper@0.0	Tryglicerides@0.0	Platelets@0.0	->	Drug@0.0
+Copper@0.0	Tryglicerides@0.0	Platelets@0.0	->	Hepatomegaly@0.0
+Copper@0.0	Tryglicerides@0.0	Platelets@0.0	->	Spiders@0.0
+Copper@0.0	Tryglicerides@0.0	Platelets@0.0	->	Cholesterol@0.0
+Copper@0.0	Tryglicerides@0.0	Platelets@0.0	->	Alk_Phos@0.0
+Copper@0.0	Tryglicerides@0.0	Platelets@0.0	->	SGOT@0.0
+Drug@0.0	SGOT@0.0	Tryglicerides@0.0	Stage@0.0	->	Spiders@0.0
+N_Days@0.0	Spiders@0.0	Prothrombin@0.0	->	ID@0.0
+N_Days@0.0	Spiders@0.0	Prothrombin@0.0	->	Drug@0.0
+N_Days@0.0	Spiders@0.0	Prothrombin@0.0	->	Age@0.0
+N_Days@0.0	Spiders@0.0	Prothrombin@0.0	->	Ascites@0.0
+N_Days@0.0	Spiders@0.0	Prothrombin@0.0	->	Bilirubin@0.0
+N_Days@0.0	Spiders@0.0	Prothrombin@0.0	->	Cholesterol@0.0
+N_Days@0.0	Spiders@0.0	Prothrombin@0.0	->	Albumin@0.0
+N_Days@0.0	Spiders@0.0	Prothrombin@0.0	->	Copper@0.0
+N_Days@0.0	Spiders@0.0	Prothrombin@0.0	->	Alk_Phos@0.0
+N_Days@0.0	Spiders@0.0	Prothrombin@0.0	->	SGOT@0.0
+N_Days@0.0	Spiders@0.0	Prothrombin@0.0	->	Tryglicerides@0.0
+N_Days@0.0	Spiders@0.0	Prothrombin@0.0	->	Platelets@0.0
+N_Days@0.0	Spiders@0.0	Prothrombin@0.0	->	Stage@0.0
+Status@0.0	Drug@0.0	Edema@0.0	Tryglicerides@0.0	Prothrombin@0.0	->	Ascites@0.0
+Drug@0.0	Edema@0.0	Platelets@0.0	->	Ascites@0.0
+SGOT@0.0	Tryglicerides@0.0	Stage@0.0	->	Hepatomegaly@0.0
+Bilirubin@0.0	Albumin@0.0	SGOT@0.0	Stage@0.0	->	ID@0.0
+Bilirubin@0.0	Albumin@0.0	SGOT@0.0	Stage@0.0	->	N_Days@0.0
+Bilirubin@0.0	Albumin@0.0	SGOT@0.0	Stage@0.0	->	Status@0.0
+Bilirubin@0.0	Albumin@0.0	SGOT@0.0	Stage@0.0	->	Age@0.0
+Bilirubin@0.0	Albumin@0.0	SGOT@0.0	Stage@0.0	->	Platelets@0.0
+Bilirubin@0.0	Albumin@0.0	SGOT@0.0	Stage@0.0	->	Prothrombin@0.0
+Status@0.0	Drug@0.0	Sex@0.0	Tryglicerides@0.0	Stage@0.0	->	Ascites@0.0
+N_Days@0.0	Status@0.0	Drug@0.0	Spiders@0.0	Edema@0.0	->	Bilirubin@0.0
+Age@0.0	Spiders@0.0	Stage@0.0	->	Drug@0.0
+Age@0.0	Spiders@0.0	Stage@0.0	->	Hepatomegaly@0.0
+Age@0.0	Spiders@0.0	Stage@0.0	->	Cholesterol@0.0
+Age@0.0	Spiders@0.0	Stage@0.0	->	Copper@0.0
+Age@0.0	Spiders@0.0	Stage@0.0	->	Alk_Phos@0.0
+Age@0.0	Spiders@0.0	Stage@0.0	->	SGOT@0.0
+Age@0.0	Spiders@0.0	Stage@0.0	->	Tryglicerides@0.0
+Spiders@0.0	Edema@0.0	Cholesterol@0.0	Albumin@0.0	->	Drug@0.0
+Drug@0.0	Bilirubin@0.0	Copper@0.0	->	Ascites@0.0
+Spiders@0.0	SGOT@0.0	Tryglicerides@0.0	Stage@0.0	->	Drug@0.0
+Drug@0.0	Alk_Phos@0.0	Prothrombin@0.0	->	Cholesterol@0.0
+Drug@0.0	Alk_Phos@0.0	Prothrombin@0.0	->	Copper@0.0
+Drug@0.0	Alk_Phos@0.0	Prothrombin@0.0	->	SGOT@0.0
+Drug@0.0	Alk_Phos@0.0	Prothrombin@0.0	->	Tryglicerides@0.0
+Drug@0.0	Hepatomegaly@0.0	Bilirubin@0.0	Platelets@0.0	->	ID@0.0
+Drug@0.0	Hepatomegaly@0.0	Bilirubin@0.0	Platelets@0.0	->	N_Days@0.0
+Drug@0.0	Hepatomegaly@0.0	Bilirubin@0.0	Platelets@0.0	->	Age@0.0
+Drug@0.0	Hepatomegaly@0.0	Bilirubin@0.0	Platelets@0.0	->	Spiders@0.0
+Drug@0.0	Hepatomegaly@0.0	Bilirubin@0.0	Platelets@0.0	->	Cholesterol@0.0
+Drug@0.0	Hepatomegaly@0.0	Bilirubin@0.0	Platelets@0.0	->	Albumin@0.0
+Drug@0.0	Hepatomegaly@0.0	Bilirubin@0.0	Platelets@0.0	->	Copper@0.0
+Drug@0.0	Hepatomegaly@0.0	Bilirubin@0.0	Platelets@0.0	->	Alk_Phos@0.0
+Drug@0.0	Hepatomegaly@0.0	Bilirubin@0.0	Platelets@0.0	->	SGOT@0.0
+Drug@0.0	Hepatomegaly@0.0	Bilirubin@0.0	Platelets@0.0	->	Tryglicerides@0.0
+Drug@0.0	Hepatomegaly@0.0	Bilirubin@0.0	Platelets@0.0	->	Prothrombin@0.0
+Status@0.0	Hepatomegaly@0.0	Albumin@0.0	Tryglicerides@0.0	->	Sex@0.0
+Cholesterol@0.0	Copper@0.0	Stage@0.0	->	Drug@0.0
+Cholesterol@0.0	Copper@0.0	Stage@0.0	->	Hepatomegaly@0.0
+Cholesterol@0.0	Copper@0.0	Stage@0.0	->	Spiders@0.0
+Cholesterol@0.0	Copper@0.0	Stage@0.0	->	Alk_Phos@0.0
+Cholesterol@0.0	Copper@0.0	Stage@0.0	->	SGOT@0.0
+Status@0.0	Ascites@0.0	Tryglicerides@0.0	Platelets@0.0	->	Hepatomegaly@0.0
+Status@0.0	Ascites@0.0	Tryglicerides@0.0	Platelets@0.0	->	Spiders@0.0
+Status@0.0	Ascites@0.0	Tryglicerides@0.0	Platelets@0.0	->	SGOT@0.0
+N_Days@0.0	Prothrombin@0.0	Stage@0.0	->	ID@0.0
+N_Days@0.0	Prothrombin@0.0	Stage@0.0	->	Drug@0.0
+N_Days@0.0	Prothrombin@0.0	Stage@0.0	->	Age@0.0
+N_Days@0.0	Prothrombin@0.0	Stage@0.0	->	Ascites@0.0
+N_Days@0.0	Prothrombin@0.0	Stage@0.0	->	Hepatomegaly@0.0
+N_Days@0.0	Prothrombin@0.0	Stage@0.0	->	Spiders@0.0
+N_Days@0.0	Prothrombin@0.0	Stage@0.0	->	Bilirubin@0.0
+N_Days@0.0	Prothrombin@0.0	Stage@0.0	->	Cholesterol@0.0
+N_Days@0.0	Prothrombin@0.0	Stage@0.0	->	Albumin@0.0
+N_Days@0.0	Prothrombin@0.0	Stage@0.0	->	Copper@0.0
+N_Days@0.0	Prothrombin@0.0	Stage@0.0	->	Alk_Phos@0.0
+N_Days@0.0	Prothrombin@0.0	Stage@0.0	->	SGOT@0.0
+N_Days@0.0	Prothrombin@0.0	Stage@0.0	->	Tryglicerides@0.0
+N_Days@0.0	Prothrombin@0.0	Stage@0.0	->	Platelets@0.0
+Drug@0.0	Albumin@0.0	Tryglicerides@0.0	->	Ascites@0.0
+Drug@0.0	Albumin@0.0	Tryglicerides@0.0	->	Hepatomegaly@0.0
+Drug@0.0	Albumin@0.0	Tryglicerides@0.0	->	Spiders@0.0
+Drug@0.0	Albumin@0.0	Tryglicerides@0.0	->	Cholesterol@0.0
+Drug@0.0	Albumin@0.0	Tryglicerides@0.0	->	Copper@0.0
+Drug@0.0	Albumin@0.0	Tryglicerides@0.0	->	Alk_Phos@0.0
+Drug@0.0	Albumin@0.0	Tryglicerides@0.0	->	SGOT@0.0
+Drug@0.0	Hepatomegaly@0.0	Edema@0.0	Tryglicerides@0.0	Prothrombin@0.0	->	Ascites@0.0
+Bilirubin@0.0	Cholesterol@0.0	Prothrombin@0.0	->	Tryglicerides@0.0
+Status@0.0	Sex@0.0	Tryglicerides@0.0	Platelets@0.0	Stage@0.0	->	Drug@0.0
+Status@0.0	Sex@0.0	Tryglicerides@0.0	Platelets@0.0	Stage@0.0	->	Ascites@0.0
+Status@0.0	Sex@0.0	Tryglicerides@0.0	Platelets@0.0	Stage@0.0	->	Hepatomegaly@0.0
+Status@0.0	Sex@0.0	Tryglicerides@0.0	Platelets@0.0	Stage@0.0	->	Spiders@0.0
+Status@0.0	Sex@0.0	Tryglicerides@0.0	Platelets@0.0	Stage@0.0	->	SGOT@0.0
+Alk_Phos@0.0	Platelets@0.0	Prothrombin@0.0	->	Status@0.0
+Alk_Phos@0.0	Platelets@0.0	Prothrombin@0.0	->	Edema@0.0
+Alk_Phos@0.0	Platelets@0.0	Prothrombin@0.0	->	Stage@0.0
+Albumin@0.0	Tryglicerides@0.0	Platelets@0.0	->	Status@0.0
+Albumin@0.0	Tryglicerides@0.0	Platelets@0.0	->	Sex@0.0
+Albumin@0.0	Tryglicerides@0.0	Platelets@0.0	->	Spiders@0.0
+Albumin@0.0	Tryglicerides@0.0	Platelets@0.0	->	Cholesterol@0.0
+Albumin@0.0	Tryglicerides@0.0	Platelets@0.0	->	Copper@0.0
+Albumin@0.0	Tryglicerides@0.0	Platelets@0.0	->	Alk_Phos@0.0
+Albumin@0.0	Tryglicerides@0.0	Platelets@0.0	->	SGOT@0.0
+Bilirubin@0.0	Copper@0.0	Platelets@0.0	->	ID@0.0
+Bilirubin@0.0	Copper@0.0	Platelets@0.0	->	N_Days@0.0
+Bilirubin@0.0	Copper@0.0	Platelets@0.0	->	Status@0.0
+Bilirubin@0.0	Copper@0.0	Platelets@0.0	->	Drug@0.0
+Bilirubin@0.0	Copper@0.0	Platelets@0.0	->	Age@0.0
+Bilirubin@0.0	Copper@0.0	Platelets@0.0	->	Sex@0.0
+Bilirubin@0.0	Copper@0.0	Platelets@0.0	->	Ascites@0.0
+Bilirubin@0.0	Copper@0.0	Platelets@0.0	->	Hepatomegaly@0.0
+Bilirubin@0.0	Copper@0.0	Platelets@0.0	->	Spiders@0.0
+Bilirubin@0.0	Copper@0.0	Platelets@0.0	->	Edema@0.0
+Bilirubin@0.0	Copper@0.0	Platelets@0.0	->	Cholesterol@0.0
+Bilirubin@0.0	Copper@0.0	Platelets@0.0	->	Albumin@0.0
+Bilirubin@0.0	Copper@0.0	Platelets@0.0	->	Alk_Phos@0.0
+Bilirubin@0.0	Copper@0.0	Platelets@0.0	->	SGOT@0.0
+Bilirubin@0.0	Copper@0.0	Platelets@0.0	->	Tryglicerides@0.0
+Bilirubin@0.0	Copper@0.0	Platelets@0.0	->	Prothrombin@0.0
+Bilirubin@0.0	Copper@0.0	Platelets@0.0	->	Stage@0.0
+Bilirubin@0.0	SGOT@0.0	Stage@0.0	->	Spiders@0.0
+N_Days@0.0	Drug@0.0	Sex@0.0	Spiders@0.0	Edema@0.0	Stage@0.0	->	ID@0.0
+N_Days@0.0	Drug@0.0	Sex@0.0	Spiders@0.0	Edema@0.0	Stage@0.0	->	Age@0.0
+N_Days@0.0	Drug@0.0	Sex@0.0	Spiders@0.0	Edema@0.0	Stage@0.0	->	Cholesterol@0.0
+N_Days@0.0	Drug@0.0	Sex@0.0	Spiders@0.0	Edema@0.0	Stage@0.0	->	Albumin@0.0
+N_Days@0.0	Drug@0.0	Sex@0.0	Spiders@0.0	Edema@0.0	Stage@0.0	->	Copper@0.0
+N_Days@0.0	Drug@0.0	Sex@0.0	Spiders@0.0	Edema@0.0	Stage@0.0	->	Alk_Phos@0.0
+N_Days@0.0	Drug@0.0	Sex@0.0	Spiders@0.0	Edema@0.0	Stage@0.0	->	SGOT@0.0
+N_Days@0.0	Drug@0.0	Sex@0.0	Spiders@0.0	Edema@0.0	Stage@0.0	->	Tryglicerides@0.0
+N_Days@0.0	Drug@0.0	Sex@0.0	Spiders@0.0	Edema@0.0	Stage@0.0	->	Platelets@0.0
+N_Days@0.0	Drug@0.0	Sex@0.0	Spiders@0.0	Edema@0.0	Stage@0.0	->	Prothrombin@0.0
+Age@0.0	Bilirubin@0.0	Stage@0.0	->	ID@0.0
+Age@0.0	Bilirubin@0.0	Stage@0.0	->	N_Days@0.0
+Age@0.0	Bilirubin@0.0	Stage@0.0	->	Status@0.0
+Age@0.0	Bilirubin@0.0	Stage@0.0	->	Drug@0.0
+Age@0.0	Bilirubin@0.0	Stage@0.0	->	Sex@0.0
+Age@0.0	Bilirubin@0.0	Stage@0.0	->	Edema@0.0
+Age@0.0	Bilirubin@0.0	Stage@0.0	->	Cholesterol@0.0
+Age@0.0	Bilirubin@0.0	Stage@0.0	->	Albumin@0.0
+Age@0.0	Bilirubin@0.0	Stage@0.0	->	Copper@0.0
+Age@0.0	Bilirubin@0.0	Stage@0.0	->	Alk_Phos@0.0
+Age@0.0	Bilirubin@0.0	Stage@0.0	->	SGOT@0.0
+Age@0.0	Bilirubin@0.0	Stage@0.0	->	Tryglicerides@0.0
+Age@0.0	Bilirubin@0.0	Stage@0.0	->	Platelets@0.0
+Age@0.0	Bilirubin@0.0	Stage@0.0	->	Prothrombin@0.0
+N_Days@0.0	Hepatomegaly@0.0	Edema@0.0	->	Ascites@0.0
+Status@0.0	Age@0.0	->	Ascites@0.0
+Hepatomegaly@0.0	Copper@0.0	Tryglicerides@0.0	->	Cholesterol@0.0
+Spiders@0.0	Alk_Phos@0.0	Stage@0.0	->	Hepatomegaly@0.0
+Drug@0.0	Age@0.0	Spiders@0.0	->	Hepatomegaly@0.0
+Drug@0.0	Age@0.0	Spiders@0.0	->	Cholesterol@0.0
+Drug@0.0	Age@0.0	Spiders@0.0	->	Copper@0.0
+Drug@0.0	Age@0.0	Spiders@0.0	->	Alk_Phos@0.0
+Drug@0.0	Age@0.0	Spiders@0.0	->	SGOT@0.0
+Drug@0.0	Age@0.0	Spiders@0.0	->	Tryglicerides@0.0
+Status@0.0	Drug@0.0	Bilirubin@0.0	Albumin@0.0	->	Sex@0.0
+Status@0.0	Ascites@0.0	Albumin@0.0	Tryglicerides@0.0	->	Sex@0.0
+Status@0.0	Ascites@0.0	Albumin@0.0	Tryglicerides@0.0	->	Hepatomegaly@0.0
+Spiders@0.0	Albumin@0.0	Tryglicerides@0.0	Prothrombin@0.0	->	Status@0.0
+Spiders@0.0	Albumin@0.0	Tryglicerides@0.0	Prothrombin@0.0	->	Drug@0.0
+Spiders@0.0	Albumin@0.0	Tryglicerides@0.0	Prothrombin@0.0	->	Cholesterol@0.0
+Spiders@0.0	Albumin@0.0	Tryglicerides@0.0	Prothrombin@0.0	->	Copper@0.0
+Spiders@0.0	Albumin@0.0	Tryglicerides@0.0	Prothrombin@0.0	->	Alk_Phos@0.0
+Spiders@0.0	Albumin@0.0	Tryglicerides@0.0	Prothrombin@0.0	->	SGOT@0.0
+Spiders@0.0	Albumin@0.0	Tryglicerides@0.0	Prothrombin@0.0	->	Stage@0.0
+Ascites@0.0	Bilirubin@0.0	Cholesterol@0.0	Prothrombin@0.0	->	Status@0.0
+Ascites@0.0	Bilirubin@0.0	Cholesterol@0.0	Prothrombin@0.0	->	Drug@0.0
+Ascites@0.0	Bilirubin@0.0	Cholesterol@0.0	Prothrombin@0.0	->	Sex@0.0
+Ascites@0.0	Bilirubin@0.0	Cholesterol@0.0	Prothrombin@0.0	->	Hepatomegaly@0.0
+Ascites@0.0	Bilirubin@0.0	Cholesterol@0.0	Prothrombin@0.0	->	Spiders@0.0
+Ascites@0.0	Bilirubin@0.0	Cholesterol@0.0	Prothrombin@0.0	->	Edema@0.0
+Bilirubin@0.0	SGOT@0.0	Tryglicerides@0.0	->	Drug@0.0
+Cholesterol@0.0	SGOT@0.0	->	Ascites@0.0
+Cholesterol@0.0	SGOT@0.0	->	Hepatomegaly@0.0
+Cholesterol@0.0	SGOT@0.0	->	Tryglicerides@0.0
+Cholesterol@0.0	Albumin@0.0	Platelets@0.0	Stage@0.0	->	ID@0.0
+Cholesterol@0.0	Albumin@0.0	Platelets@0.0	Stage@0.0	->	N_Days@0.0
+Cholesterol@0.0	Albumin@0.0	Platelets@0.0	Stage@0.0	->	Age@0.0
+Cholesterol@0.0	Albumin@0.0	Platelets@0.0	Stage@0.0	->	Bilirubin@0.0
+Cholesterol@0.0	Albumin@0.0	Platelets@0.0	Stage@0.0	->	Prothrombin@0.0
+Spiders@0.0	Alk_Phos@0.0	Tryglicerides@0.0	->	Cholesterol@0.0
+Drug@0.0	Tryglicerides@0.0	Platelets@0.0	->	Ascites@0.0
+Bilirubin@0.0	Albumin@0.0	Prothrombin@0.0	->	ID@0.0
+Bilirubin@0.0	Albumin@0.0	Prothrombin@0.0	->	N_Days@0.0
+Bilirubin@0.0	Albumin@0.0	Prothrombin@0.0	->	Status@0.0
+Bilirubin@0.0	Albumin@0.0	Prothrombin@0.0	->	Drug@0.0
+Bilirubin@0.0	Albumin@0.0	Prothrombin@0.0	->	Age@0.0
+Bilirubin@0.0	Albumin@0.0	Prothrombin@0.0	->	Sex@0.0
+Bilirubin@0.0	Albumin@0.0	Prothrombin@0.0	->	Ascites@0.0
+Bilirubin@0.0	Albumin@0.0	Prothrombin@0.0	->	Hepatomegaly@0.0
+Bilirubin@0.0	Albumin@0.0	Prothrombin@0.0	->	Spiders@0.0
+Bilirubin@0.0	Albumin@0.0	Prothrombin@0.0	->	Edema@0.0
+Bilirubin@0.0	Albumin@0.0	Prothrombin@0.0	->	Cholesterol@0.0
+Bilirubin@0.0	Albumin@0.0	Prothrombin@0.0	->	Copper@0.0
+Bilirubin@0.0	Albumin@0.0	Prothrombin@0.0	->	Alk_Phos@0.0
+Bilirubin@0.0	Albumin@0.0	Prothrombin@0.0	->	SGOT@0.0
+Bilirubin@0.0	Albumin@0.0	Prothrombin@0.0	->	Tryglicerides@0.0
+Bilirubin@0.0	Albumin@0.0	Prothrombin@0.0	->	Platelets@0.0
+Bilirubin@0.0	Albumin@0.0	Prothrombin@0.0	->	Stage@0.0
+Hepatomegaly@0.0	Spiders@0.0	Edema@0.0	Cholesterol@0.0	Albumin@0.0	->	Copper@0.0
+Hepatomegaly@0.0	Spiders@0.0	Edema@0.0	Cholesterol@0.0	Albumin@0.0	->	Alk_Phos@0.0
+Hepatomegaly@0.0	Spiders@0.0	Edema@0.0	Cholesterol@0.0	Albumin@0.0	->	SGOT@0.0
+Albumin@0.0	Copper@0.0	Stage@0.0	->	Drug@0.0
+Albumin@0.0	Copper@0.0	Stage@0.0	->	Sex@0.0
+Albumin@0.0	Copper@0.0	Stage@0.0	->	Ascites@0.0
+Albumin@0.0	Copper@0.0	Stage@0.0	->	Hepatomegaly@0.0
+Albumin@0.0	Copper@0.0	Stage@0.0	->	Spiders@0.0
+Status@0.0	Sex@0.0	Hepatomegaly@0.0	Tryglicerides@0.0	Stage@0.0	->	Ascites@0.0
+Age@0.0	Albumin@0.0	->	Status@0.0
+Age@0.0	Albumin@0.0	->	Drug@0.0
+Age@0.0	Albumin@0.0	->	Sex@0.0
+Age@0.0	Albumin@0.0	->	Ascites@0.0
+Age@0.0	Albumin@0.0	->	Hepatomegaly@0.0
+Age@0.0	Albumin@0.0	->	Spiders@0.0
+Age@0.0	Albumin@0.0	->	Edema@0.0
+Age@0.0	Albumin@0.0	->	Cholesterol@0.0
+Age@0.0	Albumin@0.0	->	Copper@0.0
+Age@0.0	Albumin@0.0	->	Alk_Phos@0.0
+Age@0.0	Albumin@0.0	->	SGOT@0.0
+Age@0.0	Albumin@0.0	->	Tryglicerides@0.0
+Hepatomegaly@0.0	Bilirubin@0.0	Copper@0.0	->	Ascites@0.0
+Drug@0.0	Hepatomegaly@0.0	Bilirubin@0.0	Copper@0.0	->	Spiders@0.0
+Status@0.0	Albumin@0.0	Platelets@0.0	Stage@0.0	->	ID@0.0
+Status@0.0	Albumin@0.0	Platelets@0.0	Stage@0.0	->	N_Days@0.0
+Status@0.0	Albumin@0.0	Platelets@0.0	Stage@0.0	->	Age@0.0
+Status@0.0	Albumin@0.0	Platelets@0.0	Stage@0.0	->	Bilirubin@0.0
+Status@0.0	Albumin@0.0	Platelets@0.0	Stage@0.0	->	Prothrombin@0.0
+N_Days@0.0	Drug@0.0	Edema@0.0	->	Ascites@0.0
+Age@0.0	Sex@0.0	Bilirubin@0.0	->	Edema@0.0
+Spiders@0.0	Bilirubin@0.0	Alk_Phos@0.0	->	Hepatomegaly@0.0
+Status@0.0	Sex@0.0	Spiders@0.0	Cholesterol@0.0	Prothrombin@0.0	->	Ascites@0.0
+N_Days@0.0	Bilirubin@0.0	Prothrombin@0.0	->	ID@0.0
+N_Days@0.0	Bilirubin@0.0	Prothrombin@0.0	->	Age@0.0
+N_Days@0.0	Bilirubin@0.0	Prothrombin@0.0	->	Cholesterol@0.0
+N_Days@0.0	Bilirubin@0.0	Prothrombin@0.0	->	Albumin@0.0
+N_Days@0.0	Bilirubin@0.0	Prothrombin@0.0	->	Copper@0.0
+N_Days@0.0	Bilirubin@0.0	Prothrombin@0.0	->	Alk_Phos@0.0
+N_Days@0.0	Bilirubin@0.0	Prothrombin@0.0	->	SGOT@0.0
+N_Days@0.0	Bilirubin@0.0	Prothrombin@0.0	->	Tryglicerides@0.0
+N_Days@0.0	Bilirubin@0.0	Prothrombin@0.0	->	Platelets@0.0
+N_Days@0.0	Bilirubin@0.0	Prothrombin@0.0	->	Stage@0.0
+Drug@0.0	Cholesterol@0.0	Platelets@0.0	Stage@0.0	->	Hepatomegaly@0.0
+Drug@0.0	Cholesterol@0.0	Platelets@0.0	Stage@0.0	->	Spiders@0.0
+Drug@0.0	Cholesterol@0.0	Platelets@0.0	Stage@0.0	->	Copper@0.0
+Drug@0.0	Cholesterol@0.0	Platelets@0.0	Stage@0.0	->	Alk_Phos@0.0
+Drug@0.0	Cholesterol@0.0	Platelets@0.0	Stage@0.0	->	SGOT@0.0
+Sex@0.0	Hepatomegaly@0.0	Spiders@0.0	Cholesterol@0.0	Prothrombin@0.0	->	Ascites@0.0
+Spiders@0.0	Bilirubin@0.0	Tryglicerides@0.0	Prothrombin@0.0	Stage@0.0	->	Drug@0.0
+Drug@0.0	Copper@0.0	Tryglicerides@0.0	->	Spiders@0.0
+Drug@0.0	Hepatomegaly@0.0	Edema@0.0	Alk_Phos@0.0	Stage@0.0	->	Tryglicerides@0.0
+Drug@0.0	Sex@0.0	Spiders@0.0	SGOT@0.0	Stage@0.0	->	Ascites@0.0
+Copper@0.0	Tryglicerides@0.0	->	Ascites@0.0
+Bilirubin@0.0	Albumin@0.0	Copper@0.0	->	Drug@0.0
+Bilirubin@0.0	Albumin@0.0	Copper@0.0	->	Ascites@0.0
+Bilirubin@0.0	Albumin@0.0	Copper@0.0	->	Hepatomegaly@0.0
+Bilirubin@0.0	Albumin@0.0	Copper@0.0	->	Spiders@0.0
+Bilirubin@0.0	Albumin@0.0	Copper@0.0	->	Edema@0.0
+Bilirubin@0.0	Albumin@0.0	Copper@0.0	->	Cholesterol@0.0
+Bilirubin@0.0	Albumin@0.0	Copper@0.0	->	Alk_Phos@0.0
+Bilirubin@0.0	Albumin@0.0	Copper@0.0	->	SGOT@0.0
+Bilirubin@0.0	Albumin@0.0	Copper@0.0	->	Tryglicerides@0.0
+Hepatomegaly@0.0	Tryglicerides@0.0	Platelets@0.0	->	Drug@0.0
+Hepatomegaly@0.0	Tryglicerides@0.0	Platelets@0.0	->	Ascites@0.0
+Hepatomegaly@0.0	Tryglicerides@0.0	Platelets@0.0	->	Spiders@0.0
+Hepatomegaly@0.0	Tryglicerides@0.0	Platelets@0.0	->	SGOT@0.0
+Albumin@0.0	Alk_Phos@0.0	Prothrombin@0.0	->	Status@0.0
+Albumin@0.0	Alk_Phos@0.0	Prothrombin@0.0	->	Sex@0.0
+Albumin@0.0	Alk_Phos@0.0	Prothrombin@0.0	->	Edema@0.0
+Albumin@0.0	Alk_Phos@0.0	Prothrombin@0.0	->	Stage@0.0
+Status@0.0	Spiders@0.0	Edema@0.0	Tryglicerides@0.0	Stage@0.0	->	Ascites@0.0
+Status@0.0	Copper@0.0	Tryglicerides@0.0	->	Drug@0.0
+Status@0.0	Copper@0.0	Tryglicerides@0.0	->	Spiders@0.0
+Age@0.0	Cholesterol@0.0	->	Drug@0.0
+Age@0.0	Cholesterol@0.0	->	Ascites@0.0
+Age@0.0	Cholesterol@0.0	->	Hepatomegaly@0.0
+Age@0.0	Cholesterol@0.0	->	Spiders@0.0
+Age@0.0	Cholesterol@0.0	->	Copper@0.0
+Age@0.0	Cholesterol@0.0	->	Alk_Phos@0.0
+Age@0.0	Cholesterol@0.0	->	SGOT@0.0
+Age@0.0	Cholesterol@0.0	->	Tryglicerides@0.0
+Ascites@0.0	Bilirubin@0.0	Tryglicerides@0.0	Prothrombin@0.0	Stage@0.0	->	Copper@0.0
+Ascites@0.0	Bilirubin@0.0	Tryglicerides@0.0	Prothrombin@0.0	Stage@0.0	->	Alk_Phos@0.0
+Ascites@0.0	Bilirubin@0.0	Tryglicerides@0.0	Prothrombin@0.0	Stage@0.0	->	SGOT@0.0
+Sex@0.0	Spiders@0.0	Bilirubin@0.0	Cholesterol@0.0	Prothrombin@0.0	Stage@0.0	->	Copper@0.0
+Sex@0.0	Spiders@0.0	Bilirubin@0.0	Cholesterol@0.0	Prothrombin@0.0	Stage@0.0	->	Alk_Phos@0.0
+Sex@0.0	Spiders@0.0	Bilirubin@0.0	Cholesterol@0.0	Prothrombin@0.0	Stage@0.0	->	SGOT@0.0
+Sex@0.0	Albumin@0.0	Platelets@0.0	->	Status@0.0
+Sex@0.0	Albumin@0.0	Platelets@0.0	->	Spiders@0.0
+Sex@0.0	Albumin@0.0	Platelets@0.0	->	Cholesterol@0.0
+Sex@0.0	Albumin@0.0	Platelets@0.0	->	Copper@0.0
+Sex@0.0	Albumin@0.0	Platelets@0.0	->	Alk_Phos@0.0
+Sex@0.0	Albumin@0.0	Platelets@0.0	->	SGOT@0.0
+Sex@0.0	Albumin@0.0	Platelets@0.0	->	Tryglicerides@0.0
+Age@0.0	Hepatomegaly@0.0	->	Ascites@0.0
+N_Days@0.0	SGOT@0.0	->	ID@0.0
+N_Days@0.0	SGOT@0.0	->	Status@0.0
+N_Days@0.0	SGOT@0.0	->	Drug@0.0
+N_Days@0.0	SGOT@0.0	->	Age@0.0
+N_Days@0.0	SGOT@0.0	->	Sex@0.0
+N_Days@0.0	SGOT@0.0	->	Ascites@0.0
+N_Days@0.0	SGOT@0.0	->	Hepatomegaly@0.0
+N_Days@0.0	SGOT@0.0	->	Spiders@0.0
+N_Days@0.0	SGOT@0.0	->	Edema@0.0
+N_Days@0.0	SGOT@0.0	->	Bilirubin@0.0
+N_Days@0.0	SGOT@0.0	->	Cholesterol@0.0
+N_Days@0.0	SGOT@0.0	->	Albumin@0.0
+N_Days@0.0	SGOT@0.0	->	Copper@0.0
+N_Days@0.0	SGOT@0.0	->	Alk_Phos@0.0
+N_Days@0.0	SGOT@0.0	->	Tryglicerides@0.0
+N_Days@0.0	SGOT@0.0	->	Platelets@0.0
+N_Days@0.0	SGOT@0.0	->	Prothrombin@0.0
+N_Days@0.0	SGOT@0.0	->	Stage@0.0
+Spiders@0.0	Edema@0.0	Platelets@0.0	->	Ascites@0.0
+Status@0.0	Age@0.0	Hepatomegaly@0.0	->	Spiders@0.0
+Spiders@0.0	Albumin@0.0	Platelets@0.0	Stage@0.0	->	ID@0.0
+Spiders@0.0	Albumin@0.0	Platelets@0.0	Stage@0.0	->	N_Days@0.0
+Spiders@0.0	Albumin@0.0	Platelets@0.0	Stage@0.0	->	Age@0.0
+Spiders@0.0	Albumin@0.0	Platelets@0.0	Stage@0.0	->	Bilirubin@0.0
+Spiders@0.0	Albumin@0.0	Platelets@0.0	Stage@0.0	->	Prothrombin@0.0
+Alk_Phos@0.0	Prothrombin@0.0	->	Ascites@0.0
+Alk_Phos@0.0	Prothrombin@0.0	->	Hepatomegaly@0.0
+Alk_Phos@0.0	Prothrombin@0.0	->	Spiders@0.0
+Status@0.0	Bilirubin@0.0	Platelets@0.0	->	Sex@0.0
+Sex@0.0	Spiders@0.0	Bilirubin@0.0	Prothrombin@0.0	Stage@0.0	->	Ascites@0.0
+Sex@0.0	Spiders@0.0	Bilirubin@0.0	Prothrombin@0.0	Stage@0.0	->	Edema@0.0
+Hepatomegaly@0.0	Bilirubin@0.0	Alk_Phos@0.0	->	Spiders@0.0
+Status@0.0	Bilirubin@0.0	Cholesterol@0.0	Albumin@0.0	->	Sex@0.0
+Spiders@0.0	Bilirubin@0.0	Cholesterol@0.0	Prothrombin@0.0	->	Status@0.0
+Spiders@0.0	Bilirubin@0.0	Cholesterol@0.0	Prothrombin@0.0	->	Drug@0.0
+Spiders@0.0	Bilirubin@0.0	Cholesterol@0.0	Prothrombin@0.0	->	Hepatomegaly@0.0
+Hepatomegaly@0.0	Bilirubin@0.0	Tryglicerides@0.0	Prothrombin@0.0	Stage@0.0	->	Drug@0.0
+Status@0.0	Hepatomegaly@0.0	Edema@0.0	Bilirubin@0.0	Tryglicerides@0.0	->	Ascites@0.0
+Spiders@0.0	Edema@0.0	Bilirubin@0.0	Tryglicerides@0.0	->	Ascites@0.0
+Status@0.0	SGOT@0.0	Prothrombin@0.0	Stage@0.0	->	Drug@0.0
+Status@0.0	SGOT@0.0	Prothrombin@0.0	Stage@0.0	->	Spiders@0.0
+Status@0.0	SGOT@0.0	Prothrombin@0.0	Stage@0.0	->	Cholesterol@0.0
+Status@0.0	SGOT@0.0	Prothrombin@0.0	Stage@0.0	->	Copper@0.0
+Status@0.0	SGOT@0.0	Prothrombin@0.0	Stage@0.0	->	Alk_Phos@0.0
+Status@0.0	SGOT@0.0	Prothrombin@0.0	Stage@0.0	->	Tryglicerides@0.0
+Status@0.0	Drug@0.0	Spiders@0.0	Edema@0.0	Albumin@0.0	->	Ascites@0.0
+Status@0.0	SGOT@0.0	Tryglicerides@0.0	Prothrombin@0.0	->	Drug@0.0
+Status@0.0	SGOT@0.0	Tryglicerides@0.0	Prothrombin@0.0	->	Spiders@0.0
+Status@0.0	SGOT@0.0	Tryglicerides@0.0	Prothrombin@0.0	->	Copper@0.0
+Status@0.0	SGOT@0.0	Tryglicerides@0.0	Prothrombin@0.0	->	Alk_Phos@0.0
+N_Days@0.0	Status@0.0	Spiders@0.0	->	Sex@0.0
+Status@0.0	Drug@0.0	Sex@0.0	Bilirubin@0.0	Stage@0.0	->	Ascites@0.0
+Status@0.0	Bilirubin@0.0	Albumin@0.0	->	Edema@0.0
+Status@0.0	Drug@0.0	Hepatomegaly@0.0	Alk_Phos@0.0	->	Spiders@0.0
+Bilirubin@0.0	Albumin@0.0	Tryglicerides@0.0	Stage@0.0	->	ID@0.0
+Bilirubin@0.0	Albumin@0.0	Tryglicerides@0.0	Stage@0.0	->	N_Days@0.0
+Bilirubin@0.0	Albumin@0.0	Tryglicerides@0.0	Stage@0.0	->	Status@0.0
+Bilirubin@0.0	Albumin@0.0	Tryglicerides@0.0	Stage@0.0	->	Age@0.0
+Bilirubin@0.0	Albumin@0.0	Tryglicerides@0.0	Stage@0.0	->	Platelets@0.0
+Bilirubin@0.0	Albumin@0.0	Tryglicerides@0.0	Stage@0.0	->	Prothrombin@0.0
+Cholesterol@0.0	Albumin@0.0	Stage@0.0	->	Sex@0.0
+Status@0.0	Age@0.0	Platelets@0.0	->	ID@0.0
+Status@0.0	Age@0.0	Platelets@0.0	->	N_Days@0.0
+Status@0.0	Age@0.0	Platelets@0.0	->	Edema@0.0
+Status@0.0	Age@0.0	Platelets@0.0	->	Bilirubin@0.0
+Status@0.0	Age@0.0	Platelets@0.0	->	Albumin@0.0
+Status@0.0	Age@0.0	Platelets@0.0	->	Prothrombin@0.0
+Status@0.0	Age@0.0	Platelets@0.0	->	Stage@0.0
+Spiders@0.0	Bilirubin@0.0	SGOT@0.0	Tryglicerides@0.0	->	Hepatomegaly@0.0
+Spiders@0.0	Bilirubin@0.0	SGOT@0.0	Tryglicerides@0.0	->	Cholesterol@0.0
+Spiders@0.0	Bilirubin@0.0	SGOT@0.0	Tryglicerides@0.0	->	Copper@0.0
+Spiders@0.0	Bilirubin@0.0	SGOT@0.0	Tryglicerides@0.0	->	Alk_Phos@0.0
+Drug@0.0	Bilirubin@0.0	Albumin@0.0	->	Ascites@0.0
+Drug@0.0	Bilirubin@0.0	Albumin@0.0	->	Edema@0.0
+Sex@0.0	Hepatomegaly@0.0	Bilirubin@0.0	Cholesterol@0.0	Prothrombin@0.0	Stage@0.0	->	Copper@0.0
+Sex@0.0	Hepatomegaly@0.0	Bilirubin@0.0	Cholesterol@0.0	Prothrombin@0.0	Stage@0.0	->	Alk_Phos@0.0
+Sex@0.0	Hepatomegaly@0.0	Bilirubin@0.0	Cholesterol@0.0	Prothrombin@0.0	Stage@0.0	->	SGOT@0.0
+Age@0.0	Platelets@0.0	->	Drug@0.0
+Age@0.0	Platelets@0.0	->	Sex@0.0
+Age@0.0	Platelets@0.0	->	Ascites@0.0
+Age@0.0	Platelets@0.0	->	Hepatomegaly@0.0
+Age@0.0	Platelets@0.0	->	Spiders@0.0
+Age@0.0	Platelets@0.0	->	Cholesterol@0.0
+Age@0.0	Platelets@0.0	->	Copper@0.0
+Age@0.0	Platelets@0.0	->	Alk_Phos@0.0
+Age@0.0	Platelets@0.0	->	SGOT@0.0
+Age@0.0	Platelets@0.0	->	Tryglicerides@0.0
+Drug@0.0	Spiders@0.0	Edema@0.0	Alk_Phos@0.0	Stage@0.0	->	Cholesterol@0.0
+Drug@0.0	Spiders@0.0	Edema@0.0	Alk_Phos@0.0	Stage@0.0	->	Copper@0.0
+Drug@0.0	Spiders@0.0	Edema@0.0	Alk_Phos@0.0	Stage@0.0	->	SGOT@0.0
+Drug@0.0	Spiders@0.0	Edema@0.0	Alk_Phos@0.0	Stage@0.0	->	Tryglicerides@0.0
+Drug@0.0	Sex@0.0	Bilirubin@0.0	Tryglicerides@0.0	->	Ascites@0.0
+Spiders@0.0	Cholesterol@0.0	SGOT@0.0	->	Drug@0.0
+Bilirubin@0.0	Albumin@0.0	Platelets@0.0	->	ID@0.0
+Bilirubin@0.0	Albumin@0.0	Platelets@0.0	->	N_Days@0.0
+Bilirubin@0.0	Albumin@0.0	Platelets@0.0	->	Status@0.0
+Bilirubin@0.0	Albumin@0.0	Platelets@0.0	->	Age@0.0
+Bilirubin@0.0	Albumin@0.0	Platelets@0.0	->	Sex@0.0
+Bilirubin@0.0	Albumin@0.0	Platelets@0.0	->	Spiders@0.0
+Bilirubin@0.0	Albumin@0.0	Platelets@0.0	->	Cholesterol@0.0
+Bilirubin@0.0	Albumin@0.0	Platelets@0.0	->	Copper@0.0
+Bilirubin@0.0	Albumin@0.0	Platelets@0.0	->	Alk_Phos@0.0
+Bilirubin@0.0	Albumin@0.0	Platelets@0.0	->	SGOT@0.0
+Bilirubin@0.0	Albumin@0.0	Platelets@0.0	->	Tryglicerides@0.0
+Bilirubin@0.0	Albumin@0.0	Platelets@0.0	->	Prothrombin@0.0
+Bilirubin@0.0	Albumin@0.0	Platelets@0.0	->	Stage@0.0
+Status@0.0	Sex@0.0	Ascites@0.0	Edema@0.0	Albumin@0.0	Prothrombin@0.0	->	Drug@0.0
+N_Days@0.0	Status@0.0	Drug@0.0	Ascites@0.0	Spiders@0.0	Stage@0.0	->	ID@0.0
+N_Days@0.0	Status@0.0	Drug@0.0	Ascites@0.0	Spiders@0.0	Stage@0.0	->	Age@0.0
+N_Days@0.0	Status@0.0	Drug@0.0	Ascites@0.0	Spiders@0.0	Stage@0.0	->	Cholesterol@0.0
+N_Days@0.0	Status@0.0	Drug@0.0	Ascites@0.0	Spiders@0.0	Stage@0.0	->	Albumin@0.0
+N_Days@0.0	Status@0.0	Drug@0.0	Ascites@0.0	Spiders@0.0	Stage@0.0	->	Copper@0.0
+N_Days@0.0	Status@0.0	Drug@0.0	Ascites@0.0	Spiders@0.0	Stage@0.0	->	Alk_Phos@0.0
+N_Days@0.0	Status@0.0	Drug@0.0	Ascites@0.0	Spiders@0.0	Stage@0.0	->	SGOT@0.0
+N_Days@0.0	Status@0.0	Drug@0.0	Ascites@0.0	Spiders@0.0	Stage@0.0	->	Tryglicerides@0.0
+N_Days@0.0	Status@0.0	Drug@0.0	Ascites@0.0	Spiders@0.0	Stage@0.0	->	Platelets@0.0
+N_Days@0.0	Status@0.0	Drug@0.0	Ascites@0.0	Spiders@0.0	Stage@0.0	->	Prothrombin@0.0
+Cholesterol@0.0	Alk_Phos@0.0	Prothrombin@0.0	->	Copper@0.0
+Cholesterol@0.0	Alk_Phos@0.0	Prothrombin@0.0	->	SGOT@0.0
+Status@0.0	Bilirubin@0.0	Tryglicerides@0.0	Stage@0.0	->	Cholesterol@0.0
+Status@0.0	Sex@0.0	Hepatomegaly@0.0	Edema@0.0	Cholesterol@0.0	Stage@0.0	->	Ascites@0.0
+Bilirubin@0.0	Cholesterol@0.0	Copper@0.0	->	Drug@0.0
+Bilirubin@0.0	Cholesterol@0.0	Copper@0.0	->	Hepatomegaly@0.0
+Bilirubin@0.0	Cholesterol@0.0	Copper@0.0	->	Spiders@0.0
+Bilirubin@0.0	Cholesterol@0.0	Copper@0.0	->	Alk_Phos@0.0
+Bilirubin@0.0	Cholesterol@0.0	Copper@0.0	->	SGOT@0.0
+Status@0.0	Drug@0.0	Tryglicerides@0.0	Platelets@0.0	->	Hepatomegaly@0.0
+Status@0.0	Drug@0.0	Tryglicerides@0.0	Platelets@0.0	->	Spiders@0.0
+Status@0.0	Drug@0.0	Tryglicerides@0.0	Platelets@0.0	->	SGOT@0.0
+N_Days@0.0	Age@0.0	->	ID@0.0
+N_Days@0.0	Age@0.0	->	Status@0.0
+N_Days@0.0	Age@0.0	->	Drug@0.0
+N_Days@0.0	Age@0.0	->	Sex@0.0
+N_Days@0.0	Age@0.0	->	Ascites@0.0
+N_Days@0.0	Age@0.0	->	Hepatomegaly@0.0
+N_Days@0.0	Age@0.0	->	Spiders@0.0
+N_Days@0.0	Age@0.0	->	Edema@0.0
+N_Days@0.0	Age@0.0	->	Bilirubin@0.0
+N_Days@0.0	Age@0.0	->	Cholesterol@0.0
+N_Days@0.0	Age@0.0	->	Albumin@0.0
+N_Days@0.0	Age@0.0	->	Copper@0.0
+N_Days@0.0	Age@0.0	->	Alk_Phos@0.0
+N_Days@0.0	Age@0.0	->	SGOT@0.0
+N_Days@0.0	Age@0.0	->	Tryglicerides@0.0
+N_Days@0.0	Age@0.0	->	Platelets@0.0
+N_Days@0.0	Age@0.0	->	Prothrombin@0.0
+N_Days@0.0	Age@0.0	->	Stage@0.0
+Drug@0.0	Sex@0.0	Hepatomegaly@0.0	Bilirubin@0.0	Prothrombin@0.0	Stage@0.0	->	Edema@0.0
+Status@0.0	Drug@0.0	Albumin@0.0	Tryglicerides@0.0	->	Sex@0.0
+Ascites@0.0	Tryglicerides@0.0	Platelets@0.0	->	Drug@0.0
+Copper@0.0	Platelets@0.0	Prothrombin@0.0	->	Status@0.0
+Copper@0.0	Platelets@0.0	Prothrombin@0.0	->	Drug@0.0
+Copper@0.0	Platelets@0.0	Prothrombin@0.0	->	Ascites@0.0
+Copper@0.0	Platelets@0.0	Prothrombin@0.0	->	Hepatomegaly@0.0
+Copper@0.0	Platelets@0.0	Prothrombin@0.0	->	Spiders@0.0
+Copper@0.0	Platelets@0.0	Prothrombin@0.0	->	Edema@0.0
+Copper@0.0	Platelets@0.0	Prothrombin@0.0	->	Cholesterol@0.0
+Copper@0.0	Platelets@0.0	Prothrombin@0.0	->	Alk_Phos@0.0
+Copper@0.0	Platelets@0.0	Prothrombin@0.0	->	SGOT@0.0
+Copper@0.0	Platelets@0.0	Prothrombin@0.0	->	Tryglicerides@0.0
+Copper@0.0	Platelets@0.0	Prothrombin@0.0	->	Stage@0.0
+Edema@0.0	Albumin@0.0	Copper@0.0	Stage@0.0	->	Cholesterol@0.0
+Edema@0.0	Albumin@0.0	Copper@0.0	Stage@0.0	->	Alk_Phos@0.0
+Edema@0.0	Albumin@0.0	Copper@0.0	Stage@0.0	->	SGOT@0.0
+Edema@0.0	Albumin@0.0	Copper@0.0	Stage@0.0	->	Tryglicerides@0.0
+Hepatomegaly@0.0	Bilirubin@0.0	Cholesterol@0.0	Prothrombin@0.0	->	Status@0.0
+Hepatomegaly@0.0	Bilirubin@0.0	Cholesterol@0.0	Prothrombin@0.0	->	Drug@0.0
+Hepatomegaly@0.0	Bilirubin@0.0	Cholesterol@0.0	Prothrombin@0.0	->	Spiders@0.0
+Drug@0.0	Bilirubin@0.0	Tryglicerides@0.0	Stage@0.0	->	Spiders@0.0
+SGOT@0.0	Prothrombin@0.0	Stage@0.0	->	Ascites@0.0
+SGOT@0.0	Prothrombin@0.0	Stage@0.0	->	Hepatomegaly@0.0
+Hepatomegaly@0.0	Bilirubin@0.0	SGOT@0.0	Stage@0.0	->	Drug@0.0
+Hepatomegaly@0.0	Bilirubin@0.0	SGOT@0.0	Stage@0.0	->	Cholesterol@0.0
+Hepatomegaly@0.0	Bilirubin@0.0	SGOT@0.0	Stage@0.0	->	Copper@0.0
+Hepatomegaly@0.0	Bilirubin@0.0	SGOT@0.0	Stage@0.0	->	Alk_Phos@0.0
+Hepatomegaly@0.0	Bilirubin@0.0	SGOT@0.0	Stage@0.0	->	Tryglicerides@0.0
+Status@0.0	Hepatomegaly@0.0	Cholesterol@0.0	Prothrombin@0.0	Stage@0.0	->	Spiders@0.0
+Bilirubin@0.0	Cholesterol@0.0	Albumin@0.0	->	Drug@0.0
+Bilirubin@0.0	Cholesterol@0.0	Albumin@0.0	->	Ascites@0.0
+Bilirubin@0.0	Cholesterol@0.0	Albumin@0.0	->	Hepatomegaly@0.0
+Bilirubin@0.0	Cholesterol@0.0	Albumin@0.0	->	Spiders@0.0
+Bilirubin@0.0	Cholesterol@0.0	Albumin@0.0	->	Edema@0.0
+Bilirubin@0.0	Cholesterol@0.0	Albumin@0.0	->	Copper@0.0
+Bilirubin@0.0	Cholesterol@0.0	Albumin@0.0	->	Alk_Phos@0.0
+Bilirubin@0.0	Cholesterol@0.0	Albumin@0.0	->	SGOT@0.0
+Bilirubin@0.0	Cholesterol@0.0	Albumin@0.0	->	Tryglicerides@0.0
+Sex@0.0	Bilirubin@0.0	Albumin@0.0	Tryglicerides@0.0	->	Status@0.0
+Drug@0.0	SGOT@0.0	Prothrombin@0.0	Stage@0.0	->	Spiders@0.0
+Drug@0.0	SGOT@0.0	Prothrombin@0.0	Stage@0.0	->	Cholesterol@0.0
+Drug@0.0	SGOT@0.0	Prothrombin@0.0	Stage@0.0	->	Copper@0.0
+Drug@0.0	SGOT@0.0	Prothrombin@0.0	Stage@0.0	->	Alk_Phos@0.0
+Drug@0.0	SGOT@0.0	Prothrombin@0.0	Stage@0.0	->	Tryglicerides@0.0
+Albumin@0.0	Alk_Phos@0.0	Platelets@0.0	->	Status@0.0
+Albumin@0.0	Alk_Phos@0.0	Platelets@0.0	->	Sex@0.0
+Drug@0.0	Bilirubin@0.0	Platelets@0.0	->	Status@0.0
+Drug@0.0	Bilirubin@0.0	Platelets@0.0	->	Sex@0.0
+Drug@0.0	Bilirubin@0.0	Platelets@0.0	->	Ascites@0.0
+N_Days@0.0	Spiders@0.0	->	Hepatomegaly@0.0
+Drug@0.0	Sex@0.0	Hepatomegaly@0.0	Cholesterol@0.0	Prothrombin@0.0	->	Ascites@0.0
+SGOT@0.0	Tryglicerides@0.0	Prothrombin@0.0	->	Hepatomegaly@0.0
+SGOT@0.0	Tryglicerides@0.0	Prothrombin@0.0	->	Cholesterol@0.0
+Drug@0.0	Edema@0.0	Bilirubin@0.0	Tryglicerides@0.0	Prothrombin@0.0	Stage@0.0	->	Copper@0.0
+Drug@0.0	Edema@0.0	Bilirubin@0.0	Tryglicerides@0.0	Prothrombin@0.0	Stage@0.0	->	Alk_Phos@0.0
+Drug@0.0	Edema@0.0	Bilirubin@0.0	Tryglicerides@0.0	Prothrombin@0.0	Stage@0.0	->	SGOT@0.0
+Age@0.0	Copper@0.0	->	Drug@0.0
+Age@0.0	Copper@0.0	->	Ascites@0.0
+Age@0.0	Copper@0.0	->	Hepatomegaly@0.0
+Age@0.0	Copper@0.0	->	Spiders@0.0
+Age@0.0	Copper@0.0	->	Cholesterol@0.0
+Age@0.0	Copper@0.0	->	Alk_Phos@0.0
+Age@0.0	Copper@0.0	->	SGOT@0.0
+Age@0.0	Copper@0.0	->	Tryglicerides@0.0
+Drug@0.0	Edema@0.0	Albumin@0.0	SGOT@0.0	->	Cholesterol@0.0
+Drug@0.0	Edema@0.0	Albumin@0.0	SGOT@0.0	->	Copper@0.0
+Drug@0.0	Edema@0.0	Albumin@0.0	SGOT@0.0	->	Alk_Phos@0.0
+Drug@0.0	Edema@0.0	Albumin@0.0	SGOT@0.0	->	Tryglicerides@0.0
+Status@0.0	Ascites@0.0	Spiders@0.0	Tryglicerides@0.0	Prothrombin@0.0	->	Hepatomegaly@0.0
+Hepatomegaly@0.0	Bilirubin@0.0	SGOT@0.0	Tryglicerides@0.0	->	Cholesterol@0.0
+Hepatomegaly@0.0	Bilirubin@0.0	SGOT@0.0	Tryglicerides@0.0	->	Copper@0.0
+Hepatomegaly@0.0	Bilirubin@0.0	SGOT@0.0	Tryglicerides@0.0	->	Alk_Phos@0.0
+Drug@0.0	SGOT@0.0	Tryglicerides@0.0	Prothrombin@0.0	->	Spiders@0.0
+Drug@0.0	SGOT@0.0	Tryglicerides@0.0	Prothrombin@0.0	->	Copper@0.0
+Drug@0.0	SGOT@0.0	Tryglicerides@0.0	Prothrombin@0.0	->	Alk_Phos@0.0
+Spiders@0.0	Copper@0.0	Tryglicerides@0.0	->	Drug@0.0
+Ascites@0.0	Cholesterol@0.0	Platelets@0.0	Stage@0.0	->	Hepatomegaly@0.0
+Ascites@0.0	Cholesterol@0.0	Platelets@0.0	Stage@0.0	->	Spiders@0.0
+Ascites@0.0	Cholesterol@0.0	Platelets@0.0	Stage@0.0	->	Copper@0.0
+Ascites@0.0	Cholesterol@0.0	Platelets@0.0	Stage@0.0	->	Alk_Phos@0.0
+Ascites@0.0	Cholesterol@0.0	Platelets@0.0	Stage@0.0	->	SGOT@0.0
+Hepatomegaly@0.0	Spiders@0.0	Alk_Phos@0.0	Tryglicerides@0.0	->	Copper@0.0
+Hepatomegaly@0.0	Spiders@0.0	Alk_Phos@0.0	Tryglicerides@0.0	->	SGOT@0.0
+Hepatomegaly@0.0	Edema@0.0	Bilirubin@0.0	Cholesterol@0.0	Stage@0.0	->	Ascites@0.0
+N_Days@0.0	Ascites@0.0	->	Edema@0.0
+Bilirubin@0.0	Cholesterol@0.0	Platelets@0.0	->	ID@0.0
+Bilirubin@0.0	Cholesterol@0.0	Platelets@0.0	->	N_Days@0.0
+Bilirubin@0.0	Cholesterol@0.0	Platelets@0.0	->	Status@0.0
+Bilirubin@0.0	Cholesterol@0.0	Platelets@0.0	->	Drug@0.0
+Bilirubin@0.0	Cholesterol@0.0	Platelets@0.0	->	Age@0.0
+Bilirubin@0.0	Cholesterol@0.0	Platelets@0.0	->	Sex@0.0
+Bilirubin@0.0	Cholesterol@0.0	Platelets@0.0	->	Ascites@0.0
+Bilirubin@0.0	Cholesterol@0.0	Platelets@0.0	->	Hepatomegaly@0.0
+Bilirubin@0.0	Cholesterol@0.0	Platelets@0.0	->	Spiders@0.0
+Bilirubin@0.0	Cholesterol@0.0	Platelets@0.0	->	Edema@0.0
+Bilirubin@0.0	Cholesterol@0.0	Platelets@0.0	->	Albumin@0.0
+Bilirubin@0.0	Cholesterol@0.0	Platelets@0.0	->	Copper@0.0
+Bilirubin@0.0	Cholesterol@0.0	Platelets@0.0	->	Alk_Phos@0.0
+Bilirubin@0.0	Cholesterol@0.0	Platelets@0.0	->	SGOT@0.0
+Bilirubin@0.0	Cholesterol@0.0	Platelets@0.0	->	Prothrombin@0.0
+Bilirubin@0.0	Cholesterol@0.0	Platelets@0.0	->	Stage@0.0
+Sex@0.0	Hepatomegaly@0.0	Bilirubin@0.0	Prothrombin@0.0	Stage@0.0	->	Ascites@0.0
+Sex@0.0	Spiders@0.0	Edema@0.0	Platelets@0.0	Prothrombin@0.0	->	Drug@0.0
+Drug@0.0	Ascites@0.0	Hepatomegaly@0.0	Edema@0.0	SGOT@0.0	Prothrombin@0.0	->	Cholesterol@0.0
+Drug@0.0	Ascites@0.0	Hepatomegaly@0.0	Edema@0.0	SGOT@0.0	Prothrombin@0.0	->	Copper@0.0
+Drug@0.0	Ascites@0.0	Hepatomegaly@0.0	Edema@0.0	SGOT@0.0	Prothrombin@0.0	->	Alk_Phos@0.0
+Drug@0.0	Ascites@0.0	Hepatomegaly@0.0	Edema@0.0	SGOT@0.0	Prothrombin@0.0	->	Tryglicerides@0.0
+Status@0.0	Spiders@0.0	Edema@0.0	Tryglicerides@0.0	Prothrombin@0.0	->	Ascites@0.0
+Status@0.0	Spiders@0.0	Edema@0.0	Tryglicerides@0.0	Prothrombin@0.0	->	Hepatomegaly@0.0
+Status@0.0	Edema@0.0	Bilirubin@0.0	Copper@0.0	Stage@0.0	->	Drug@0.0
+Status@0.0	Edema@0.0	Bilirubin@0.0	Copper@0.0	Stage@0.0	->	Hepatomegaly@0.0
+Status@0.0	Edema@0.0	Bilirubin@0.0	Copper@0.0	Stage@0.0	->	Cholesterol@0.0
+Status@0.0	Edema@0.0	Bilirubin@0.0	Copper@0.0	Stage@0.0	->	Alk_Phos@0.0
+Status@0.0	Edema@0.0	Bilirubin@0.0	Copper@0.0	Stage@0.0	->	SGOT@0.0
+Status@0.0	Edema@0.0	Bilirubin@0.0	Copper@0.0	Stage@0.0	->	Tryglicerides@0.0
+Drug@0.0	Edema@0.0	Albumin@0.0	Stage@0.0	->	Ascites@0.0
+Drug@0.0	Platelets@0.0	Prothrombin@0.0	->	Ascites@0.0
+Drug@0.0	Platelets@0.0	Prothrombin@0.0	->	Edema@0.0
+Status@0.0	Spiders@0.0	Bilirubin@0.0	Platelets@0.0	->	ID@0.0
+Status@0.0	Spiders@0.0	Bilirubin@0.0	Platelets@0.0	->	N_Days@0.0
+Status@0.0	Spiders@0.0	Bilirubin@0.0	Platelets@0.0	->	Drug@0.0
+Status@0.0	Spiders@0.0	Bilirubin@0.0	Platelets@0.0	->	Age@0.0
+Status@0.0	Spiders@0.0	Bilirubin@0.0	Platelets@0.0	->	Cholesterol@0.0
+Status@0.0	Spiders@0.0	Bilirubin@0.0	Platelets@0.0	->	Albumin@0.0
+Status@0.0	Spiders@0.0	Bilirubin@0.0	Platelets@0.0	->	Copper@0.0
+Status@0.0	Spiders@0.0	Bilirubin@0.0	Platelets@0.0	->	Alk_Phos@0.0
+Status@0.0	Spiders@0.0	Bilirubin@0.0	Platelets@0.0	->	SGOT@0.0
+Status@0.0	Spiders@0.0	Bilirubin@0.0	Platelets@0.0	->	Tryglicerides@0.0
+Status@0.0	Spiders@0.0	Bilirubin@0.0	Platelets@0.0	->	Prothrombin@0.0
+Drug@0.0	Hepatomegaly@0.0	Albumin@0.0	Prothrombin@0.0	->	Edema@0.0
+Age@0.0	Prothrombin@0.0	->	Drug@0.0
+Age@0.0	Prothrombin@0.0	->	Ascites@0.0
+Age@0.0	Prothrombin@0.0	->	Hepatomegaly@0.0
+Age@0.0	Prothrombin@0.0	->	Spiders@0.0
+Age@0.0	Prothrombin@0.0	->	Edema@0.0
+Age@0.0	Prothrombin@0.0	->	Cholesterol@0.0
+Age@0.0	Prothrombin@0.0	->	Copper@0.0
+Age@0.0	Prothrombin@0.0	->	Alk_Phos@0.0
+Age@0.0	Prothrombin@0.0	->	SGOT@0.0
+Age@0.0	Prothrombin@0.0	->	Tryglicerides@0.0
+Edema@0.0	Bilirubin@0.0	Cholesterol@0.0	Prothrombin@0.0	->	Sex@0.0
+Spiders@0.0	Cholesterol@0.0	Platelets@0.0	->	Drug@0.0
+Spiders@0.0	Cholesterol@0.0	Platelets@0.0	->	Ascites@0.0
+Spiders@0.0	Cholesterol@0.0	Platelets@0.0	->	Hepatomegaly@0.0
+Spiders@0.0	Cholesterol@0.0	Platelets@0.0	->	Copper@0.0
+Spiders@0.0	Cholesterol@0.0	Platelets@0.0	->	Alk_Phos@0.0
+Spiders@0.0	Cholesterol@0.0	Platelets@0.0	->	SGOT@0.0
+Hepatomegaly@0.0	Edema@0.0	Bilirubin@0.0	Prothrombin@0.0	->	Ascites@0.0
+Albumin@0.0	Copper@0.0	Prothrombin@0.0	->	Status@0.0
+Albumin@0.0	Copper@0.0	Prothrombin@0.0	->	Drug@0.0
+Albumin@0.0	Copper@0.0	Prothrombin@0.0	->	Sex@0.0
+Albumin@0.0	Copper@0.0	Prothrombin@0.0	->	Ascites@0.0
+Albumin@0.0	Copper@0.0	Prothrombin@0.0	->	Hepatomegaly@0.0
+Albumin@0.0	Copper@0.0	Prothrombin@0.0	->	Spiders@0.0
+Albumin@0.0	Copper@0.0	Prothrombin@0.0	->	Edema@0.0
+Albumin@0.0	Copper@0.0	Prothrombin@0.0	->	Cholesterol@0.0
+Albumin@0.0	Copper@0.0	Prothrombin@0.0	->	Alk_Phos@0.0
+Albumin@0.0	Copper@0.0	Prothrombin@0.0	->	SGOT@0.0
+Albumin@0.0	Copper@0.0	Prothrombin@0.0	->	Tryglicerides@0.0
+Albumin@0.0	Copper@0.0	Prothrombin@0.0	->	Stage@0.0
+Edema@0.0	Bilirubin@0.0	SGOT@0.0	Stage@0.0	->	Drug@0.0
+Edema@0.0	Bilirubin@0.0	SGOT@0.0	Stage@0.0	->	Hepatomegaly@0.0
+Edema@0.0	Bilirubin@0.0	SGOT@0.0	Stage@0.0	->	Cholesterol@0.0
+Edema@0.0	Bilirubin@0.0	SGOT@0.0	Stage@0.0	->	Copper@0.0
+Edema@0.0	Bilirubin@0.0	SGOT@0.0	Stage@0.0	->	Alk_Phos@0.0
+Edema@0.0	Bilirubin@0.0	SGOT@0.0	Stage@0.0	->	Tryglicerides@0.0
+Status@0.0	Albumin@0.0	Tryglicerides@0.0	Prothrombin@0.0	->	Drug@0.0
+Status@0.0	Albumin@0.0	Tryglicerides@0.0	Prothrombin@0.0	->	Ascites@0.0
+Status@0.0	Albumin@0.0	Tryglicerides@0.0	Prothrombin@0.0	->	Hepatomegaly@0.0
+Status@0.0	Albumin@0.0	Tryglicerides@0.0	Prothrombin@0.0	->	Spiders@0.0
+Status@0.0	Albumin@0.0	Tryglicerides@0.0	Prothrombin@0.0	->	Cholesterol@0.0
+Status@0.0	Albumin@0.0	Tryglicerides@0.0	Prothrombin@0.0	->	Copper@0.0
+Status@0.0	Albumin@0.0	Tryglicerides@0.0	Prothrombin@0.0	->	Alk_Phos@0.0
+Status@0.0	Albumin@0.0	Tryglicerides@0.0	Prothrombin@0.0	->	SGOT@0.0
+Status@0.0	Albumin@0.0	Tryglicerides@0.0	Prothrombin@0.0	->	Stage@0.0
+Albumin@0.0	SGOT@0.0	Platelets@0.0	Stage@0.0	->	ID@0.0
+Albumin@0.0	SGOT@0.0	Platelets@0.0	Stage@0.0	->	N_Days@0.0
+Albumin@0.0	SGOT@0.0	Platelets@0.0	Stage@0.0	->	Age@0.0
+Albumin@0.0	SGOT@0.0	Platelets@0.0	Stage@0.0	->	Bilirubin@0.0
+Albumin@0.0	SGOT@0.0	Platelets@0.0	Stage@0.0	->	Prothrombin@0.0
+Status@0.0	Spiders@0.0	Bilirubin@0.0	Albumin@0.0	->	Sex@0.0
+Status@0.0	Spiders@0.0	Bilirubin@0.0	Albumin@0.0	->	Hepatomegaly@0.0
+Age@0.0	Edema@0.0	Bilirubin@0.0	->	Sex@0.0
+Copper@0.0	Alk_Phos@0.0	->	Drug@0.0
+Copper@0.0	Alk_Phos@0.0	->	Ascites@0.0
+Copper@0.0	Alk_Phos@0.0	->	Hepatomegaly@0.0
+Copper@0.0	Alk_Phos@0.0	->	Spiders@0.0
+Copper@0.0	Alk_Phos@0.0	->	Cholesterol@0.0
+Copper@0.0	Alk_Phos@0.0	->	SGOT@0.0
+Copper@0.0	Alk_Phos@0.0	->	Tryglicerides@0.0
+Age@0.0	Albumin@0.0	Platelets@0.0	->	ID@0.0
+Age@0.0	Albumin@0.0	Platelets@0.0	->	N_Days@0.0
+Age@0.0	Albumin@0.0	Platelets@0.0	->	Bilirubin@0.0
+Age@0.0	Albumin@0.0	Platelets@0.0	->	Prothrombin@0.0
+Age@0.0	Albumin@0.0	Platelets@0.0	->	Stage@0.0
+Status@0.0	Alk_Phos@0.0	Tryglicerides@0.0	->	Hepatomegaly@0.0
+Status@0.0	Alk_Phos@0.0	Tryglicerides@0.0	->	Spiders@0.0
+Status@0.0	Alk_Phos@0.0	Tryglicerides@0.0	->	Cholesterol@0.0
+Status@0.0	Alk_Phos@0.0	Tryglicerides@0.0	->	Copper@0.0
+Status@0.0	Alk_Phos@0.0	Tryglicerides@0.0	->	SGOT@0.0
+Status@0.0	Hepatomegaly@0.0	Edema@0.0	Platelets@0.0	->	Ascites@0.0
+Drug@0.0	Hepatomegaly@0.0	Tryglicerides@0.0	Prothrombin@0.0	Stage@0.0	->	Cholesterol@0.0
+Drug@0.0	Sex@0.0	Hepatomegaly@0.0	SGOT@0.0	Tryglicerides@0.0	->	Spiders@0.0
+N_Days@0.0	Albumin@0.0	->	ID@0.0
+N_Days@0.0	Albumin@0.0	->	Status@0.0
+N_Days@0.0	Albumin@0.0	->	Drug@0.0
+N_Days@0.0	Albumin@0.0	->	Age@0.0
+N_Days@0.0	Albumin@0.0	->	Sex@0.0
+N_Days@0.0	Albumin@0.0	->	Ascites@0.0
+N_Days@0.0	Albumin@0.0	->	Hepatomegaly@0.0
+N_Days@0.0	Albumin@0.0	->	Spiders@0.0
+N_Days@0.0	Albumin@0.0	->	Edema@0.0
+N_Days@0.0	Albumin@0.0	->	Bilirubin@0.0
+N_Days@0.0	Albumin@0.0	->	Cholesterol@0.0
+N_Days@0.0	Albumin@0.0	->	Copper@0.0
+N_Days@0.0	Albumin@0.0	->	Alk_Phos@0.0
+N_Days@0.0	Albumin@0.0	->	SGOT@0.0
+N_Days@0.0	Albumin@0.0	->	Tryglicerides@0.0
+N_Days@0.0	Albumin@0.0	->	Platelets@0.0
+N_Days@0.0	Albumin@0.0	->	Prothrombin@0.0
+N_Days@0.0	Albumin@0.0	->	Stage@0.0
+Ascites@0.0	Bilirubin@0.0	Albumin@0.0	->	Edema@0.0
+N_Days@0.0	Drug@0.0	Sex@0.0	Ascites@0.0	Spiders@0.0	->	Bilirubin@0.0
+Hepatomegaly@0.0	Bilirubin@0.0	Alk_Phos@0.0	Stage@0.0	->	Cholesterol@0.0
+Hepatomegaly@0.0	Bilirubin@0.0	Alk_Phos@0.0	Stage@0.0	->	Copper@0.0
+Hepatomegaly@0.0	Bilirubin@0.0	Alk_Phos@0.0	Stage@0.0	->	SGOT@0.0
+Hepatomegaly@0.0	Bilirubin@0.0	Alk_Phos@0.0	Stage@0.0	->	Tryglicerides@0.0
+Spiders@0.0	Edema@0.0	SGOT@0.0	Stage@0.0	->	Ascites@0.0
+Drug@0.0	Hepatomegaly@0.0	Platelets@0.0	Prothrombin@0.0	->	Spiders@0.0
+Status@0.0	Spiders@0.0	Bilirubin@0.0	Copper@0.0	->	Ascites@0.0
+Spiders@0.0	Cholesterol@0.0	SGOT@0.0	Prothrombin@0.0	->	Copper@0.0
+Spiders@0.0	Cholesterol@0.0	SGOT@0.0	Prothrombin@0.0	->	Alk_Phos@0.0
+Status@0.0	Spiders@0.0	Albumin@0.0	Tryglicerides@0.0	->	Sex@0.0
+Albumin@0.0	Alk_Phos@0.0	->	Drug@0.0
+Albumin@0.0	Alk_Phos@0.0	->	Ascites@0.0
+Albumin@0.0	Alk_Phos@0.0	->	Hepatomegaly@0.0
+Albumin@0.0	Alk_Phos@0.0	->	Spiders@0.0
+Albumin@0.0	Alk_Phos@0.0	->	Cholesterol@0.0
+Albumin@0.0	Alk_Phos@0.0	->	Copper@0.0
+Albumin@0.0	Alk_Phos@0.0	->	SGOT@0.0
+Albumin@0.0	Alk_Phos@0.0	->	Tryglicerides@0.0
+Status@0.0	Sex@0.0	Edema@0.0	Cholesterol@0.0	Platelets@0.0	->	Drug@0.0
+Status@0.0	Sex@0.0	Edema@0.0	Cholesterol@0.0	Platelets@0.0	->	Ascites@0.0
+Status@0.0	Sex@0.0	Edema@0.0	Cholesterol@0.0	Platelets@0.0	->	Hepatomegaly@0.0
+Status@0.0	Sex@0.0	Edema@0.0	Cholesterol@0.0	Platelets@0.0	->	Spiders@0.0
+Status@0.0	Sex@0.0	Edema@0.0	Cholesterol@0.0	Platelets@0.0	->	Copper@0.0
+Status@0.0	Sex@0.0	Edema@0.0	Cholesterol@0.0	Platelets@0.0	->	Alk_Phos@0.0
+Status@0.0	Sex@0.0	Edema@0.0	Cholesterol@0.0	Platelets@0.0	->	SGOT@0.0
+N_Days@0.0	Status@0.0	Hepatomegaly@0.0	->	Sex@0.0
+N_Days@0.0	Status@0.0	Stage@0.0	->	Sex@0.0
+N_Days@0.0	Status@0.0	Stage@0.0	->	Hepatomegaly@0.0
+Albumin@0.0	Tryglicerides@0.0	Prothrombin@0.0	Stage@0.0	->	Status@0.0
+Albumin@0.0	Tryglicerides@0.0	Prothrombin@0.0	Stage@0.0	->	Drug@0.0
+Albumin@0.0	Tryglicerides@0.0	Prothrombin@0.0	Stage@0.0	->	Ascites@0.0
+Albumin@0.0	Tryglicerides@0.0	Prothrombin@0.0	Stage@0.0	->	Hepatomegaly@0.0
+Albumin@0.0	Tryglicerides@0.0	Prothrombin@0.0	Stage@0.0	->	Spiders@0.0
+Albumin@0.0	Tryglicerides@0.0	Prothrombin@0.0	Stage@0.0	->	Cholesterol@0.0
+Albumin@0.0	Tryglicerides@0.0	Prothrombin@0.0	Stage@0.0	->	Copper@0.0
+Albumin@0.0	Tryglicerides@0.0	Prothrombin@0.0	Stage@0.0	->	Alk_Phos@0.0
+Albumin@0.0	Tryglicerides@0.0	Prothrombin@0.0	Stage@0.0	->	SGOT@0.0
+Spiders@0.0	Edema@0.0	Bilirubin@0.0	Cholesterol@0.0	Prothrombin@0.0	Stage@0.0	->	Copper@0.0
+Spiders@0.0	Edema@0.0	Bilirubin@0.0	Cholesterol@0.0	Prothrombin@0.0	Stage@0.0	->	Alk_Phos@0.0
+Spiders@0.0	Edema@0.0	Bilirubin@0.0	Cholesterol@0.0	Prothrombin@0.0	Stage@0.0	->	SGOT@0.0
+Ascites@0.0	Bilirubin@0.0	Tryglicerides@0.0	Stage@0.0	->	Spiders@0.0
+Hepatomegaly@0.0	Cholesterol@0.0	Alk_Phos@0.0	->	Copper@0.0
+Hepatomegaly@0.0	Cholesterol@0.0	Alk_Phos@0.0	->	SGOT@0.0
+Drug@0.0	Edema@0.0	Bilirubin@0.0	Prothrombin@0.0	->	Ascites@0.0
+Drug@0.0	Sex@0.0	Hepatomegaly@0.0	Spiders@0.0	Bilirubin@0.0	Stage@0.0	->	Ascites@0.0
+Spiders@0.0	Bilirubin@0.0	Albumin@0.0	Stage@0.0	->	Drug@0.0
+Spiders@0.0	Bilirubin@0.0	Albumin@0.0	Stage@0.0	->	Hepatomegaly@0.0
+N_Days@0.0	Drug@0.0	Sex@0.0	->	Status@0.0
+Hepatomegaly@0.0	Edema@0.0	Platelets@0.0	Stage@0.0	->	Ascites@0.0
+Status@0.0	Drug@0.0	Sex@0.0	Hepatomegaly@0.0	Edema@0.0	Platelets@0.0	->	Spiders@0.0
+Ascites@0.0	Bilirubin@0.0	Platelets@0.0	->	Sex@0.0
+Albumin@0.0	Platelets@0.0	Prothrombin@0.0	->	ID@0.0
+Albumin@0.0	Platelets@0.0	Prothrombin@0.0	->	N_Days@0.0
+Albumin@0.0	Platelets@0.0	Prothrombin@0.0	->	Status@0.0
+Albumin@0.0	Platelets@0.0	Prothrombin@0.0	->	Age@0.0
+Albumin@0.0	Platelets@0.0	Prothrombin@0.0	->	Sex@0.0
+Albumin@0.0	Platelets@0.0	Prothrombin@0.0	->	Spiders@0.0
+Albumin@0.0	Platelets@0.0	Prothrombin@0.0	->	Bilirubin@0.0
+Albumin@0.0	Platelets@0.0	Prothrombin@0.0	->	Cholesterol@0.0
+Albumin@0.0	Platelets@0.0	Prothrombin@0.0	->	Copper@0.0
+Albumin@0.0	Platelets@0.0	Prothrombin@0.0	->	Alk_Phos@0.0
+Albumin@0.0	Platelets@0.0	Prothrombin@0.0	->	SGOT@0.0
+Albumin@0.0	Platelets@0.0	Prothrombin@0.0	->	Tryglicerides@0.0
+Albumin@0.0	Platelets@0.0	Prothrombin@0.0	->	Stage@0.0
+N_Days@0.0	Cholesterol@0.0	->	ID@0.0
+N_Days@0.0	Cholesterol@0.0	->	Status@0.0
+N_Days@0.0	Cholesterol@0.0	->	Drug@0.0
+N_Days@0.0	Cholesterol@0.0	->	Age@0.0
+N_Days@0.0	Cholesterol@0.0	->	Sex@0.0
+N_Days@0.0	Cholesterol@0.0	->	Ascites@0.0
+N_Days@0.0	Cholesterol@0.0	->	Hepatomegaly@0.0
+N_Days@0.0	Cholesterol@0.0	->	Spiders@0.0
+N_Days@0.0	Cholesterol@0.0	->	Edema@0.0
+N_Days@0.0	Cholesterol@0.0	->	Bilirubin@0.0
+N_Days@0.0	Cholesterol@0.0	->	Albumin@0.0
+N_Days@0.0	Cholesterol@0.0	->	Copper@0.0
+N_Days@0.0	Cholesterol@0.0	->	Alk_Phos@0.0
+N_Days@0.0	Cholesterol@0.0	->	SGOT@0.0
+N_Days@0.0	Cholesterol@0.0	->	Tryglicerides@0.0
+N_Days@0.0	Cholesterol@0.0	->	Platelets@0.0
+N_Days@0.0	Cholesterol@0.0	->	Prothrombin@0.0
+N_Days@0.0	Cholesterol@0.0	->	Stage@0.0
+Age@0.0	Sex@0.0	Prothrombin@0.0	->	Status@0.0
+Alk_Phos@0.0	Tryglicerides@0.0	Stage@0.0	->	Hepatomegaly@0.0
+Cholesterol@0.0	Copper@0.0	Prothrombin@0.0	->	Drug@0.0
+Cholesterol@0.0	Copper@0.0	Prothrombin@0.0	->	Hepatomegaly@0.0
+Cholesterol@0.0	Copper@0.0	Prothrombin@0.0	->	Spiders@0.0
+Cholesterol@0.0	Copper@0.0	Prothrombin@0.0	->	Alk_Phos@0.0
+Cholesterol@0.0	Copper@0.0	Prothrombin@0.0	->	SGOT@0.0
+Status@0.0	Drug@0.0	Age@0.0	Hepatomegaly@0.0	->	Cholesterol@0.0
+Status@0.0	Drug@0.0	Age@0.0	Hepatomegaly@0.0	->	Copper@0.0
+Status@0.0	Drug@0.0	Age@0.0	Hepatomegaly@0.0	->	Alk_Phos@0.0
+Status@0.0	Drug@0.0	Age@0.0	Hepatomegaly@0.0	->	SGOT@0.0
+Status@0.0	Drug@0.0	Age@0.0	Hepatomegaly@0.0	->	Tryglicerides@0.0
+Bilirubin@0.0	Albumin@0.0	Alk_Phos@0.0	Stage@0.0	->	ID@0.0
+Bilirubin@0.0	Albumin@0.0	Alk_Phos@0.0	Stage@0.0	->	N_Days@0.0
+Bilirubin@0.0	Albumin@0.0	Alk_Phos@0.0	Stage@0.0	->	Status@0.0
+Bilirubin@0.0	Albumin@0.0	Alk_Phos@0.0	Stage@0.0	->	Age@0.0
+Bilirubin@0.0	Albumin@0.0	Alk_Phos@0.0	Stage@0.0	->	Platelets@0.0
+Bilirubin@0.0	Albumin@0.0	Alk_Phos@0.0	Stage@0.0	->	Prothrombin@0.0
+Drug@0.0	Sex@0.0	Ascites@0.0	Bilirubin@0.0	Prothrombin@0.0	Stage@0.0	->	Edema@0.0
+Edema@0.0	Copper@0.0	Tryglicerides@0.0	->	Drug@0.0
+Edema@0.0	Copper@0.0	Tryglicerides@0.0	->	Spiders@0.0
+Drug@0.0	Age@0.0	Stage@0.0	->	Hepatomegaly@0.0
+Status@0.0	Sex@0.0	Ascites@0.0	Spiders@0.0	Edema@0.0	Albumin@0.0	Prothrombin@0.0	Stage@0.0	->	Cholesterol@0.0
+Status@0.0	Sex@0.0	Ascites@0.0	Spiders@0.0	Edema@0.0	Albumin@0.0	Prothrombin@0.0	Stage@0.0	->	Copper@0.0
+Status@0.0	Sex@0.0	Ascites@0.0	Spiders@0.0	Edema@0.0	Albumin@0.0	Prothrombin@0.0	Stage@0.0	->	Alk_Phos@0.0
+Status@0.0	Sex@0.0	Ascites@0.0	Spiders@0.0	Edema@0.0	Albumin@0.0	Prothrombin@0.0	Stage@0.0	->	SGOT@0.0
+Status@0.0	Sex@0.0	Ascites@0.0	Spiders@0.0	Edema@0.0	Albumin@0.0	Prothrombin@0.0	Stage@0.0	->	Tryglicerides@0.0
+Alk_Phos@0.0	Platelets@0.0	->	Drug@0.0
+Alk_Phos@0.0	Platelets@0.0	->	Ascites@0.0
+Alk_Phos@0.0	Platelets@0.0	->	Hepatomegaly@0.0
+Alk_Phos@0.0	Platelets@0.0	->	Spiders@0.0
+Alk_Phos@0.0	Platelets@0.0	->	Cholesterol@0.0
+Alk_Phos@0.0	Platelets@0.0	->	Copper@0.0
+Alk_Phos@0.0	Platelets@0.0	->	SGOT@0.0
+Alk_Phos@0.0	Platelets@0.0	->	Tryglicerides@0.0
+N_Days@0.0	Bilirubin@0.0	Stage@0.0	->	ID@0.0
+N_Days@0.0	Bilirubin@0.0	Stage@0.0	->	Age@0.0
+N_Days@0.0	Bilirubin@0.0	Stage@0.0	->	Cholesterol@0.0
+N_Days@0.0	Bilirubin@0.0	Stage@0.0	->	Albumin@0.0
+N_Days@0.0	Bilirubin@0.0	Stage@0.0	->	Copper@0.0
+N_Days@0.0	Bilirubin@0.0	Stage@0.0	->	Alk_Phos@0.0
+N_Days@0.0	Bilirubin@0.0	Stage@0.0	->	SGOT@0.0
+N_Days@0.0	Bilirubin@0.0	Stage@0.0	->	Tryglicerides@0.0
+N_Days@0.0	Bilirubin@0.0	Stage@0.0	->	Platelets@0.0
+N_Days@0.0	Bilirubin@0.0	Stage@0.0	->	Prothrombin@0.0
+Spiders@0.0	Cholesterol@0.0	Albumin@0.0	->	Ascites@0.0
+Drug@0.0	Hepatomegaly@0.0	Copper@0.0	Prothrombin@0.0	->	Spiders@0.0
+Hepatomegaly@0.0	Copper@0.0	Prothrombin@0.0	->	Ascites@0.0
+Status@0.0	Drug@0.0	Age@0.0	Sex@0.0	->	Cholesterol@0.0
+Status@0.0	Drug@0.0	Age@0.0	Sex@0.0	->	Copper@0.0
+Status@0.0	Drug@0.0	Age@0.0	Sex@0.0	->	Alk_Phos@0.0
+Status@0.0	Drug@0.0	Age@0.0	Sex@0.0	->	SGOT@0.0
+Status@0.0	Drug@0.0	Age@0.0	Sex@0.0	->	Tryglicerides@0.0
+Status@0.0	Sex@0.0	Spiders@0.0	Cholesterol@0.0	Stage@0.0	->	Ascites@0.0
+Drug@0.0	Bilirubin@0.0	Cholesterol@0.0	->	Spiders@0.0
+Drug@0.0	Bilirubin@0.0	Cholesterol@0.0	->	Tryglicerides@0.0
+Bilirubin@0.0	SGOT@0.0	Prothrombin@0.0	->	Status@0.0
+Bilirubin@0.0	SGOT@0.0	Prothrombin@0.0	->	Drug@0.0
+Bilirubin@0.0	SGOT@0.0	Prothrombin@0.0	->	Sex@0.0
+Bilirubin@0.0	SGOT@0.0	Prothrombin@0.0	->	Hepatomegaly@0.0
+Bilirubin@0.0	SGOT@0.0	Prothrombin@0.0	->	Spiders@0.0
+Bilirubin@0.0	SGOT@0.0	Prothrombin@0.0	->	Edema@0.0
+Bilirubin@0.0	SGOT@0.0	Prothrombin@0.0	->	Cholesterol@0.0
+Bilirubin@0.0	SGOT@0.0	Prothrombin@0.0	->	Copper@0.0
+Bilirubin@0.0	SGOT@0.0	Prothrombin@0.0	->	Alk_Phos@0.0
+Bilirubin@0.0	SGOT@0.0	Prothrombin@0.0	->	Tryglicerides@0.0
+Drug@0.0	Albumin@0.0	Copper@0.0	->	Ascites@0.0
+Drug@0.0	Albumin@0.0	Copper@0.0	->	Hepatomegaly@0.0
+Drug@0.0	Albumin@0.0	Copper@0.0	->	Spiders@0.0
+Status@0.0	Spiders@0.0	Copper@0.0	Prothrombin@0.0	->	Ascites@0.0
+Hepatomegaly@0.0	Bilirubin@0.0	Platelets@0.0	->	Sex@0.0
+Hepatomegaly@0.0	Bilirubin@0.0	Platelets@0.0	->	Ascites@0.0
+Hepatomegaly@0.0	Bilirubin@0.0	Platelets@0.0	->	Edema@0.0
+Hepatomegaly@0.0	Bilirubin@0.0	Platelets@0.0	->	Stage@0.0
+Age@0.0	Platelets@0.0	Prothrombin@0.0	->	ID@0.0
+Age@0.0	Platelets@0.0	Prothrombin@0.0	->	N_Days@0.0
+Age@0.0	Platelets@0.0	Prothrombin@0.0	->	Status@0.0
+Age@0.0	Platelets@0.0	Prothrombin@0.0	->	Bilirubin@0.0
+Age@0.0	Platelets@0.0	Prothrombin@0.0	->	Albumin@0.0
+Age@0.0	Platelets@0.0	Prothrombin@0.0	->	Stage@0.0
+Cholesterol@0.0	Albumin@0.0	Prothrombin@0.0	->	Status@0.0
+Cholesterol@0.0	Albumin@0.0	Prothrombin@0.0	->	Drug@0.0
+Cholesterol@0.0	Albumin@0.0	Prothrombin@0.0	->	Sex@0.0
+Cholesterol@0.0	Albumin@0.0	Prothrombin@0.0	->	Ascites@0.0
+Cholesterol@0.0	Albumin@0.0	Prothrombin@0.0	->	Hepatomegaly@0.0
+Cholesterol@0.0	Albumin@0.0	Prothrombin@0.0	->	Spiders@0.0
+Cholesterol@0.0	Albumin@0.0	Prothrombin@0.0	->	Edema@0.0
+Cholesterol@0.0	Albumin@0.0	Prothrombin@0.0	->	Copper@0.0
+Cholesterol@0.0	Albumin@0.0	Prothrombin@0.0	->	Alk_Phos@0.0
+Cholesterol@0.0	Albumin@0.0	Prothrombin@0.0	->	SGOT@0.0
+Cholesterol@0.0	Albumin@0.0	Prothrombin@0.0	->	Tryglicerides@0.0
+Cholesterol@0.0	Albumin@0.0	Prothrombin@0.0	->	Stage@0.0
+Drug@0.0	Edema@0.0	Bilirubin@0.0	Cholesterol@0.0	->	Ascites@0.0
+Drug@0.0	Spiders@0.0	Albumin@0.0	Prothrombin@0.0	Stage@0.0	->	Hepatomegaly@0.0
+Drug@0.0	Spiders@0.0	Albumin@0.0	Prothrombin@0.0	Stage@0.0	->	Cholesterol@0.0
+Drug@0.0	Spiders@0.0	Albumin@0.0	Prothrombin@0.0	Stage@0.0	->	Copper@0.0
+Drug@0.0	Spiders@0.0	Albumin@0.0	Prothrombin@0.0	Stage@0.0	->	Alk_Phos@0.0
+Drug@0.0	Spiders@0.0	Albumin@0.0	Prothrombin@0.0	Stage@0.0	->	SGOT@0.0
+Drug@0.0	Spiders@0.0	Albumin@0.0	Prothrombin@0.0	Stage@0.0	->	Tryglicerides@0.0
+Age@0.0	Alk_Phos@0.0	->	Drug@0.0
+Age@0.0	Alk_Phos@0.0	->	Ascites@0.0
+Age@0.0	Alk_Phos@0.0	->	Hepatomegaly@0.0
+Age@0.0	Alk_Phos@0.0	->	Spiders@0.0
+Age@0.0	Alk_Phos@0.0	->	Cholesterol@0.0
+Age@0.0	Alk_Phos@0.0	->	Copper@0.0
+Age@0.0	Alk_Phos@0.0	->	SGOT@0.0
+Age@0.0	Alk_Phos@0.0	->	Tryglicerides@0.0
+Albumin@0.0	Copper@0.0	Platelets@0.0	->	Status@0.0
+Albumin@0.0	Copper@0.0	Platelets@0.0	->	Sex@0.0
+Albumin@0.0	Copper@0.0	Platelets@0.0	->	Spiders@0.0
+Albumin@0.0	Copper@0.0	Platelets@0.0	->	Cholesterol@0.0
+Albumin@0.0	Copper@0.0	Platelets@0.0	->	Alk_Phos@0.0
+Albumin@0.0	Copper@0.0	Platelets@0.0	->	SGOT@0.0
+Albumin@0.0	Copper@0.0	Platelets@0.0	->	Tryglicerides@0.0
+Edema@0.0	Alk_Phos@0.0	Prothrombin@0.0	->	Drug@0.0
+Edema@0.0	Alk_Phos@0.0	Prothrombin@0.0	->	Cholesterol@0.0
+Edema@0.0	Alk_Phos@0.0	Prothrombin@0.0	->	Copper@0.0
+Edema@0.0	Alk_Phos@0.0	Prothrombin@0.0	->	SGOT@0.0
+Edema@0.0	Alk_Phos@0.0	Prothrombin@0.0	->	Tryglicerides@0.0
+Status@0.0	Age@0.0	Prothrombin@0.0	Stage@0.0	->	Sex@0.0
+Status@0.0	Hepatomegaly@0.0	SGOT@0.0	Prothrombin@0.0	->	Spiders@0.0
+Bilirubin@0.0	Alk_Phos@0.0	Tryglicerides@0.0	->	Hepatomegaly@0.0
+Bilirubin@0.0	Alk_Phos@0.0	Tryglicerides@0.0	->	Spiders@0.0
+Bilirubin@0.0	Alk_Phos@0.0	Tryglicerides@0.0	->	Cholesterol@0.0
+Bilirubin@0.0	Alk_Phos@0.0	Tryglicerides@0.0	->	Copper@0.0
+Bilirubin@0.0	Alk_Phos@0.0	Tryglicerides@0.0	->	SGOT@0.0
+Albumin@0.0	SGOT@0.0	Stage@0.0	->	Sex@0.0
+Drug@0.0	Sex@0.0	Hepatomegaly@0.0	Spiders@0.0	Platelets@0.0	->	Ascites@0.0
+Status@0.0	Bilirubin@0.0	Alk_Phos@0.0	->	Hepatomegaly@0.0
+Status@0.0	Bilirubin@0.0	Alk_Phos@0.0	->	Spiders@0.0
+Cholesterol@0.0	Alk_Phos@0.0	->	Drug@0.0
+Cholesterol@0.0	Alk_Phos@0.0	->	Ascites@0.0
+Cholesterol@0.0	Alk_Phos@0.0	->	Spiders@0.0
+Cholesterol@0.0	Alk_Phos@0.0	->	Tryglicerides@0.0
+Drug@0.0	Sex@0.0	Bilirubin@0.0	Tryglicerides@0.0	Prothrombin@0.0	->	Edema@0.0
+Status@0.0	Drug@0.0	Sex@0.0	Bilirubin@0.0	Prothrombin@0.0	->	Ascites@0.0
+N_Days@0.0	Copper@0.0	->	ID@0.0
+N_Days@0.0	Copper@0.0	->	Status@0.0
+N_Days@0.0	Copper@0.0	->	Drug@0.0
+N_Days@0.0	Copper@0.0	->	Age@0.0
+N_Days@0.0	Copper@0.0	->	Sex@0.0
+N_Days@0.0	Copper@0.0	->	Ascites@0.0
+N_Days@0.0	Copper@0.0	->	Hepatomegaly@0.0
+N_Days@0.0	Copper@0.0	->	Spiders@0.0
+N_Days@0.0	Copper@0.0	->	Edema@0.0
+N_Days@0.0	Copper@0.0	->	Bilirubin@0.0
+N_Days@0.0	Copper@0.0	->	Cholesterol@0.0
+N_Days@0.0	Copper@0.0	->	Albumin@0.0
+N_Days@0.0	Copper@0.0	->	Alk_Phos@0.0
+N_Days@0.0	Copper@0.0	->	SGOT@0.0
+N_Days@0.0	Copper@0.0	->	Tryglicerides@0.0
+N_Days@0.0	Copper@0.0	->	Platelets@0.0
+N_Days@0.0	Copper@0.0	->	Prothrombin@0.0
+N_Days@0.0	Copper@0.0	->	Stage@0.0
+Hepatomegaly@0.0	Edema@0.0	Bilirubin@0.0	Tryglicerides@0.0	Prothrombin@0.0	Stage@0.0	->	Copper@0.0
+Hepatomegaly@0.0	Edema@0.0	Bilirubin@0.0	Tryglicerides@0.0	Prothrombin@0.0	Stage@0.0	->	Alk_Phos@0.0
+Hepatomegaly@0.0	Edema@0.0	Bilirubin@0.0	Tryglicerides@0.0	Prothrombin@0.0	Stage@0.0	->	SGOT@0.0
+Albumin@0.0	SGOT@0.0	Tryglicerides@0.0	->	Drug@0.0
+Albumin@0.0	SGOT@0.0	Tryglicerides@0.0	->	Cholesterol@0.0
+Albumin@0.0	SGOT@0.0	Tryglicerides@0.0	->	Copper@0.0
+Albumin@0.0	SGOT@0.0	Tryglicerides@0.0	->	Alk_Phos@0.0
+Sex@0.0	Hepatomegaly@0.0	Bilirubin@0.0	Tryglicerides@0.0	Stage@0.0	->	Ascites@0.0
+Age@0.0	Spiders@0.0	->	Ascites@0.0
+Status@0.0	Cholesterol@0.0	SGOT@0.0	->	Drug@0.0
+Status@0.0	Cholesterol@0.0	SGOT@0.0	->	Spiders@0.0
+Status@0.0	Drug@0.0	Alk_Phos@0.0	Stage@0.0	->	Hepatomegaly@0.0
+Status@0.0	Drug@0.0	Alk_Phos@0.0	Stage@0.0	->	Spiders@0.0
+Status@0.0	Drug@0.0	Alk_Phos@0.0	Stage@0.0	->	Cholesterol@0.0
+Status@0.0	Drug@0.0	Alk_Phos@0.0	Stage@0.0	->	Copper@0.0
+Status@0.0	Drug@0.0	Alk_Phos@0.0	Stage@0.0	->	SGOT@0.0
+Status@0.0	Drug@0.0	Alk_Phos@0.0	Stage@0.0	->	Tryglicerides@0.0
+Spiders@0.0	Edema@0.0	Bilirubin@0.0	Tryglicerides@0.0	Prothrombin@0.0	->	Drug@0.0
+Drug@0.0	Bilirubin@0.0	Tryglicerides@0.0	Prothrombin@0.0	->	Status@0.0
+Drug@0.0	Bilirubin@0.0	Tryglicerides@0.0	Prothrombin@0.0	->	Hepatomegaly@0.0
+Drug@0.0	Bilirubin@0.0	Tryglicerides@0.0	Prothrombin@0.0	->	Spiders@0.0
+Drug@0.0	Bilirubin@0.0	Tryglicerides@0.0	Prothrombin@0.0	->	Cholesterol@0.0
+Ascites@0.0	Edema@0.0	Albumin@0.0	Tryglicerides@0.0	->	Hepatomegaly@0.0
+Age@0.0	Hepatomegaly@0.0	Stage@0.0	->	Drug@0.0
+Cholesterol@0.0	Platelets@0.0	Prothrombin@0.0	->	Status@0.0
+Cholesterol@0.0	Platelets@0.0	Prothrombin@0.0	->	Drug@0.0
+Cholesterol@0.0	Platelets@0.0	Prothrombin@0.0	->	Ascites@0.0
+Cholesterol@0.0	Platelets@0.0	Prothrombin@0.0	->	Hepatomegaly@0.0
+Cholesterol@0.0	Platelets@0.0	Prothrombin@0.0	->	Spiders@0.0
+Cholesterol@0.0	Platelets@0.0	Prothrombin@0.0	->	Edema@0.0
+Cholesterol@0.0	Platelets@0.0	Prothrombin@0.0	->	Copper@0.0
+Cholesterol@0.0	Platelets@0.0	Prothrombin@0.0	->	Alk_Phos@0.0
+Cholesterol@0.0	Platelets@0.0	Prothrombin@0.0	->	SGOT@0.0
+Cholesterol@0.0	Platelets@0.0	Prothrombin@0.0	->	Stage@0.0
+Drug@0.0	Copper@0.0	Platelets@0.0	->	Ascites@0.0
+Drug@0.0	Copper@0.0	Platelets@0.0	->	Hepatomegaly@0.0
+Drug@0.0	Copper@0.0	Platelets@0.0	->	Spiders@0.0
+Drug@0.0	Copper@0.0	Platelets@0.0	->	Cholesterol@0.0
+Drug@0.0	Copper@0.0	Platelets@0.0	->	Alk_Phos@0.0
+Drug@0.0	Copper@0.0	Platelets@0.0	->	SGOT@0.0
+Drug@0.0	Copper@0.0	Platelets@0.0	->	Tryglicerides@0.0
+Status@0.0	Albumin@0.0	Copper@0.0	Stage@0.0	->	Cholesterol@0.0
+Status@0.0	Albumin@0.0	Copper@0.0	Stage@0.0	->	Alk_Phos@0.0
+Status@0.0	Albumin@0.0	Copper@0.0	Stage@0.0	->	SGOT@0.0
+Status@0.0	Albumin@0.0	Copper@0.0	Stage@0.0	->	Tryglicerides@0.0
+Age@0.0	Albumin@0.0	Prothrombin@0.0	->	ID@0.0
+Age@0.0	Albumin@0.0	Prothrombin@0.0	->	N_Days@0.0
+Age@0.0	Albumin@0.0	Prothrombin@0.0	->	Bilirubin@0.0
+Age@0.0	Albumin@0.0	Prothrombin@0.0	->	Platelets@0.0
+Age@0.0	Albumin@0.0	Prothrombin@0.0	->	Stage@0.0
+Hepatomegaly@0.0	Albumin@0.0	Tryglicerides@0.0	->	Ascites@0.0
+Bilirubin@0.0	Albumin@0.0	SGOT@0.0	->	Drug@0.0
+Bilirubin@0.0	Albumin@0.0	SGOT@0.0	->	Edema@0.0
+Bilirubin@0.0	Albumin@0.0	SGOT@0.0	->	Cholesterol@0.0
+Bilirubin@0.0	Albumin@0.0	SGOT@0.0	->	Copper@0.0
+Bilirubin@0.0	Albumin@0.0	SGOT@0.0	->	Alk_Phos@0.0
+Bilirubin@0.0	Albumin@0.0	SGOT@0.0	->	Tryglicerides@0.0
+Drug@0.0	Age@0.0	Bilirubin@0.0	->	Cholesterol@0.0
+Drug@0.0	Age@0.0	Bilirubin@0.0	->	Copper@0.0
+Drug@0.0	Age@0.0	Bilirubin@0.0	->	Alk_Phos@0.0
+Drug@0.0	Age@0.0	Bilirubin@0.0	->	SGOT@0.0
+Drug@0.0	Age@0.0	Bilirubin@0.0	->	Tryglicerides@0.0
+SGOT@0.0	Tryglicerides@0.0	->	Ascites@0.0
+N_Days@0.0	Platelets@0.0	->	ID@0.0
+N_Days@0.0	Platelets@0.0	->	Status@0.0
+N_Days@0.0	Platelets@0.0	->	Drug@0.0
+N_Days@0.0	Platelets@0.0	->	Age@0.0
+N_Days@0.0	Platelets@0.0	->	Sex@0.0
+N_Days@0.0	Platelets@0.0	->	Ascites@0.0
+N_Days@0.0	Platelets@0.0	->	Hepatomegaly@0.0
+N_Days@0.0	Platelets@0.0	->	Spiders@0.0
+N_Days@0.0	Platelets@0.0	->	Edema@0.0
+N_Days@0.0	Platelets@0.0	->	Bilirubin@0.0
+N_Days@0.0	Platelets@0.0	->	Cholesterol@0.0
+N_Days@0.0	Platelets@0.0	->	Albumin@0.0
+N_Days@0.0	Platelets@0.0	->	Copper@0.0
+N_Days@0.0	Platelets@0.0	->	Alk_Phos@0.0
+N_Days@0.0	Platelets@0.0	->	SGOT@0.0
+N_Days@0.0	Platelets@0.0	->	Tryglicerides@0.0
+N_Days@0.0	Platelets@0.0	->	Prothrombin@0.0
+N_Days@0.0	Platelets@0.0	->	Stage@0.0
+Bilirubin@0.0	Cholesterol@0.0	Prothrombin@0.0	Stage@0.0	->	Status@0.0
+Age@0.0	Bilirubin@0.0	->	Ascites@0.0
+Age@0.0	Bilirubin@0.0	->	Hepatomegaly@0.0
+Age@0.0	Bilirubin@0.0	->	Spiders@0.0
+N_Days@0.0	Spiders@0.0	Edema@0.0	->	Ascites@0.0
+Albumin@0.0	Tryglicerides@0.0	Platelets@0.0	Stage@0.0	->	ID@0.0
+Albumin@0.0	Tryglicerides@0.0	Platelets@0.0	Stage@0.0	->	N_Days@0.0
+Albumin@0.0	Tryglicerides@0.0	Platelets@0.0	Stage@0.0	->	Age@0.0
+Albumin@0.0	Tryglicerides@0.0	Platelets@0.0	Stage@0.0	->	Bilirubin@0.0
+Albumin@0.0	Tryglicerides@0.0	Platelets@0.0	Stage@0.0	->	Prothrombin@0.0
+N_Days@0.0	Status@0.0	Drug@0.0	Spiders@0.0	Edema@0.0	Stage@0.0	->	ID@0.0
+N_Days@0.0	Status@0.0	Drug@0.0	Spiders@0.0	Edema@0.0	Stage@0.0	->	Age@0.0
+N_Days@0.0	Status@0.0	Drug@0.0	Spiders@0.0	Edema@0.0	Stage@0.0	->	Cholesterol@0.0
+N_Days@0.0	Status@0.0	Drug@0.0	Spiders@0.0	Edema@0.0	Stage@0.0	->	Albumin@0.0
+N_Days@0.0	Status@0.0	Drug@0.0	Spiders@0.0	Edema@0.0	Stage@0.0	->	Copper@0.0
+N_Days@0.0	Status@0.0	Drug@0.0	Spiders@0.0	Edema@0.0	Stage@0.0	->	Alk_Phos@0.0
+N_Days@0.0	Status@0.0	Drug@0.0	Spiders@0.0	Edema@0.0	Stage@0.0	->	SGOT@0.0
+N_Days@0.0	Status@0.0	Drug@0.0	Spiders@0.0	Edema@0.0	Stage@0.0	->	Tryglicerides@0.0
+N_Days@0.0	Status@0.0	Drug@0.0	Spiders@0.0	Edema@0.0	Stage@0.0	->	Platelets@0.0
+N_Days@0.0	Status@0.0	Drug@0.0	Spiders@0.0	Edema@0.0	Stage@0.0	->	Prothrombin@0.0
+Drug@0.0	Albumin@0.0	Prothrombin@0.0	->	Sex@0.0
+Drug@0.0	Albumin@0.0	Prothrombin@0.0	->	Ascites@0.0
+Status@0.0	Ascites@0.0	Copper@0.0	Prothrombin@0.0	Stage@0.0	->	Drug@0.0
+N_Days@0.0	Drug@0.0	Sex@0.0	Spiders@0.0	Edema@0.0	->	Bilirubin@0.0
+Drug@0.0	Edema@0.0	Bilirubin@0.0	Platelets@0.0	->	ID@0.0
+Drug@0.0	Edema@0.0	Bilirubin@0.0	Platelets@0.0	->	N_Days@0.0
+Drug@0.0	Edema@0.0	Bilirubin@0.0	Platelets@0.0	->	Age@0.0
+Drug@0.0	Edema@0.0	Bilirubin@0.0	Platelets@0.0	->	Hepatomegaly@0.0
+Drug@0.0	Edema@0.0	Bilirubin@0.0	Platelets@0.0	->	Spiders@0.0
+Drug@0.0	Edema@0.0	Bilirubin@0.0	Platelets@0.0	->	Cholesterol@0.0
+Drug@0.0	Edema@0.0	Bilirubin@0.0	Platelets@0.0	->	Albumin@0.0
+Drug@0.0	Edema@0.0	Bilirubin@0.0	Platelets@0.0	->	Copper@0.0
+Drug@0.0	Edema@0.0	Bilirubin@0.0	Platelets@0.0	->	Alk_Phos@0.0
+Drug@0.0	Edema@0.0	Bilirubin@0.0	Platelets@0.0	->	SGOT@0.0
+Drug@0.0	Edema@0.0	Bilirubin@0.0	Platelets@0.0	->	Tryglicerides@0.0
+Drug@0.0	Edema@0.0	Bilirubin@0.0	Platelets@0.0	->	Prothrombin@0.0
+Drug@0.0	Edema@0.0	Bilirubin@0.0	Platelets@0.0	->	Stage@0.0
+Age@0.0	Ascites@0.0	Stage@0.0	->	Drug@0.0
+Age@0.0	Ascites@0.0	Stage@0.0	->	Hepatomegaly@0.0
+Edema@0.0	Bilirubin@0.0	Platelets@0.0	->	Sex@0.0
+Hepatomegaly@0.0	Bilirubin@0.0	Albumin@0.0	->	Ascites@0.0
+Hepatomegaly@0.0	Bilirubin@0.0	Albumin@0.0	->	Edema@0.0
+Status@0.0	Sex@0.0	Hepatomegaly@0.0	Bilirubin@0.0	Stage@0.0	->	Ascites@0.0
+Bilirubin@0.0	SGOT@0.0	Tryglicerides@0.0	Stage@0.0	->	Cholesterol@0.0
+Bilirubin@0.0	SGOT@0.0	Tryglicerides@0.0	Stage@0.0	->	Copper@0.0
+Bilirubin@0.0	SGOT@0.0	Tryglicerides@0.0	Stage@0.0	->	Alk_Phos@0.0
+Cholesterol@0.0	Copper@0.0	Platelets@0.0	->	Drug@0.0
+Cholesterol@0.0	Copper@0.0	Platelets@0.0	->	Hepatomegaly@0.0
+Cholesterol@0.0	Copper@0.0	Platelets@0.0	->	Spiders@0.0
+Cholesterol@0.0	Copper@0.0	Platelets@0.0	->	Alk_Phos@0.0
+Cholesterol@0.0	Copper@0.0	Platelets@0.0	->	SGOT@0.0
+Drug@0.0	Cholesterol@0.0	SGOT@0.0	Stage@0.0	->	Copper@0.0
+Drug@0.0	Cholesterol@0.0	SGOT@0.0	Stage@0.0	->	Alk_Phos@0.0
+Status@0.0	Drug@0.0	Edema@0.0	Tryglicerides@0.0	Stage@0.0	->	Ascites@0.0
+Status@0.0	Albumin@0.0	SGOT@0.0	->	Sex@0.0
+Drug@0.0	Hepatomegaly@0.0	Bilirubin@0.0	Albumin@0.0	->	Spiders@0.0
+Status@0.0	Drug@0.0	Cholesterol@0.0	Prothrombin@0.0	Stage@0.0	->	Spiders@0.0
+Bilirubin@0.0	SGOT@0.0	Platelets@0.0	->	ID@0.0
+Bilirubin@0.0	SGOT@0.0	Platelets@0.0	->	N_Days@0.0
+Bilirubin@0.0	SGOT@0.0	Platelets@0.0	->	Status@0.0
+Bilirubin@0.0	SGOT@0.0	Platelets@0.0	->	Age@0.0
+Bilirubin@0.0	SGOT@0.0	Platelets@0.0	->	Sex@0.0
+Bilirubin@0.0	SGOT@0.0	Platelets@0.0	->	Edema@0.0
+Bilirubin@0.0	SGOT@0.0	Platelets@0.0	->	Cholesterol@0.0
+Bilirubin@0.0	SGOT@0.0	Platelets@0.0	->	Albumin@0.0
+Bilirubin@0.0	SGOT@0.0	Platelets@0.0	->	Copper@0.0
+Bilirubin@0.0	SGOT@0.0	Platelets@0.0	->	Alk_Phos@0.0
+Bilirubin@0.0	SGOT@0.0	Platelets@0.0	->	Prothrombin@0.0
+Bilirubin@0.0	SGOT@0.0	Platelets@0.0	->	Stage@0.0
+Ascites@0.0	Hepatomegaly@0.0	Spiders@0.0	Bilirubin@0.0	Prothrombin@0.0	Stage@0.0	->	Edema@0.0
+Status@0.0	Drug@0.0	Sex@0.0	Edema@0.0	Albumin@0.0	->	Ascites@0.0
+Drug@0.0	Sex@0.0	Bilirubin@0.0	Cholesterol@0.0	Prothrombin@0.0	Stage@0.0	->	Copper@0.0
+Drug@0.0	Sex@0.0	Bilirubin@0.0	Cholesterol@0.0	Prothrombin@0.0	Stage@0.0	->	Alk_Phos@0.0
+Drug@0.0	Sex@0.0	Bilirubin@0.0	Cholesterol@0.0	Prothrombin@0.0	Stage@0.0	->	SGOT@0.0
+Sex@0.0	Bilirubin@0.0	Albumin@0.0	SGOT@0.0	->	Status@0.0
+Sex@0.0	Bilirubin@0.0	Cholesterol@0.0	Prothrombin@0.0	Stage@0.0	->	Edema@0.0
+Hepatomegaly@0.0	Bilirubin@0.0	Tryglicerides@0.0	Stage@0.0	->	Spiders@0.0
+Spiders@0.0	Copper@0.0	Prothrombin@0.0	Stage@0.0	->	Ascites@0.0
+Status@0.0	Drug@0.0	Sex@0.0	Ascites@0.0	Hepatomegaly@0.0	Platelets@0.0	->	Spiders@0.0
+Status@0.0	SGOT@0.0	Tryglicerides@0.0	Stage@0.0	->	Drug@0.0
+Status@0.0	SGOT@0.0	Tryglicerides@0.0	Stage@0.0	->	Spiders@0.0
+Status@0.0	Drug@0.0	Sex@0.0	Tryglicerides@0.0	Prothrombin@0.0	->	Ascites@0.0
+
+Used lowerbound: 0
+Used upperbound: 0
+Exact solved: 0
+Time limit: false
+Out of memory: false
+Memory consumption: 719MB
+RFDs count: 1879
+#main(...): in 7,05s

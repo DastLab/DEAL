@@ -1,0 +1,8 @@
+python ../../../jef/jsonifydiscovery.py
+-o dime_rfd.json
+-d loader.dataset.csv_dataset_loader.CSVDatasetLoader[file_path:cirrhosis.csv]
+-a loader.algorithm.default_json_algorithm_loader.DefaultJSONAlgorithmLoader[file_path:alg.json]
+-r loader.run_info.default_json_run_info_loader.DefaultJSONRunInfoLoader[file_path:run.json]
+-e algorithms.dime.dime_execution_result_loader.DimeExecutionResultLoader[log_file:cirrhosis_rfd.log]
+-extra loader.extra_data.default_json_extra_data_loader.DefaultJSONExtraDataLoader[file_path:extra.json]
+-fo algorithms.final_operation.edit_dependencies_dime_final_operation.EditDependenciesDimeFinalOperation

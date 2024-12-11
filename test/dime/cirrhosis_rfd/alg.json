@@ -1,0 +1,6 @@
+{
+    "name": "dime",
+    "language": "java",
+    "platform": "console",
+    "execution_type": "single-thread"
+}
